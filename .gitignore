@@ -1,2 +1,23 @@
+# .gitignore
+# *** HOUSEKEEPING! Ignorance is bliss ***
+# Master File: Maintained by Primitive Digital's Housekeeping Department
+# https://primitivedigital.uk/housekeeping-department/
+
+.DS_Store
+**/package-lock.json
+
+# Folders
 node_modules
 build
+dist
+cave
+
+#frontity
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+analyze
+.env
+.vscode
