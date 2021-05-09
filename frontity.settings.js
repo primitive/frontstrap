@@ -2,14 +2,14 @@ const settings = {
   "name": "frontstrap",
   "state": {
     "frontity": {
-      "url": "https://test.frontity.org",
-      "title": "Test Frontity Blog",
-      "description": "WordPress installation for Frontity development"
+      "url": "https://primitivedigital.uk",
+      "title": "Primitive Digital",
+      "description": "WordPress + Frontity Stuff"
     }
   },
   "packages": [
     {
-      "name": "@frontity/mars-theme",
+      "name": "@primitive/frontstrap",
       "state": {
         "theme": {
           "menu": [
@@ -45,7 +45,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://test.frontity.org"
+          "url": "https://api.primitivedigital.uk"
         }
       }
     },

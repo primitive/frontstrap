@@ -1,6 +1,6 @@
 {
   "name": "frontstrap",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "description": "Frontity project",
   "keywords": [
@@ -19,9 +19,9 @@
   "dependencies": {
     "@frontity/core": "^1.13.0",
     "@frontity/html2react": "^1.6.2",
-    "@frontity/mars-theme": "./packages/mars-theme",
     "@frontity/tiny-router": "^1.4.2",
     "@frontity/wp-source": "^1.11.4",
+    "@primitive/frontstrap": "./packages/frontstrap",
     "frontity": "^1.15.0",
     "rocks": "file:packages/rocks"
   }
