@@ -5,11 +5,11 @@ import Html2React from "@frontity/html2react/types";
 /**
  * A Frontity starter theme designed to learn Frontity.
  */
-interface MarsTheme extends Package {
+interface Frontstrap extends Package {
   /**
    * The name of this package.
    */
-  name: "@frontity/mars-theme";
+  name: "@primitive/frontstrap";
 
   /**
    * Root components exposed by this package.
@@ -75,12 +75,12 @@ interface MarsTheme extends Package {
       /**
        * Toggles the mobile menu between opened and closed states.
        */
-      toggleMobileMenu: Action<MarsTheme>;
+      toggleMobileMenu: Action<Frontstrap>;
 
       /**
        * Closes the mobile menu, not matter the previous state.
        */
-      closeMobileMenu: Action<MarsTheme>;
+      closeMobileMenu: Action<Frontstrap>;
     };
   };
 
@@ -100,4 +100,4 @@ interface MarsTheme extends Package {
   };
 }
 
-export default MarsTheme;
+export default Frontstrap;

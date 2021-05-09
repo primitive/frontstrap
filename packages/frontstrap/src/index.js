@@ -3,8 +3,8 @@ import image from "@frontity/html2react/processors/image";
 import iframe from "@frontity/html2react/processors/iframe";
 import link from "@frontity/html2react/processors/link";
 
-const marsTheme = {
-  name: "@frontity/mars-theme",
+const Frontstrap = {
+  name: "@primitive/frontstrap",
   roots: {
     /**
      * In Frontity, any package can add React components to the site.
@@ -54,4 +54,4 @@ const marsTheme = {
   },
 };
 
-export default marsTheme;
+export default Frontstrap;
