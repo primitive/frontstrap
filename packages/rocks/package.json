@@ -1,0 +1,13 @@
+{
+  "name": "rocks",
+  "version": "1.0.0",
+  "description": "Frontity package created using the Frontity CLI.",
+  "keywords": [
+    "frontity",
+    "frontity-frontstrap"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "frontity": "^1.15.0"
+  }
+}

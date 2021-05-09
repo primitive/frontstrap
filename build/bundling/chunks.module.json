@@ -1,0 +1,50 @@
+{
+  "errors": [],
+  "warnings": [],
+  "hash": "b6ebf4914924e15490d9",
+  "publicPath": "/static/",
+  "outputPath": "/Users/sknow/a/primitive/frontstrap/build/static",
+  "assetsByChunkName": {
+    "frontstrap": "frontstrap.module.js",
+    "list": "list.module.js"
+  },
+  "assets": [],
+  "filteredAssets": 2,
+  "namedChunkGroups": {
+    "frontstrap": {
+      "chunks": [
+        "frontstrap"
+      ],
+      "assets": [
+        "frontstrap.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        "list"
+      ],
+      "assets": [
+        "list.module.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "frontstrap",
+      "files": [
+        "frontstrap.module.js"
+      ]
+    },
+    {
+      "id": "list",
+      "files": [
+        "list.module.js"
+      ]
+    }
+  ]
+}
