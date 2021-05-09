@@ -12,28 +12,25 @@ const settings = {
       "name": "@primitive/frontstrap",
       "state": {
         "theme": {
+
           "menu": [
-            [
-              "Home",
-              "/"
-            ],
-            [
-              "Nature",
-              "/category/nature/"
-            ],
-            [
-              "Travel",
-              "/category/travel/"
-            ],
-            [
-              "Japan",
-              "/tag/japan/"
-            ],
-            [
-              "About Us",
-              "/about-us/"
-            ]
+            ["Content", "/frontity-tests"],
+            ["Pages", "/web-design"],
+            ["Post", "/blog/a-decade-of-digital-development"],
+            ["Posts", "/blog"],
+            ["CPTs", "/evolution-of-digital-stuff"],
+            ["CTs", "/timelines"],
+            ["Stats/config", "/stats"],
           ],
+          "menufooter": [
+            ["Contact", "/contact"],
+            ["Startups", "/darwin-project"],
+            ["Adventures in Time", "/timelines"],
+            ["Cave of ", "/cave"],
+            ["Primitive Theme for Frontity", "https://www.npmjs.com/package/primitive-theme"],
+            ["Privacy Policy", "privacy-policy"]
+          ],
+          
           "featured": {
             "showOnList": false,
             "showOnPost": false
