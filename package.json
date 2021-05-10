@@ -2,9 +2,13 @@
   "name": "frontstrap",
   "version": "1.0.1",
   "private": true,
-  "description": "Frontity project",
+  "description": "Building Materials for WordPress + Frontity + Bootstrap5",
   "keywords": [
-    "frontity"
+    "headless-wordpress",
+    "frontity",
+    "bedrock",
+    "primitive",
+    "primitiverocks"
   ],
   "engines": {
     "node": ">=10.0.0",
@@ -18,9 +22,11 @@
   "prettier": {},
   "dependencies": {
     "@frontity/core": "^1.13.0",
+    "@frontity/google-analytics": "^2.0.0",
     "@frontity/html2react": "^1.6.2",
     "@frontity/tiny-router": "^1.4.2",
     "@frontity/wp-source": "^1.11.4",
+    "@frontity/yoast": "^2.1.1",
     "@primitive/frontstrap": "./packages/frontstrap",
     "frontity": "^1.15.0",
     "rocks": "file:packages/rocks"
