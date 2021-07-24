@@ -1,0 +1,32 @@
+{
+  "name": "pebbles",
+  "version": "1.0.6",
+  "description": "It's the little things that make you happy.",
+  "keywords": [
+    "frontity",
+    "frontstrap",
+    "primitiverocks",
+    "bedrock",
+    "wordpress",
+    "headless-cms",
+    "components"
+  ],
+  "homepage": "https://primitivedigital.uk",
+  "author": "Shaun Knowles <hi@primitivedigital.uk> (https://shaunknowles.uk/)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primitiveshaun/primitivestuff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primitiveshaun/primitivestuff/issues"
+  },
+  "peerDependencies": {
+    "frontity": "^1.15.0",
+    "bootstrap": "^5.0.0",
+    "facepaint": "^1.2.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
