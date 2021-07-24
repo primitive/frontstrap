@@ -4,10 +4,17 @@ This project was bootstrapped with [Frontity](https://frontity.org/).
 
 #### Table of Contents
 
+- [Primitive](#primitive)
 - [Launch a development server](#launch-a-development-server)
 - [Create your custom theme](#create-your-custom-theme)
 - [Create a production-ready build](#create-a-production-ready-build)
 - [Deploy](#deploy)
+
+### Primitive
+1.0.0 - package + theme creted with frontity cli
+1.0.1 - renaming
+1.0.2 - frontity config and packages
+1.0.3 - update frontity
 
 ### Launch a development server
 
@@ -60,6 +67,11 @@ This command generates (and runs) a small web server that uses the generated `se
 Upload your `static` folder to a CDN and your `server.js` file to a serverless service, like Now or Netlify.
 
 > Get more info about [how to deploy](https://docs.frontity.org/deployment) a Frontity project
+
+
+### » Frontity Quicklinks
+[Keep Frontity Updated](https://gitbook-docs.frontity.org/guides/keep-frontity-updated)
+
 
 ---
 
