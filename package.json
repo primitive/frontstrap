@@ -29,6 +29,8 @@
     "@frontity/yoast": "^2.1.1",
     "@primitive/frontstrap": "./packages/frontstrap",
     "frontity": "^1.16.1",
-    "rocks": "file:packages/rocks"
+    "rocks": "./packages/rocks",
+    "pebbles": "./packages/pebbles",
+    "scenes": "./packages/scenes"
   }
 }
