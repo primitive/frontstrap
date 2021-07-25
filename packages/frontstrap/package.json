@@ -1,23 +1,32 @@
 {
   "name": "@primitive/frontstrap",
-  "version": "1.5.2",
-  "description": "A starter theme for Frontity",
+  "version": "1.0.15",
+  "description": "Primitive Theme's rolling Mountains (a.k.a. beautiful views) for Frontity",
   "keywords": [
     "frontity",
-    "frontity-theme"
+    "primitive-theme",
+    "primitiverocks",
+    "bedrock",
+    "wordpress",
+    "headless-cms",
+    "theme"
   ],
-  "homepage": "https://frontity.org",
-  "license": "Apache-2.0",
+  "homepage": "https://primitivedigital.uk",
+  "author": "Shaun Knowles <hi@primitivedigital.uk> (https://shaunknowles.uk/)",
+  "license": "GNU GPL 2 or Later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/frontity/frontity.git"
+    "url": "https://github.com/primitive/frontstrap.git"
   },
   "bugs": {
-    "url": "https://community.frontity.org"
+    "url": "https://github.com/primitive/frontstrap/issues"
   },
   "dependencies": {
     "@frontity/components": "^1.8.0",
     "@frontity/html2react": "^1.7.0",
-    "frontity": "^1.16.1"
+    "bootstrap": "^5.0.2",
+    "frontity": "^1.16.1",
+    "react-bootstrap": "^2.0.0-beta.4",
+    "facepaint": "^1.2.1"
   }
 }
