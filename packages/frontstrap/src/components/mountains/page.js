@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { connect, styled, Global } from "frontity";
 import { Container, Row, Col } from "pebbles/grid";
 
