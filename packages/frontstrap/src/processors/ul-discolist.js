@@ -1,4 +1,3 @@
-import React from 'react'
 import { styled } from "frontity";
 import { discolight } from "scenes/glamourmagic";
 import { themecolor } from "../components/dust/_colors";
