@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "frontity";
 import Card from 'react-bootstrap/Card';
 import Link from "@frontity/components/link";

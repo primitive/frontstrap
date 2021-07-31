@@ -1,7 +1,7 @@
 import React from "react";
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
-import { Container, Row, Col } from "primitivepebbles/grid";
+import { Container, Row, Col } from "pebbles/grid";
 
 const Promo = ({ state }) => {
 

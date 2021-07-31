@@ -1,6 +1,6 @@
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "primitivepebbles/grid";
+import { Container, Row, Col } from "pebbles/grid";
 
 import DiscoPreload from "scenes/preload-disco"
 

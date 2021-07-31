@@ -1,6 +1,5 @@
-import React from "react";
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "primitivepebbles/grid";
+import { Container, Row, Col } from "pebbles/grid";
 import Item from "./list-item";
 import Pagination from "./pagination";
 

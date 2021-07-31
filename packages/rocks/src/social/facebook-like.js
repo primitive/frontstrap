@@ -1,4 +1,3 @@
-import React from "react";
 import { styled } from "frontity";
 import Iframe from "@frontity/components/iframe";
 // see fb plugin iframe method: https://developers.facebook.com/docs/plugins/like-button

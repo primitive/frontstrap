@@ -1,10 +1,9 @@
-import React from "react";
 import { connect, styled, decode } from "frontity";
 
 import Link from "@frontity/components/link";
-import Image from "@frontity/components/image";
+//import Image from "@frontity/components/image";
 
-import { Row, Col } from "primitivepebbles/grid";
+import { Row, Col } from "pebbles/grid";
 
 import Card from 'react-bootstrap/Card';
 

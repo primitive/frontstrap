@@ -1,6 +1,5 @@
-import React from "react";
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "primitivepebbles/grid";
+import { Container, Row, Col } from "pebbles/grid";
 import PostMagic from "scenes/postmagic";
 import { sortBy } from "./utils"
 import Marker from "./cpt-item-marker";
