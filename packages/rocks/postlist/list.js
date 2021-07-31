@@ -1,11 +1,11 @@
-import { connect, styled } from "frontity";
+import { connect, styled, decode } from "frontity";
 import { Container, Row, Col } from "pebbles/grid";
 import Item from "./list-item";
 import Pagination from "./pagination";
 
 const PostList = ({ state }) => {
 
-  // Get the data of the current url
+  // Get the data of the current url/list
   const data = state.source.get(state.router.link);
 
   // console.log("@postlist/list: data", data);
@@ -26,18 +26,22 @@ const PostList = ({ state }) => {
         {/* If the list is a taxonomy, render a title. */}
         {data.isTaxonomy && (
           <Header>
-            {data.taxonomy}: {state.source[data.taxonomy][data.id].name}
+            {data.taxonomy}:{" "}
+            <b>{decode(state.source[data.taxonomy][data.id].name)}</b>
           </Header>
         )}
 
-        {/* If the list is an author, render a title. */}
+        {/* If the list is for a specific author, we render a title. */}
         {data.isAuthor && (
-          <Header>Posts by: {state.source.author[data.id].name}</Header>
+          <Header>
+            Posts by: <b>{decode(state.source.author[data.id].name)}</b>
+          </Header>
         )}
 
-        {/* Iterate over the array of objects. */}
+        {/* Iterate over the array of objects (list items). */}
         {data.items.map(({ type, id }) => {
           const item = state.source[type][id];
+          // Render one Item component for each.
           return <Item key={item.id} item={item} />;
         })}
 
