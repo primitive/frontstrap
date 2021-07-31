@@ -5,9 +5,9 @@ import link from "@frontity/html2react/processors/link";
 
 import wpBlockColumns from "./processors/wp-block-columns";
 import form from "./processors/wpcf7";
-
 import quoteBook from "./processors/blockquote-book";
 import listDisco from "./processors/ul-discolist";
+
 //import pQuote from "./processors/q-primary";
 //import sQuote from "./processors/q-secondary";
 
