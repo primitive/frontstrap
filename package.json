@@ -24,11 +24,11 @@
     "@frontity/core": "^1.14.3",
     "@frontity/google-analytics": "^2.1.0",
     "@frontity/html2react": "^1.7.0",
-    "@frontity/tiny-router": "^1.4.3",
+    "@frontity/tiny-router": "^1.4.4",
     "@frontity/wp-source": "^1.11.5",
     "@frontity/yoast": "^2.1.1",
     "@primitive/frontstrap": "./packages/frontstrap",
-    "frontity": "^1.16.1",
+    "frontity": "^1.17.0",
     "rocks": "./packages/rocks",
     "pebbles": "./packages/pebbles",
     "scenes": "./packages/scenes"

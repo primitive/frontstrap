@@ -14,14 +14,14 @@
   "homepage": "https://primitivedigital.uk",
   "license": "Apache-2.0",
   "dependencies": {
-    "frontity": "^1.16.1",
-    "@frontity/html2react": "^1.6.2",
+    "frontity": "^1.17.0",
+    "@frontity/html2react": "^1.7.0",
     "bootstrap": "^5.0.2",
     "react-bootstrap": "^2.0.0-beta.4",
     "facepaint": "^1.2.1",
     "pebbles": "^1.0.5",
     "scenes": "^1.0.5",
     "react-fontawesome": "^1.7.1",
-    "react-instagram-embed": "^2.0.0"
+    "react-instagram-embed": "^2.0.1"
   }
 }

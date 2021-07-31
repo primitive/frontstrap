@@ -21,12 +21,10 @@
   "bugs": {
     "url": "https://github.com/primitiveshaun/primitivestuff/issues"
   },
-  "peerDependencies": {
-    "frontity": "^1.15.0",
-    "bootstrap": "^5.0.0",
-    "facepaint": "^1.2.1"
-  },
   "dependencies": {
+    "frontity": "^1.17.0",
+    "bootstrap": "^5.0.2",
+    "facepaint": "^1.2.1",
     "prop-types": "^15.7.2"
   }
 }

@@ -23,12 +23,10 @@
   "bugs": {
     "url": "https://github.com/primitiveshaun/primitivestuff/issues"
   },
-  "peerDependencies": {
-    "frontity": "^1.15.0",
-    "@frontity/html2react": "^1.6.2"
-  },
   "dependencies": {
-    "gsap": "^3.6.1",
+    "frontity": "^1.17.0",
+    "@frontity/html2react": "^1.7.0",
+    "gsap": "^3.7.1",
     "react-gsap": "^3.2.1",
     "react-scrollmagic": "^2.3.0"
   }
