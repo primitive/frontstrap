@@ -15,6 +15,7 @@ This project was bootstrapped with [Frontity](https://frontity.org/).
 1.0.1 - renaming
 1.0.2 - frontity config and packages
 1.0.3 - update frontity
+1.0.4 - update deps / rebase + migrate - functional commit
 
 ### Launch a development server
 
