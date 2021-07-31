@@ -1,13 +1,73 @@
-import { styled } from "frontity";
-import { discolight } from "scenes/glamourmagic";
-import { themecolor } from "../components/dust/_colors";
+import { styled, keyframes } from "frontity";
+//import { discolight } from "scenes/glamourmagic";
+import { themecolor, hexToRGBA } from "../components/dust/_colors";
+
+/* 
+  framework: frontity
+  theme: frontstrap
+  type: processor (content overide)
+  title: ul-discolist
+  description: 
+
+*/
+
+
+const rainbow = {
+  green: '#348413',
+  yellow: '#f5e527',
+  pink: '#ed22a5',
+  blue: '#06b6f1'
+};
+
+const iCanSingA = function(obj) {
+  const keys = Object.keys(obj);
+  let rand = obj[keys[ keys.length * Math.random() << 0]];
+  return [rand, rand, rand]
+};
+//const singA = iCanSingA(rainbow);
+
+
+
+const discolight = keyframes`
+{
+  0% {
+      background: ${ hexToRGBA(iCanSingA(rainbow)[0], '.1') };
+      box-shadow:
+      inset 0 0 130px ${iCanSingA(rainbow)[0]},
+      inset 0 0 70px ${iCanSingA(rainbow)[0]}; 
+    }
+  25%  {
+    background: ${ hexToRGBA(iCanSingA(rainbow)[1], '.6') };
+    box-shadow:
+    inset 0 0 140px ${iCanSingA(rainbow)[1]},
+    inset 0 0 100px ${iCanSingA(rainbow)[1]}; 
+   }
+  50%  {
+    box-shadow:
+    inset 0 0 140px ${iCanSingA(rainbow)[1]},
+    inset 0 0 90px ${iCanSingA(rainbow)[1]};
+  }
+  50%  {
+    box-shadow:
+    inset 0 0 130px ${iCanSingA(rainbow)[1]},
+    inset 0 0 70px ${iCanSingA(rainbow)[1]};
+  }
+  100% {
+    background: ${ hexToRGBA(iCanSingA(rainbow)[2], '.5') };
+
+    box-shadow:
+    inset 0 0 130px ${iCanSingA(rainbow)[2]},
+    inset 0 0 90px ${iCanSingA(rainbow)[2]}; 
+  }
+}
+`;
 
 
 const PimpMyList = styled.ul`
 
   margin: 1rem auto;
   padding: 1rem;
-
+  cursor: pointer;
   display: flex;
   flex: 0 0 90%;
   flex-wrap: wrap;
@@ -18,8 +78,6 @@ const PimpMyList = styled.ul`
               0 19px 38px rgba(0,0,0,0.30),
               0 15px 12px rgba(0,0,0,0.22),
               inset 0 0 6px rgba(0,0,0,0.3);
-
-  cursor: pointer;
 
   li {
     
@@ -42,8 +100,7 @@ const PimpMyList = styled.ul`
 
     background-color: #232b2b;
     border: solid 2px ${(props) => props.color ? props.color : 'black'};
-  }
-  li:nth-of-type(odd) {
+
     will-change: background, box-shadow;
     animation: ${discolight} 5s ease-out infinite;
     animation-direction: alternate;
@@ -53,6 +110,7 @@ const PimpMyList = styled.ul`
     animation: ${discolight} 5s ease-out infinite;
     animation-direction: alternate;
   }
+
   li:nth-of-type(2) { animation-delay: .2s; }
   li:nth-of-type(3) { animation-delay: .4s; }
   li:nth-of-type(4) { animation-delay: .6s; }
