@@ -1,8 +1,8 @@
 {
   "name": "frontstrap",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "private": true,
-  "description": "Building Materials for WordPress + Frontity + Bootstrap5",
+  "description": "Starter Theme for Bootstrap based Frontity / Headless WordPress deployments.",
   "keywords": [
     "headless-wordpress",
     "frontity",
