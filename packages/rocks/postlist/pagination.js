@@ -1,41 +1,39 @@
 import { useEffect } from "react";
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
+//import Link from "../link";
 
-const Pagination = ({ state, actions, libraries }) => {
-  const { totalPages } = state.source.get(state.router.link);
-  const { path, page, query } = libraries.source.parse(state.router.link);
+/**
+ * Pagination Component
+ *
+ * It's used to allow the user to paginate between a list of posts.
+ *
+ * The `state`, `actions`, `libraries` props are provided by the global context,
+ * when we wrap this component in `connect(...)`
+ */
+const Pagination = ({ state, actions }) => {
+  // Get the total posts to be displayed based for the current link
+  const { next, previous } = state.source.get(state.router.link);
 
-  const isThereNextPage = page < totalPages;
-  const isTherePreviousPage = page > 1;
-
-  const nextPageLink = libraries.source.stringify({
-    path,
-    page: page + 1,
-    query
-  });
-
-  const prevPageLink = libraries.source.stringify({
-    path,
-    page: page - 1,
-    query
-  });
-
-  // Fetch the next page if it hasn't been fetched yet.
+  // Pre-fetch the the next page if it hasn't been fetched yet.
   useEffect(() => {
-    if (isThereNextPage) actions.source.fetch(nextPageLink);
+    if (next) actions.source.fetch(next);
   }, []);
 
   return (
     <div>
-      {isThereNextPage && (
-        <Link link={nextPageLink}>
+      {/* If there's a next page, render this link */}
+      {next && (
+        <Link link={next}>
           <Text>← Older posts</Text>
         </Link>
       )}
-      {isTherePreviousPage && isThereNextPage && " - "}
-      {isTherePreviousPage && (
-        <Link link={prevPageLink}>
+
+      {previous && next && " - "}
+
+      {/* If there's a previous page, render this link */}
+      {previous && (
+        <Link link={previous}>
           <Text>Newer posts →</Text>
         </Link>
       )}
@@ -43,6 +41,10 @@ const Pagination = ({ state, actions, libraries }) => {
   );
 };
 
+/**
+ * Connect Pagination to global context to give it access to
+ * `state`, `actions`, `libraries` via props
+ */
 export default connect(Pagination);
 
 const Text = styled.em`
