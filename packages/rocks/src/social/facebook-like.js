@@ -13,8 +13,8 @@ const FacebookLike = ({ props }) => {
       height={props.height}
       style={props.style}
       scrolling={props.scrolling}
-      frameborder={props.frameborder}
-      allowTransparency={props.allowTransparency}
+      frameBorder={props.frameborder}
+      //allowTransparency={props.allowTransparency}
       allow={props.allow}
     >
     </StyledIframe>
