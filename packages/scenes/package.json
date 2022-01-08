@@ -1,15 +1,15 @@
 {
   "name": "scenes",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "The Primitive Movement",
   "keywords": [
-    "frontity",
-    "primitive-theme",
+    "primitive",
     "primitiverocks",
     "bedrock",
+    "frontity",
     "wordpress",
-    "headless-cms",
-    "components",
+    "headless-wordpress",
+    "theme",
     "gsap",
     "scrollmagic"
   ],
@@ -26,7 +26,7 @@
   "dependencies": {
     "frontity": "^1.17.0",
     "@frontity/html2react": "^1.7.0",
-    "gsap": "^3.7.1",
+    "gsap": "^3.9.1",
     "react-gsap": "^3.2.1",
     "react-scrollmagic": "^2.3.0"
   }

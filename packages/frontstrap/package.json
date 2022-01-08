@@ -1,14 +1,14 @@
 {
   "name": "@primitive/frontstrap",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "Primitive Theme's rolling Mountains (a.k.a. beautiful views) for Frontity",
   "keywords": [
-    "frontity",
-    "primitive-theme",
+    "primitive",
     "primitiverocks",
     "bedrock",
+    "frontity",
     "wordpress",
-    "headless-cms",
+    "headless-wordpress",
     "theme"
   ],
   "homepage": "https://primitivedigital.uk",
@@ -24,9 +24,9 @@
   "dependencies": {
     "@frontity/components": "^1.8.1",
     "@frontity/html2react": "^1.7.0",
-    "bootstrap": "^5.0.2",
+    "bootstrap": "^5.1.3",
     "frontity": "^1.17.0",
-    "react-bootstrap": "^2.0.0-beta.4",
+    "react-bootstrap": "^2.1.0",
     "facepaint": "^1.2.1"
   }
 }

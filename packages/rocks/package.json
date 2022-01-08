@@ -1,27 +1,27 @@
 {
   "name": "rocks",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Primitive Building Blocks",
   "keywords": [
-    "frontity",
-    "frontstrap",
+    "primitive",
     "primitiverocks",
     "bedrock",
+    "frontity",
     "wordpress",
-    "headless-cms",
-    "components"
+    "headless-wordpress",
+    "theme"
   ],
   "homepage": "https://primitivedigital.uk",
   "license": "Apache-2.0",
   "dependencies": {
     "frontity": "^1.17.0",
     "@frontity/html2react": "^1.7.0",
-    "bootstrap": "^5.0.2",
-    "react-bootstrap": "^2.0.0-beta.4",
+    "bootstrap": "^5.1.3",
+    "react-bootstrap": "^2.1.0",
     "facepaint": "^1.2.1",
     "pebbles": "^1.0.5",
     "scenes": "^1.0.5",
     "react-fontawesome": "^1.7.1",
-    "react-instagram-embed": "^2.0.1"
+    "react-instagram-embed": "^3.0.0"
   }
 }
