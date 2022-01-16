@@ -12,9 +12,7 @@ const PostList = ({ state }) => {
 
   return (
     <StyledMain className="container">
-
       <Container>
-
         <Row>
           <Col className="p-4">
             <PageHead className="mb-2 text-center">
@@ -31,7 +29,7 @@ const PostList = ({ state }) => {
           </Header>
         )}
 
-        {/* If the list is for a specific author, we render a title. */}
+        {/* If the list is an author, render a title. */}
         {data.isAuthor && (
           <Header>
             Posts by: <b>{decode(state.source.author[data.id].name)}</b>
@@ -44,13 +42,10 @@ const PostList = ({ state }) => {
           // Render one Item component for each.
           return <Item key={item.id} item={item} />;
         })}
-
       </Container>
 
       <Pagination />
-
     </StyledMain>
-
   );
 };
 
@@ -70,7 +65,7 @@ const PageHead = styled.h1`
   letter-spacing: 1.2rem;
   font-size: 1.5rem;
   line-height: 1.6;
-  text-shadow: 1px 1px rgba(173,216,230,.5)
+  text-shadow: 1px 1px rgba(173, 216, 230, 0.5);
 `;
 
 const Header = styled.h2`
