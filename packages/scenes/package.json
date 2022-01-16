@@ -1,10 +1,10 @@
 {
-  "name": "scenes",
-  "version": "1.0.8",
+  "name": "@primitive/scenes",
+  "version": "0.0.1",
   "description": "The Primitive Movement",
   "keywords": [
     "primitive",
-    "primitiverocks",
+    "@primitive/rocks",
     "bedrock",
     "frontity",
     "wordpress",
@@ -18,11 +18,12 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primitiveshaun/primitivestuff.git"
+    "url": "https://github.com/primitive/frontstrap.git"
   },
   "bugs": {
-    "url": "https://github.com/primitiveshaun/primitivestuff/issues"
+    "url": "https://github.com/primitive/frontstrap/issues"
   },
+  "prettier": {},
   "dependencies": {
     "frontity": "^1.17.0",
     "@frontity/html2react": "^1.7.0",
