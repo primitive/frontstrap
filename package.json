@@ -1,6 +1,6 @@
 {
   "name": "frontstrap",
-  "version": "1.0.16",
+  "version": "0.0.16",
   "private": true,
   "description": "Starter Theme for Bootstrap based Frontity / Headless WordPress deployments.",
   "keywords": [
@@ -29,8 +29,8 @@
     "@frontity/tiny-router": "^1.4.4",
     "@frontity/wp-source": "^1.11.5",
     "@frontity/yoast": "^2.1.1",
-    "@primitive/frontstrap": "./packages/frontstrap",
     "frontity": "^1.17.0",
+    "frontstrap": "./packages/frontstrap",
     "pebbles": "./packages/pebbles",
     "rocks": "./packages/rocks",
     "scenes": "./packages/scenes"
