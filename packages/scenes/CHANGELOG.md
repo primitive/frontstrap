@@ -1,5 +1,5 @@
 
-# primitivescenes
+# @primitive/scenes
 
 ***The Log of Change***
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO.
