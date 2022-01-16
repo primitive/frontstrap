@@ -9,7 +9,7 @@ const settings = {
   },
   "packages": [
     {
-      "name": "@primitive/frontstrap",
+      "name": "frontstrap",
       "state": {
         "theme": {
 
@@ -85,11 +85,7 @@ const settings = {
     "@frontity/tiny-router",
     "@frontity/html2react",
     "@frontity/google-analytics",
-    "@frontity/yoast",
-    //"frontity-contact-form-7",
-    //"primitiverocks",
-    //"primitivepebbles",
-    //"primitivescenes"
+    "@frontity/yoast"
   ]
 };
 
