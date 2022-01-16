@@ -1,6 +1,6 @@
 {
-  "name": "@primitive/frontstrap",
-  "version": "1.0.16",
+  "name": "frontstrap",
+  "version": "0.0.1",
   "description": "Primitive Theme's rolling Mountains (a.k.a. beautiful views) for Frontity",
   "keywords": [
     "primitive",
