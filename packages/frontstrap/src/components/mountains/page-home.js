@@ -1,12 +1,14 @@
 import { connect, styled, loadable } from "frontity";
 
-//const Hero = loadable(() => import("scenes/jungle"));
-import Hero from 'scenes/jungle';
-import Intro from 'rocks/page-home-intro';
-import Gold from 'rocks/page-home-tabs';
-import Silver from 'rocks/cpt-poststrip/post-strip';
+//const Hero = loadable(() => import("@primitive/scenes/jungle"));
+import Hero from '@primitive/scenes/jungle';
+import Intro from '@primitive/rocks/page-home-intro';
+import Gold from '@primitive/rocks/page-home-tabs';
+import Silver from '@primitive/rocks/cpt-poststrip/post-strip';
+import Bronze from "@primitive/rocks/page-home-bronze";
+
 import Page from "./page";
-import Bronze from "rocks/page-home-bronze";
+
 
 
 const PageHome = ({ state }) => {

@@ -1,10 +1,10 @@
 import { useEffect } from "react";
 import { connect, styled, Global } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 
 import pageStyles from "../dust/page-styles";
 
-import DiscoPreload from "scenes/preload-disco"
+import DiscoPreload from "@primitive/scenes/preload-disco"
 //import DiscoBall from "../scenes/discoball"
 
 const Page = ({ state, actions, libraries }) => {

@@ -1,14 +1,14 @@
 import { useEffect } from "react";
 import { connect, styled, Global } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 
 import postStyles from "../dust/post-styles";
 
-import List from "rocks/postlist";
+import List from "@primitive/rocks/postlist";
 import Link from "@frontity/components/link";
-import FeaturedMedia from "rocks/featured-media";
+import FeaturedMedia from "@primitive/rocks/featured-media";
 
-import DiscoPreload from "scenes/preload-disco";
+import DiscoPreload from "@primitive/scenes/preload-disco";
 
 const Post = ({ state, actions, libraries }) => {
 
