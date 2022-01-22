@@ -1,6 +1,6 @@
 import React from "react";
 import { styled, connect } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 import Link from "@frontity/components/link";
 
 

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col } from "pebbles/grid";
+import { Row, Col } from "@primitive/pebbles/grid";
 //import { styled } from "frontity";
 //const StyledRow = styled(Row)``;
 

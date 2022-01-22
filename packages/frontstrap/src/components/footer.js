@@ -1,8 +1,8 @@
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
-import { Container, Row, Col } from "pebbles/grid";
-import BackToTop from "pebbles/backtotop";
-import Colophon from "pebbles/credits";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
+import BackToTop from "@primitive/pebbles/backtotop";
+import Colophon from "@primitive/pebbles/credits";
 
 const Footer = ({ state }) => {
 

@@ -1,6 +1,6 @@
 import { css } from "frontity";
 import { hexToRGBcss } from "../sand/color-utils";
-import { mq2col } from "pebbles/grid";
+import { mq2col } from "@primitive/pebbles/grid";
 //import { colors } from "./_colors.js";
 //import { mq2col } from './_grid';
 

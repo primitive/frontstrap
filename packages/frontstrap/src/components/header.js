@@ -1,11 +1,11 @@
 import { connect, styled, css } from "frontity";
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "@frontity/components/link";
-import Nav from "rocks/nav";
+import Nav from "@primitive/rocks/nav";
 //import Nav from "./nav";
 //import MobileMenu from "./menu";
 
-import { mq } from "pebbles/grid";
+import { mq } from "@primitive/pebbles/grid";
 //import { colors } from "../dust/_colors.js";
 
 const Header = ({ state }) => {

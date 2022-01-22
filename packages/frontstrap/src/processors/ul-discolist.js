@@ -1,5 +1,5 @@
 import { styled, keyframes } from "frontity";
-//import { discolight } from "scenes/glamourmagic";
+//import { discolight } from "@primitive/scenes/glamourmagic";
 import { themecolor, hexToRGBA } from "../components/dust/_colors";
 
 /* 
