@@ -21,9 +21,16 @@ import SkipLink from "@primitive/pebbles/skip-link";
 import GlobalPromo from "@primitive/rocks/global-promo";
 import GlobalSocial from "@primitive/rocks/src/social/social-section";
 
-const KnobblyKnees = loadable(() => import("rocks/footer-cta"));
-const FurryBoots = loadable(() => import("rocks/footer-kudos"));
+import KnobblyKnees from "@primitive/rocks/footer-cta";
+import FurryBoots from "@primitive/rocks/footer-kudos";
+
 const Feet = loadable(() => import("./footer"));
+
+
+/*
+  const KnobblyKnees = loadable(() => import("@primitive/rocks/footer-cta"));
+  const FurryBoots = loadable(() => import("@primitive/rocks/footer-kudos"));
+*/
 
 /**
  * Theme is the root React component of our theme. The one we will export
