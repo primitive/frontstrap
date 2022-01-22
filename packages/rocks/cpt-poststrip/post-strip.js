@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 
-import DiscoPreload from "scenes/preload-disco"
+import DiscoPreload from "@primitive/scenes/preload-disco"
 
 import Post from "./cpt-works-item";
 

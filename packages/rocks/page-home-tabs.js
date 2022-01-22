@@ -1,11 +1,11 @@
 import { connect, styled, css, loadable } from "frontity";
 import { Container, Row, Col } from "react-bootstrap";
-import Heading from "pebbles/heading";
+import Heading from "@primitive/pebbles/heading";
 
 import { Tabs, Tab } from "react-bootstrap";
 
-import { underlinewoosh } from "scenes/glamourmagic";
-//const DataMap = loadable(() => import("scenes/datamap"));
+import { underlinewoosh } from "@primitive/scenes/glamourmagic";
+//const DataMap = loadable(() => import("@primitive/scenes/datamap"));
 
 
 const TabBlock = ({ state }) => {

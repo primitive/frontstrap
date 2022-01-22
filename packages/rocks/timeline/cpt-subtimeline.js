@@ -1,7 +1,7 @@
 //import { useEffect } from "react";
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
-import PostMagic from "scenes/postmagic";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
+import PostMagic from "@primitive/scenes/postmagic";
 //import { sortBy } from "./utils"
 //import Item from "./cpt-item";
 
