@@ -7,7 +7,7 @@ import { gsap } from 'gsap';
 import { CSSPlugin } from "gsap/CSSPlugin.js";
 //import { auto } from '@popperjs/core';
 gsap.registerPlugin(CSSPlugin);
-import Item from "rocks/timeline/cpt-item";
+import Item from "@primitive/rocks/timeline/cpt-item";
 
 
 const PostMagic = ({ state, items }) => {

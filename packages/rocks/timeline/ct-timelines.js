@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 import CustomTaxonomyItem from "./ct-item";
 
 const setTitle = (ctname) => {

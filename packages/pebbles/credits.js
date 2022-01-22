@@ -2,7 +2,7 @@
 import React from "react";
 import { styled, connect } from "frontity";
 import Link from "@frontity/components/link";
-import {Col} from "pebbles/grid";
+import {Col} from "@primitive/pebbles/grid";
 
 const Credits = ({ state }) => {
   const currentYear = new Date().getFullYear();

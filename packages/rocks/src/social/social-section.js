@@ -1,5 +1,5 @@
 import { connect, styled } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 import InstagramPost from "./instgram-post";
 import FacebookPage from "./facebook-page";
 import FacebookLike from "./facebook-like";

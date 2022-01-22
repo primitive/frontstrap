@@ -1,5 +1,5 @@
 import { connect, styled, decode } from "frontity";
-import { Container, Row, Col } from "pebbles/grid";
+import { Container, Row, Col } from "@primitive/pebbles/grid";
 import Item from "./list-item";
 import Pagination from "./pagination";
 

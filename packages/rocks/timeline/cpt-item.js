@@ -3,7 +3,7 @@ import { connect, styled, decode } from "frontity";
 import Link from "@frontity/components/link";
 //import Image from "@frontity/components/image";
 
-import { Row, Col } from "pebbles/grid";
+import { Row, Col } from "@primitive/pebbles/grid";
 
 import Card from 'react-bootstrap/Card';
 

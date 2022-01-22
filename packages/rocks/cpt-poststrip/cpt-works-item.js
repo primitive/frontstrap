@@ -2,7 +2,7 @@ import { styled } from "frontity";
 import Link from "@frontity/components/link";
 
 // sk-dev: tbc direct import or proxy
-import { Col } from "pebbles/grid";
+import { Col } from "@primitive/pebbles/grid";
 import { Card } from 'react-bootstrap';
 
 import ACFMedia from "./cpt-media";

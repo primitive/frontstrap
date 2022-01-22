@@ -1,8 +1,8 @@
 import { connect, styled } from "frontity";
 import Link from "@frontity/components/link";
-import FeaturedMedia from "rocks/featured-media";
-import CTA from "rocks/button-fancy";
-import Heading from "pebbles/heading";
+import FeaturedMedia from "@primitive/rocks/featured-media";
+import CTA from "@primitive/rocks/button-fancy";
+import Heading from "@primitive/pebbles/heading";
 
 
 const Item = ({ state, item }) => {
