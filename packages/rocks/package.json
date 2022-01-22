@@ -1,26 +1,35 @@
 {
-  "name": "rocks",
-  "version": "1.0.11",
-  "description": "Primitive Building Blocks",
+  "name": "@primitive/rocks",
+  "version": "0.0.2",
+  "private": false,
+  "description": "Primitive Building Materials: Block Components",
   "keywords": [
-    "primitive",
-    "primitiverocks",
+    "@primitive",
+    "@primitive/rocks",
     "bedrock",
     "frontity",
     "wordpress",
-    "headless-wordpress",
-    "theme"
+    "headless-wordpress"
   ],
   "homepage": "https://primitivedigital.uk",
   "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primitive/frontstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primitive/frontstrap/issues"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
+  "prettier": {},
   "dependencies": {
     "frontity": "^1.17.0",
     "@frontity/html2react": "^1.7.0",
     "bootstrap": "^5.1.3",
     "react-bootstrap": "^2.1.0",
     "facepaint": "^1.2.1",
-    "pebbles": "^1.0.5",
-    "scenes": "^1.0.5",
     "react-fontawesome": "^1.7.1",
     "react-instagram-embed": "^3.0.0"
   }

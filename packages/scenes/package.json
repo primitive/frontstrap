@@ -1,15 +1,15 @@
 {
   "name": "@primitive/scenes",
-  "version": "0.0.1",
-  "description": "The Primitive Movement",
+  "version": "0.0.2",
+  "private": false,
+  "description": "The Primitive Movement: Interactive Component Blocks",
   "keywords": [
-    "primitive",
+    "@primitive",
     "@primitive/rocks",
     "bedrock",
     "frontity",
     "wordpress",
     "headless-wordpress",
-    "theme",
     "gsap",
     "scrollmagic"
   ],
@@ -23,9 +23,12 @@
   "bugs": {
     "url": "https://github.com/primitive/frontstrap/issues"
   },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
+  },
   "prettier": {},
   "dependencies": {
-    "frontity": "^1.17.0",
+    "frontity": "^1.17.1",
     "@frontity/html2react": "^1.7.0",
     "gsap": "^3.9.1",
     "react-gsap": "^3.2.1",
