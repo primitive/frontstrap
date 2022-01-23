@@ -33,10 +33,6 @@ Commit messages are loosly following [Conventional Commits](https://conventional
   
 #### Ω - *the end*
 
-```     
-ooh, ooh. aah, aah! - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 
-```     
-
 ```                                                                              
  _____       _        _                        _               
 |     |___ _| |___   | |_ _ _    _____ ___ ___| |_ ___ _ _ ___ 
@@ -46,3 +42,6 @@ ooh, ooh. aah, aah! - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒
 ```
 > [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
+```     
+ooh, ooh. aah, aah! - 🐒 🌴 🐒 🌴 🐒 🌴
+``` 
