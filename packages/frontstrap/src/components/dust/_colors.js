@@ -1,34 +1,7 @@
+import { hexToRGB, hexToRGBA } from "../sand/color-utils";
+
 // Primitive Theme Variables
 // COLOURS/COLORS
-
-// basic 6charater hex only with #
-const hexToRGB = (hex) => {
-  const r = parseInt(hex.slice(1, 3), 16),
-        g = parseInt(hex.slice(3, 5), 16),
-        b = parseInt(hex.slice(5, 7), 16),
-      string = [r, g, b].toString();
-  return string;
-};
-
-function hexToRGBA(h,a) {
-  let r = 0, g = 0, b = 0;
-
-  // 3 digits
-  if (h.length == 4) {
-    r = "0x" + h[1] + h[1];
-    g = "0x" + h[2] + h[2];
-    b = "0x" + h[3] + h[3];
-
-  // 6 digits
-  } else if (h.length == 7) {
-    r = "0x" + h[1] + h[2];
-    g = "0x" + h[3] + h[4];
-    b = "0x" + h[5] + h[6];
-  }
-  
-  //console.log("rgba("+ +r + "," + +g + "," + +b + "," + a + ")");
-  return "rgba("+ +r + "," + +g + "," + +b + "," + a + ")";
-}
 
 // Base Colour system
 const colors = {
