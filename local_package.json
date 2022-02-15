@@ -1,0 +1,53 @@
+{
+  "name": "frontstrap",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Starter Theme for Bootstrap based Frontity / Headless WordPress deployments.",
+  "keywords": [
+    "primitive",
+    "primitiverocks",
+    "bedrock",
+    "frontity",
+    "wordpress",
+    "headless-wordpress",
+    "theme"
+  ],
+  "engines": {
+    "node": ">=10.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "frontity dev",
+    "build": "frontity build",
+    "serve": "frontity serve"
+  },
+  "homepage": "https://primitivedigital.uk",
+  "author": "Shaun Knowles <hi@primitivedigital.uk> (https://shaunknowles.uk/)",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/primitive/frontstrap.git"
+  },
+  "bugs": {
+    "url": "https://github.com/primitive/frontstrap/issues"
+  },
+  "prettier": {},
+  "dependencies": {
+    "@frontity/core": "^1.14.3",
+    "@frontity/google-analytics": "^2.1.0",
+    "@frontity/html2react": "^1.7.0",
+    "@frontity/tiny-router": "^1.4.4",
+    "@frontity/wp-source": "^1.11.7",
+    "@frontity/yoast": "^2.1.1",
+    "frontity": "^1.17.1",
+    
+    "frontstrap": "./packages/frontstrap",
+    "@primitive/pebbles": "./packages/pebbles",
+    "@primitive/rocks": "./packages/rocks",
+    "@primitive/scenes": "./packages/scenes",
+
+    "@primitive/pebbles": "^0.0.2",
+    "@primitive/rocks": "^0.0.2",
+    "@primitive/scenes": "^0.0.2"
+  }
+}
