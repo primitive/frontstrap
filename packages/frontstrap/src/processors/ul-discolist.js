@@ -1,6 +1,7 @@
 import { styled, keyframes } from "frontity";
 //import { discolight } from "@primitive/scenes/glamourmagic";
-import { themecolor, hexToRGBA } from "../components/dust/_colors";
+import { themecolor } from "../components/dust/_colors";
+import { hexToRGBA } from "../components/sand/color-utils";
 
 /* 
   framework: frontity
@@ -8,7 +9,7 @@ import { themecolor, hexToRGBA } from "../components/dust/_colors";
   type: processor (content overide)
   title: ul-discolist
   description: 
-
+  selector: ul.thinglist
 */
 
 
@@ -19,16 +20,18 @@ const rainbow = {
   blue: '#06b6f1'
 };
 
-const iCanSingA = function(obj) {
+const iCanSingA = (obj) => {
+  // console.log('iCanSingA obj', obj);
   const keys = Object.keys(obj);
   let rand = obj[keys[ keys.length * Math.random() << 0]];
-  return [rand, rand, rand]
+  // return [ rand, rand, rand ]
+  return [ rand, rand, rand ]
 };
 //const singA = iCanSingA(rainbow);
+// console.log('singA', singA);
 
 
-
-const discolight = keyframes`
+const discolightDyn = ( aOne, aTwo, aOneTwoThree, rainbow ) => keyframes`
 {
   0% {
       background: ${ hexToRGBA(iCanSingA(rainbow)[0], '.1') };
@@ -63,21 +66,56 @@ const discolight = keyframes`
 `;
 
 
-const PimpMyList = styled.ul`
+const PimpMyList = styled.div`
 
-  margin: 1rem auto;
-  padding: 1rem;
-  cursor: pointer;
-  display: flex;
-  flex: 0 0 90%;
-  flex-wrap: wrap;
-  list-style-type: none;
+  @keyframes discolight {
+    0% {
+        background: rgba(6,182,241,.1);
+        box-shadow:
+        inset 0 0 130px #348413,
+        inset 0 0 70px #348413; 
+      }
 
-  background: ${(props) => props.bg ? props.bg : 'ivory'};
-  box-shadow: 0 0 3px rgba(0,0,0,0.6),
-              0 19px 38px rgba(0,0,0,0.30),
-              0 15px 12px rgba(0,0,0,0.22),
-              inset 0 0 6px rgba(0,0,0,0.3);
+    25%  {
+      background: rgba(6,182,241,.6);
+      box-shadow:
+      inset 0 0 140px #348413,
+      inset 0 0 100px #348413; 
+    }
+    50%  {
+      box-shadow:
+      inset 0 0 140px #348413,
+      inset 0 0 90px #348413;
+    }
+    50%  {
+      box-shadow:
+      inset 0 0 130px #348413,
+      inset 0 0 70px #348413;
+    }
+    100% {
+      background: rgba(52,132,19,.5);
+
+      box-shadow:
+      inset 0 0 130px #f5e527,
+      inset 0 0 90px #f5e527; 
+    }
+  }
+
+  ul {
+    margin: 1rem auto;
+    padding: 1rem;
+    cursor: pointer;
+    display: flex;
+    flex: 0 0 90%;
+    flex-wrap: wrap;
+    list-style-type: none;
+
+    background: ${(props) => props.bg ? props.bg : 'ivory'};
+    box-shadow: 0 0 3px rgba(0,0,0,0.6),
+                0 19px 38px rgba(0,0,0,0.30),
+                0 15px 12px rgba(0,0,0,0.22),
+                inset 0 0 6px rgba(0,0,0,0.3);
+  }
 
   li {
     
@@ -102,12 +140,12 @@ const PimpMyList = styled.ul`
     border: solid 2px ${(props) => props.color ? props.color : 'black'};
 
     will-change: background, box-shadow;
-    animation: ${discolight} 5s ease-out infinite;
+    animation: discolight 5s ease-out infinite;
     animation-direction: alternate;
   }
   li:nth-of-type(even) {
     will-change: background, box-shadow;
-    animation: ${discolight} 5s ease-out infinite;
+    animation: discolight 5s ease-out infinite;
     animation-direction: alternate;
   }
 
@@ -140,22 +178,24 @@ const PimpMyList = styled.ul`
     }
   }
 
-  
+
 
 
 `;
 
-const DiscoList = ({ list, children, classes }) => {
-  console.log('DiscoList');
-  //console.log({ list, author })
+const DiscoList = ({ children, classes, rainbow }) => {
+
+  console.log('DiscoList', { children, classes, rainbow })
 
   return (
     <PimpMyList
       bg={`${themecolor.coal} url(https://api.primitivedigital.uk/wp-content/uploads/stone/grayrock-300x300.png)`}
       color={themecolor.coal}
-      //className={classes}
+      discoLight={rainbow}
     >
-      {children}
+      <ul className={classes}>
+        {children}
+      </ul>
     </PimpMyList>
   )
 };
