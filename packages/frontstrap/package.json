@@ -1,7 +1,7 @@
 {
   "name": "frontstrap",
-  "version": "0.0.1",
-  "description": "Primitive Theme's rolling Mountains (a.k.a. beautiful views) for Frontity",
+  "version": "0.0.2",
+  "description": "Primitive rolling Mountains (a.k.a. beautiful views) for Frontity",
   "keywords": [
     "primitive",
     "primitiverocks",
@@ -22,11 +22,11 @@
     "url": "https://github.com/primitive/frontstrap/issues"
   },
   "dependencies": {
-    "@frontity/components": "^1.8.1",
+    "@frontity/components": "^1.8.2",
     "@frontity/html2react": "^1.7.0",
-    "frontity": "^1.17.0",
+    "frontity": "^1.17.2",
     "bootstrap": "^5.1.3",
-    "react-bootstrap": "^2.1.0",
+    "react-bootstrap": "^2.1.2",
     "facepaint": "^1.2.1"
   }
 }
