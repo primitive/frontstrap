@@ -1,6 +1,6 @@
 {
   "name": "@primitive/scenes",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "private": false,
   "description": "The Primitive Movement: Interactive Component Blocks",
   "keywords": [
@@ -28,7 +28,7 @@
   },
   "prettier": {},
   "dependencies": {
-    "frontity": "^1.17.1",
+    "frontity": "^1.17.2",
     "@frontity/html2react": "^1.7.0",
     "gsap": "^3.9.1",
     "react-gsap": "^3.2.1",
