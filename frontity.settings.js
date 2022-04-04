@@ -27,7 +27,7 @@ const settings = {
             ["Startups", "/darwin-project"],
             ["Adventures in Time", "/timelines"],
             ["Cave of ", "/cave"],
-            ["Primitive Theme for Frontity", "https://www.npmjs.com/package/primitive-theme"],
+            ["Primitive Theme for Frontity", "https://www.npmjs.com/package/frontstrap"],
             ["Privacy Policy", "privacy-policy"]
           ],
 
