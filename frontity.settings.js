@@ -1,91 +1,94 @@
 const settings = {
-  "name": "frontstrap",
-  "state": {
-    "frontity": {
-      "url": "https://primitivedigital.uk",
-      "title": "Primitive Digital",
-      "description": "WordPress + Frontity Stuff"
+  name: "frontstrap",
+  state: {
+    frontity: {
+      url: "https://primitivedigital.uk",
+      title: "Primitive Digital",
+      description: "WordPress Web Sites & Apps",
+      name: "Want a Website?"
     }
   },
-  "packages": [
+  packages: [
     {
-      "name": "frontstrap",
-      "state": {
-        "theme": {
-
-          "menu": [
-            ["Content", "/frontity-tests"],
-            ["Pages", "/web-design"],
-            ["Post", "/blog/a-decade-of-digital-development"],
-            ["Posts", "/blog"],
-            ["CPTs", "/evolution-of-digital-stuff"],
-            ["CTs", "/timelines"],
-            ["Stats/config", "/stats"],
+      name: "frontstrap",
+      state: {
+        theme: {
+          menu: [
+            ["Home", "/"],
+            ["Design", "/web-design"],
+            ["Development", "/web-development"],
+            ["Data", "/data-insights"],
+            ["Marketing", "/marketing"],
+            ["A Nice Log", "/blog"]
           ],
-          "menufooter": [
+          menufooter: [
             ["Contact", "/contact"],
-            ["Startups", "/darwin-project"],
+            ["Startup Offers", "/darwin-project"],
             ["Adventures in Time", "/timelines"],
-            ["Cave of ", "/cave"],
-            ["Primitive Theme for Frontity", "https://www.npmjs.com/package/frontstrap"],
+            ["The Cave of Wonders", "/cave"],
+            ["Frontstrap Theme for Frontity", "https://www.npmjs.com/package/frontstrap"],
             ["Privacy Policy", "privacy-policy"]
           ],
-
-          "featured": {
-            "showOnList": false,
-            "showOnPost": false,
-            "showOnPage": true
+          featured: {
+            showOnList: false,
+            showOnPost: false,
+            showOnPage: true
           },
-          // tbc
-          "archive": {
-            "showExcerpt": true
+          archive: {
+            showExcerpt: true
           }
         }
       }
     },
     {
-      "name": "@frontity/wp-source",
-      "state": {
-        "source": {
-          "url": "https://api.primitivedigital.uk",
+      name: "@frontity/google-analytics",
+      state: {
+        googleAnalytics: {
+          trackingIds: ["UA-61815763-1"],
+        },
+      },
+    },
+    {
+      name: "@frontity/wp-source",
+      state: {
+        source: {
+          api: "https://primitivedigital.uk/wp-json", // required: Your WP REST API EndPoint (no trailing slash)
 
-          "homepage": "/home", // optional: set if using a page as homepage (wp hp settings ignored)
-          "postsPage": "/blog", // optional: set if using a custom blog page
+          homepage: "/home", // optional: set when using a page as the site homepage (wp hp settings ignored)
+          postsPage: "/blog", // optional: set when using a page as the site homepage
 
-          // optional: CPTs
-          "postTypes": [
+          // optional: define CPTs
+          postTypes: [
             {
-              "type": "works", // slug
-              "endpoint": "works", // WP-REST endpoint
-              "archive": "/works" // router link: do i need this if not diplying the list!?
+              type: "works", // custom post type slug
+              endpoint: "works", // WP REST API endpoint
+              archive: "/works" // router link: do i do i need this if not diplying the list!?
             },
             {
-              "type": "temporal_events",
-              "endpoint": "temporal_events",
-              "archive": "/evolution-of-digital-stuff" // list view of the CPT
+              type: "temporal_events", // custom post type slug
+              endpoint: "temporal_events", // WP REST API endpoint
+              archive: "/evolution-of-digital-stuff" // router link: list view of these custom post types
             },
             {
-              "type": "things",
-              "endpoint": "things",
-              "archive": "/things"
-            }
+              type: "things", // custom post type slug
+              endpoint: "things", // WP REST API endpoint
+              archive: "/things" // router link: list view of these custom post types
+            },
           ],
-
-          "taxonomies": [
+          taxonomies: [
             {
-              "taxonomy": "timelines",
-              "endpoint": "timelines",
-              "postTypeEndpoint": "/temporal_events",
+              taxonomy: "timelines", // custom taxonomy slug
+              endpoint: "timelines", // WP REST API endpoint
+              postTypeEndpoint: "/temporal_events" // endpoint for (custom) post types to query
             }
           ]
-
         }
       }
     },
     "@frontity/tiny-router",
     "@frontity/html2react",
-    "@frontity/google-analytics",
-    "@frontity/yoast"
+    "@frontity/yoast",
+    "@aamodtgroup/frontity-contact-form-7"
   ]
 };
 
