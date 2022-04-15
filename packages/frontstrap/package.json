@@ -1,14 +1,16 @@
 {
   "name": "frontstrap",
-  "version": "0.0.2",
-  "description": "Primitive rolling Mountains (a.k.a. beautiful views) for Frontity",
+  "version": "0.0.3",
+  "private": false,
+  "description": "Primitive's rolling Mountains (a.k.a. beautiful views) for Frontity",
   "keywords": [
-    "primitive",
-    "primitiverocks",
+    "@primitive",
+    "@primitive/rocks",
     "bedrock",
     "frontity",
+    "headless",
     "wordpress",
-    "headless-wordpress",
+    "bootstrap",
     "theme"
   ],
   "homepage": "https://primitivedigital.uk",
