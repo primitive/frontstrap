@@ -1,6 +1,6 @@
 {
   "name": "@primitive/pebbles",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Primitive Base Components: It's the little things that make you happy.",
   "keywords": [
@@ -8,8 +8,9 @@
     "@primitive/rocks",
     "bedrock",
     "frontity",
+    "headless",
     "wordpress",
-    "headless-wordpress"
+    "components"
   ],
   "homepage": "https://primitivedigital.uk",
   "author": "Shaun Knowles <hi@primitivedigital.uk> (https://shaunknowles.uk/)",
