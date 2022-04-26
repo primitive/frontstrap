@@ -1,5 +1,5 @@
 
-# primitiverocks
+# @primitive/rocks
 
 ***The Log of Change***
 

@@ -1,6 +1,6 @@
 {
   "name": "@primitive/rocks",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "Primitive Building Materials: Block Components",
   "keywords": [
@@ -8,8 +8,9 @@
     "@primitive/rocks",
     "bedrock",
     "frontity",
+    "headless",
     "wordpress",
-    "headless-wordpress"
+    "components"
   ],
   "homepage": "https://primitivedigital.uk",
   "license": "Apache-2.0",
