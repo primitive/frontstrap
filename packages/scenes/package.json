@@ -1,6 +1,6 @@
 {
   "name": "@primitive/scenes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": false,
   "description": "The Primitive Movement: Interactive Component Blocks",
   "keywords": [
@@ -8,8 +8,9 @@
     "@primitive/rocks",
     "bedrock",
     "frontity",
+    "headless",
     "wordpress",
-    "headless-wordpress",
+    "components",
     "gsap",
     "scrollmagic"
   ],
