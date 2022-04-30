@@ -40,9 +40,9 @@
     "@frontity/yoast": "^2.1.1",
     "frontity": "^1.17.2",
     "frontstrap": "./packages/frontstrap",
-    "@primitive/rocks": "./packages/rocks",
-    "@primitive/pebbles": "./packages/pebbles",
-    "@primitive/scenes": "./packages/scenes",
+    "@primitive/pebbles": "^0.0.4",
+    "@primitive/rocks": "^0.0.4",
+    "@primitive/scenes": "^0.0.4",
     "@aamodtgroup/frontity-contact-form-7": "^0.2.14"
   }
 }
