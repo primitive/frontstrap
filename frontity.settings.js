@@ -30,9 +30,9 @@ const settings = {
             ["Privacy Policy", "privacy-policy"]
           ],
           featured: {
-            showOnList: false,
-            showOnPost: false,
-            showOnPage: true
+            showOnList: true,
+            showOnPost: true,
+            showOnPage: true,
           },
           archive: {
             showExcerpt: true
@@ -44,7 +44,7 @@ const settings = {
       name: "@frontity/google-analytics",
       state: {
         googleAnalytics: {
-          trackingIds: ["UA-61815763-1"],
+          trackingIds: ["UA-61815763-1"]
         },
       },
     },
@@ -53,7 +53,6 @@ const settings = {
       state: {
         source: {
           api: "https://primitivedigital.uk/wp-json", // required: Your WP REST API EndPoint (no trailing slash)
-
           homepage: "/home", // optional: set when using a page as the site homepage (wp hp settings ignored)
           postsPage: "/blog", // optional: set when using a page as the site homepage
 
@@ -73,7 +72,7 @@ const settings = {
               type: "things", // custom post type slug
               endpoint: "things", // WP REST API endpoint
               archive: "/things" // router link: list view of these custom post types
-            },
+            }
           ],
           taxonomies: [
             {
