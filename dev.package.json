@@ -46,8 +46,8 @@
     "@primitive/rocks": "./packages/rocks",
     "@primitive/scenes": "./packages/scenes",
 
-    "@primitive/pebbles": "^0.0.2",
-    "@primitive/rocks": "^0.0.2",
-    "@primitive/scenes": "^0.0.2"
+    "@primitive/pebbles": "^0.0.4",
+    "@primitive/rocks": "^0.0.4",
+    "@primitive/scenes": "^0.0.4"
   }
 }
