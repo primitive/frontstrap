@@ -1,15 +1,16 @@
-# @primitivedigital/primitiveone
+# @primitive/frontstrap (frontstrap theme dev)
 
 ***The Log of Change***
 
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO.
 
-To whom it may concern. Some odd comments may be documented here.
+Some odd comments may be documented here.
 
 Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
 
-1.1.0: restructured for development of theme-able system. WIP
 
+
+1.1.0: restructured for development of theme-able system. WIP
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
 
 
