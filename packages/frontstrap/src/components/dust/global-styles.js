@@ -114,6 +114,9 @@ const globalStyles = colors => css`
     width: 200px;
   }
 
+  .last-updated {
+    display: none;
+  }
 
 `;
 
