@@ -1,6 +1,6 @@
 {
   "name": "frontstrap",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "Starter Theme for Bootstrap based Frontity / Headless-WordPress deployments.",
   "keywords": [
@@ -32,7 +32,7 @@
   },
   "prettier": {},
   "dependencies": {
-    "@frontity/core": "^1.15.0",
+    "@frontity/core": "^1.15.1",
     "@frontity/google-analytics": "^2.1.0",
     "@frontity/html2react": "^1.7.0",
     "@frontity/tiny-router": "^1.4.4",
@@ -40,9 +40,9 @@
     "@frontity/yoast": "^2.1.1",
     "frontity": "^1.17.2",
     "frontstrap": "./packages/frontstrap",
-    "@primitive/pebbles": "^0.0.4",
-    "@primitive/rocks": "^0.0.4",
-    "@primitive/scenes": "^0.0.4",
+    "@primitive/pebbles": "./packages/pebbles",
+    "@primitive/rocks": "./packages/rocks",
+    "@primitive/scenes": "./packages/scenes",
     "@aamodtgroup/frontity-contact-form-7": "^0.2.14"
   }
 }
