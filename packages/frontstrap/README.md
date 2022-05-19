@@ -35,12 +35,7 @@ See [changelog](CHANGELOG.md) for release notes.
 [Google PageSpeed Insigts: 98 Desktop](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)
 [Google PageSpeed Insigts: 62 Mobile](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)
 
-Check back for links to compare the performance of various deployments.  
 
-Now: https://now.primitivedigital.uk  
-Google: TBC  
-AWS: TBC  
-Static: TBC   
 
 
 ## [Created by Primitive Digital](https://primitivedigital.uk)
