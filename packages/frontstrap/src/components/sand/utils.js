@@ -80,11 +80,19 @@ export function getTerm(route) {
 // JS array utils
 // *
 
-export function randomWord() {
-    const words = ["Fabulous", "Fruity", "Awesome", "Marvelous"];
-    const randomWord = words[Math.floor(Math.random() * words.length)];
-    //const randomWord = words[0];
+export function randomWord( words ) {
+    // const words = ["Fabulous", Fruity", "Awesome", "Marvelous"];
+    // const words = props;
+    let randomWord = "";
 
+    if (words.indexOf(',') > -1) { 
+        const wordsArr = words.split(',');
+        randomWord = wordsArr[Math.floor(Math.random()*wordsArr.length)];
+    }
+    else {
+        randomWord = words;
+    }
+    // console.log("word", words, randomWord);
     return randomWord;
 }
 
