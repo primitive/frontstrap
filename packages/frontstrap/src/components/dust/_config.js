@@ -20,9 +20,9 @@ const themeconfig = {
 
         header: {
           variant: "", // "" | "light" | "dark"
-          logo: "https://api.primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png",
+          logo: "https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png",
           alt: "Primitive Digital - Web Design &amp; Development",
-          random: randomWord()
+          random: randomWord("Fabulous,Fruity,Awesome,Marvelous")
         },
         main: {
           bg: "linear-gradient(180deg, rgba(66, 174, 228, 0.1), rgba(66, 174, 228, 0) )",
@@ -33,7 +33,7 @@ const themeconfig = {
           rocks: "",
           bg: "#D4AEA6",
           color: "#87635C",
-          image: "https://api.primitivedigital.uk/wp-content/uploads/promo/topbanana1.png",
+          image: "https://primitivedigital.uk/wp-content/uploads/promo/topbanana1.png",
           title: "Top Banana Web Design and Development",
           fontfamily: "subslab",
           text1: "- Top Banana -",
@@ -103,14 +103,14 @@ const themeconfig = {
             show: 2,
             title1: "We Make Websites",
             imageFrame1: "fancy-frame",
-            imagesrc1: "https://api.primitivedigital.uk/wp-content/uploads/promo/wantawebsite_square.jpg",
+            imagesrc1: "https://primitivedigital.uk/wp-content/uploads/promo/wantawebsite_square.jpg",
             listFrame1: "frame",
             list1: ["Web Sites, CMS, CRM and Blogs.", "Fully Editable Content.", "Online shops and Progressive Web Apps.", "API's and application integration", "Mobile friendly and responsive", "Google Analytics", "High tech, low cost, no hassle", "Excellence as standard & satisfaction guaranteed"],
             link1: "/web-design/",
             icon1: "",
             title2: "We Love Startups",
             imageFrame2: "fancy-frame",
-            imagesrc2: "https://api.primitivedigital.uk/wp-content/uploads/promo/selfiemonkey_square.jpg",
+            imagesrc2: "https://primitivedigital.uk/wp-content/uploads/promo/selfiemonkey_square.jpg",
             listFrame2: "frame",
             list2: ["Get a custom built Website", "Professionally designed and branded", "Plus Logo design", "Plus business card design", "Easy, peasy chimpanzizi!"],
             link2: "/darwin-project/",
@@ -122,7 +122,7 @@ const themeconfig = {
           variant: "",
           bgcolor: "",
           one: {
-            bgimg: "https://api.primitivedigital.uk/wp-content/uploads/m/monkey-happy.jpg",
+            bgimg: "https://primitivedigital.uk/wp-content/uploads/m/monkey-happy.jpg",
             title1: "Web Design",
             text1: "Find your audience",
             title2: "App &amp; UI Design",
@@ -133,7 +133,7 @@ const themeconfig = {
             text4: "Across all platforms"
           },
           two: {
-            bgimg: "https://api.primitivedigital.uk/wp-content/uploads/m/monkey-eh.jpg",
+            bgimg: "https://primitivedigital.uk/wp-content/uploads/m/monkey-eh.jpg",
             title1: "Rapid Web Development",
             text1: "Get online fast",
             title2: "Application Development",
@@ -144,7 +144,7 @@ const themeconfig = {
             text4: "The possibilities are endless"
           },
           three: {
-            bgimg: "https://api.primitivedigital.uk/wp-content/uploads/m/monkey-ooh.jpg",
+            bgimg: "https://primitivedigital.uk/wp-content/uploads/m/monkey-ooh.jpg",
             title1: "Analytics and Reporting",
             text1: "Infomation is beautiful",
             title2: "Search Engine Optimisation",
@@ -155,7 +155,7 @@ const themeconfig = {
             text4: "But you can always A/B better"
           },
           four: {
-            bgimg: "https://api.primitivedigital.uk/wp-content/uploads/m/monkey-smile.jpg",
+            bgimg: "https://primitivedigital.uk/wp-content/uploads/m/monkey-smile.jpg",
             title1: "Social Media",
             text1: "Graphics, Banners and Promos",
             title2: "eMail &amp; eCommerce",
@@ -173,7 +173,7 @@ const themeconfig = {
           type: "text",
           pretext: "Business / Enterprise",
           text: "Primitive provides people-friendly, packages only. ",
-          link: "https://sknow.it/bookings"
+          link: "https://sknow.it/"
         },
 
         showSocial: true,
