@@ -14,6 +14,7 @@ const Home = loadable(() => import("./mountains/page-home"));
 const Post = loadable(() => import("./mountains/post"));
 const Page = loadable(() => import("./mountains/page"));
 const PageError = loadable(() => import("./mountains/page-error"));
+
 import Posts from "./mountains/post-list";
 import Timelines from "./mountains/timelines";
 import Timeline from "./mountains/timeline";
@@ -47,9 +48,9 @@ const Theme = ({ state }) => {
 
   if (state.theme.debug) {
     console.log("@index: data", data);
-    //console.log("@index: display", display);
-    //console.log("@index: colors", state.theme.colors);
-    //console.log("@index: config", state.theme.config);
+    console.log("@index: display", display);
+    console.log("@index: colors", state.theme.colors);
+    console.log("@index: config", state.theme.config);
     console.log('canonical', state.theme.canonical);
   }
 
