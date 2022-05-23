@@ -3,9 +3,11 @@ const settings = {
   state: {
     frontity: {
       url: "https://primitivedigital.uk",
-      title: "Primitive Digital",
-      description: "WordPress Web Sites & Apps",
-      name: "Want a Website?"
+      title: "Primitive Digital's",
+      description: "Frontstrap Theme",
+      tagline: "Want a Website?",
+      phrase1: "We Make",
+      phrase2: ""
     }
   },
   packages: [
@@ -36,7 +38,9 @@ const settings = {
           },
           archive: {
             showExcerpt: true
-          }
+          },
+          canonical: "https://primitivedigital.uk",
+          debug: true
         }
       }
     },
