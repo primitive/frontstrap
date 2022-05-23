@@ -26,12 +26,12 @@ const Header = ({ state }) => {
                 </Title>
 
                 <Intro className="subslab mb-0">
-                  We Make 
+                  {state.frontity.phrase1}
                   <span className="slab"> {state.theme.config.header.random} </span>
                 </Intro>
 
                 <Description>
-                  {state.frontity.description}
+                  {state.frontity.tagline}
                 </Description>
                 
               </StyledLink>
@@ -49,11 +49,11 @@ export default connect(Header);
 
 // Assets
 const headGraphic = {
-  light: 'url(https://api.primitivedigital.uk/wp-content/uploads/header/light.jpg)',
-  dark: 'url(https://api.primitivedigital.uk/wp-content/uploads/header/dark.jpg)',
-  darkx2: 'url(https://api.primitivedigital.uk/wp-content/uploads/header/dark@2x-scaled.jpg)',
-  default: 'url(https://api.primitivedigital.uk/wp-content/uploads/header/default.jpg)',
-  green: 'url(https://api.primitivedigital.uk/wp-content/uploads/header/website_header@2x.jpg)'
+  light: 'url(https://primitivedigital.uk/wp-content/uploads/header/light.jpg)',
+  dark: 'url(https://primitivedigital.uk/wp-content/uploads/header/dark.jpg)',
+  darkx2: 'url(https://primitivedigital.uk/wp-content/uploads/header/dark@2x-scaled.jpg)',
+  default: 'url(https://primitivedigital.uk/wp-content/uploads/header/default.jpg)',
+  green: 'url(https://primitivedigital.uk/wp-content/uploads/header/website_header@2x.jpg)'
 };
 
 const ResponsiveLight = css(
