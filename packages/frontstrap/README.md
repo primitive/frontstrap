@@ -1,6 +1,6 @@
 # Frontstrap Frontity Theme
 
-Primitive Digital's Building Blocks | Components for the Frontity Primitive Theme
+Primitive Digital's Rolling Mountains | a.k.a Views for the Frontity Primitive Theme
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
@@ -15,30 +15,35 @@ Live Site 👉  [Primitive Digital](https://primitivedigital.uk)
 
 Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)
 
-Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)
-Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)
-Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)
+Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)  
+Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)  
+Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)  
 
-GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)
+GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
+
+
+
+
+
 
 
 ## IGNORE: Previous notes - needs updating (WIP)
-
-![screenshot](../../img/punky.png)
 
 See [changelog](CHANGELOG.md) for release notes.
 
 
 ## Performance Testing (WIP)
 
-[GTMetrix Report: 29th April](https://gtmetrix.com/reports/primitivedigital.co.uk/tyY4ZsWo)
-[Google PageSpeed Insigts: 98 Desktop](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)
-[Google PageSpeed Insigts: 62 Mobile](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)
+[GTMetrix Report: 29th April](https://gtmetrix.com/reports/primitivedigital.co.uk/tyY4ZsWo)  
+[Google PageSpeed Insigts: 98 Desktop](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)  
+[Google PageSpeed Insigts: 62 Mobile](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)  
 
 
 
 
-## [Created by Primitive Digital](https://primitivedigital.uk)
+## [Package crafted by Primitive Digital](https://primitivedigital.uk)
+
+![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
 
 Setup
