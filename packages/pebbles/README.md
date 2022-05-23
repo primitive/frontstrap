@@ -6,37 +6,35 @@ Primitive Digital's Little Pebbles | Components for the Frontity Primitive Theme
 
 WordPress as a Headless CMS with a smattering of Node.js and React magic. 
 
-Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.
+Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.  
 
-With little help from our friends: [Bootstrap](https://getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/). 
+With little help from our friends: [Bootstrap](https://getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/).  
 
-Live Site 👉  [Primitive Digital](https://primitivedigital.uk)
+Live Site 👉  [Primitive Digital](https://primitivedigital.uk)  
 
-Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)
+Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)  
 
-Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)
-Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)
-Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)
+Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)  
+Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)  
+Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)  
 
-GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)
-
-
-**NB. This is POC deployment.**
+GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
 
 
-**Codebase will be opensource, it's available on AS-IS basis while I remove licenced/branded elements, don't use them.**
+**NB. This project is WIP.**
 
+**Codebase will be opensource, available on AS-IS basis while I remove licenced/branded elements, don't use them.**
 
 See [changelog](CHANGELOG.md) for release notes.
 
 
-## [Crafted by Primitive Digital](https://primitivedigital.uk)
+## [Package crafted by Primitive Digital](https://primitivedigital.uk)
 
-![](https://primitivedigital.uk/wp-content/uploads/img/webby.png)
+![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
 🃏 The code is opensource so play like you mean business 🤓
 
-## Deployment
+### Deployment
 
 Follow the Frontity [deployment outlined in their Docs](https://docs.frontity.org/installation-and-deploy)
 
