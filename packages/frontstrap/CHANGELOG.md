@@ -2,13 +2,12 @@
 
 ***The Log of Change***
 
- 🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO.
-
-Some odd comments may be documented here.
+ 🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
 
 Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
 
 
+0.0.6: fix: randomWord display
 
 1.1.0: restructured for development of theme-able system. WIP
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
@@ -19,20 +18,26 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 * dependency errors, depreciation errors
 * frontity.settings is dominant over package/index
 * review licencing
-* ooooh, bootstrap 5...
+
 
 *Noted Issues / already resolved:*
+* node 
+* reployed frontity to wp with embedded mode
+* vercel depreciated
 * arrays in settings have duplicated values
 * vercel(zeit) deployment failure .gitignore, .nowignore - build folder issue with github setup.
 * Some CSS-IN-JS gets messed up on prod build. this could have been an extra '}'?
 
 ## Issues
+- [ ] Random content errors  
 
+## TBC
+- [ ] FEAT: Fade in lazy loaded images?
 - [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
 - [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)
 - [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
-- [ ] Random content errors
-- [ ] FEAT: Fade in lazy loaded images?
+
+
 
 ## WIP
 
