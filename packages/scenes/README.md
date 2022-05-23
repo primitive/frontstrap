@@ -6,51 +6,48 @@ Primitive Digital's Animated/Interactive Blocks | Components for the Frontity Pr
 
 Created with Node.js and React magic. 
 
-Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.
+Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.  
 
-With little help from our friends: [Bootstrap 5](https://v5.getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/). 
+With little help from our friends: [Bootstrap](https://getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/).  
 
-Live Site 👉  [Primitive Digital](https://primitivedigital.uk)
+Live Site 👉  [Primitive Digital](https://primitivedigital.uk)  
 
-Theme Dev stuff 👉  [Dev Stuff](https://dev.primitivedigital.uk)
+Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)  
 
-Theme NPM package ~  👉  [primitive-theme (v1.0.x)](https://www.npmjs.com/package/primitive-theme)
+Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)  
+Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)  
+Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)  
 
-Components NPM package 🎉  ~  👉  [primitiverocks (v1.0.x)](https://www.npmjs.com/package/primitiverocks)
-
-GitHub repo 👉  [primitivestuff](https://github.com/primitiveshaun/primitivestuff)
+GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
 
 
-**NB. This is a test / concept deployment.Codebase will be opensource, it's made available on AS-IS basis while I remove licenced/branded elements, please don't use them.**
+**NB. This project is WIP.**
 
+**Codebase will be opensource, available on AS-IS basis while I remove licenced/branded elements, don't use them.**
 
 See [changelog](CHANGELOG.md) for release notes.
 
 
-## [Crafted by Primitive Digital](https://primitivedigital.uk)
+## [Package crafted by Primitive Digital](https://primitivedigital.uk)
 
-![](https://api.primitivedigital.uk/wp-content/uploads/img/webby.png)
-
-
-## Deployment
-
-Follow the Frontity [deployment outlined in their Docs](https://docs.frontity.org/installation-and-deploy)
-
+![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
 🃏 The code is opensource so play like you mean business 🤓
 
+### Deployment
 
+Follow the Frontity [deployment outlined in their Docs](https://docs.frontity.org/installation-and-deploy)
 
 #### Need Support
 
-If you find any problems with this theme, please report an issue at:  
-https://github.com/primitiveshaun/primitivestuff/issues
+If you find any problems with this theme, please report an issues via Github:  
+https://github.com/primitive/frontstrap/issues
 
 
-#### [Primitive Theme created by Primitive Digital](https://primitivedigital.uk)
+#### [Frontstrap theme created by Primitive Digital](https://primitivedigital.uk)
 
 
-![](https://api.primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
+![](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
 #### Ω - *the end*
 
@@ -70,21 +67,36 @@ ooh, ooh, aah, aah! - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒
 
 ---
 
-This project was made when [Frontity](https://frontity.org/) and [Bootstrap5](https://v5.getbootstrap.com/) had babies...
+This project was made when [Frontity](https://frontity.org/), [Bootstrap5](https://getbootstrap.com/) and [React Bootstrap](https://react-bootstrap.github.io/) had a wild night with lots of [Emotion](https://emotion.sh/docs/introduction).
+
+Bootstrap then had a fight with [Rebass](https://rebassjs.org/) and it all got a bit freaky... 🤡
+
+WIP: The core components will work with Bootstrap or Rebass once complete
 
 
 ---
 
 ### » Frontity Channels 🌎
 
-- 📖 **[Docs](https://docs.frontity.org)**: this is the place to learn how to build amazing sites with Frontity.
-- 👨‍👩‍👧‍👦 **[Community](https://community.frontity.org/)**: use our forum to [ask any questions](https://community.frontity.org/c/dev-talk-questions), feedback and meet great people. This is your place too to share [what are you building with Frontity](https://community.frontity.org/c/showcases)!
-- 🐞 **[GitHub](https://github.com/frontity/frontity)**: we use GitHub for bugs and pull requests. Questions are answered in the [community forum](https://community.frontity.org/)!
-- 🗣 **Social media**: a more informal place to interact with Frontity users, reach out to us on [Twitter](https://twitter.com/frontity).
-- 💌 **Newsletter**: do you want to receive the latest framework updates and news? Subscribe [here](https://frontity.org/)
+## Open Source Community
 
-### » Get involved 🤗
+[![Community Forum Topics](https://img.shields.io/discourse/topics?color=blue&label=community%20forum&server=https%3A%2F%2Fcommunity.frontity.org%2F)](https://community.frontity.org/) [![Twitter: frontity](https://img.shields.io/twitter/follow/frontity.svg?style=social)](https://twitter.com/frontity) ![Frontity Github Stars](https://img.shields.io/github/stars/frontity/frontity?style=social)
 
-Got questions or feedback about Frontity? We'd love to hear from you. Use our [community forum](https://community.frontity.org) yo ! ❤️
+Frontity has a number of different channels at your disposal where you can find out more information about the project, join in discussions about it, and also get involved:
 
-Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
+- **📖 [Docs](https://docs.frontity.org/):** Frontity's primary documentation resource - this is the place to learn how to build amazing sites with Frontity.
+
+* **👨‍👩‍👧‍👦 [Community forum](https://community.frontity.org/):** join Frontity's forum and ask questions, share your knowledge, give feedback and meet other cool Frontity people. We'd love to know about what you're building with Frontity, so please do swing by the [forum](https://community.frontity.org/) and tell us about your projects.
+* **🐞 Contribute:** Frontity uses [GitHub](https://github.com/frontity/frontity) for bugs and pull requests. Check out the [Contributing](../../CONTRIBUTING.md/) section to find out how you can help develop Frontity, or improve this documentation.
+* **🗣 Social media**: interact with other Frontity users. Reach out to the Frontity team on [Twitter](https://twitter.com/frontity). Mention us in your tweets about Frontity and what you're building by using **`@frontity`**.
+* 💌 **Newsletter:** do you want to receive the latest news about Frontity and find out as soon as there's an update to the framework? Subscribe to our [newsletter](https://frontity.org/newsletter).
+
+### Get involved
+
+[![GitHub issues by-label](https://img.shields.io/github/issues/frontity/frontity/good%20first%20issue)](https://github.com/frontity/frontity/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+
+Got questions or feedback about Frontity? We'd love to hear from you in our [community forum](https://community.frontity.org).
+
+Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start then this guide might help: [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute).
+
+If you would like to start contributing to the code please open a pull request to address one of our [_good first issues_](https://github.com/frontity/frontity/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
