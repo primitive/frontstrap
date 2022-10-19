@@ -1,6 +1,6 @@
 {
   "name": "@primitive/pebbles",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "Primitive Base Components: It's the little things that make you happy.",
   "keywords": [
@@ -28,7 +28,7 @@
   "prettier": {},
   "dependencies": {
     "frontity": "^1.17.2",
-    "bootstrap": "^5.1.3",
+    "bootstrap": "^5.2.2",
     "facepaint": "^1.2.1"
   }
 }

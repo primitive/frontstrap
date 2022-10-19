@@ -1,6 +1,6 @@
 {
   "name": "@primitive/rocks",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "private": false,
   "description": "Primitive Building Materials: Block Components",
   "keywords": [
@@ -28,8 +28,8 @@
   "dependencies": {
     "frontity": "^1.17.2",
     "@frontity/html2react": "^1.7.0",
-    "bootstrap": "^5.1.3",
-    "react-bootstrap": "^2.4.0",
+    "bootstrap": "^5.2.2",
+    "react-bootstrap": "^2.5.0",
     "facepaint": "^1.2.1",
     "react-fontawesome": "^1.7.1",
     "react-instagram-embed": "^3.0.0"
