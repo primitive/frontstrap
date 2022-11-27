@@ -21,13 +21,13 @@ const jungleStyles = colors => {
       background: linear-gradient(to bottom, rgba(${colors.rgb.black}, 0.01) 0%, rgba(${colors.rgb.black}, 0.1) 45%, rgba(${colors.rgb.black}, 0.3) 65%, rgba(${colors.rgb.black}, 0.5) 100%),
         linear-gradient(to right, rgba(${colors.rgb.black}, 0.2) 0%, rgba(${colors.rgb.black}, 0.2) 90%, rgba(${colors.rgb.black}, 0.5) 100%),
         linear-gradient(to left, rgba(${colors.rgb.black}, 0.2) 0%, rgba(${colors.rgb.black}, 0.2) 90%, rgba(${colors.rgb.black}, 0.5) 100%),
-        url(https://api.primitivedigital.uk/wp-content/uploads/stone/aztec-300x300.png) repeat fixed;`,
+        url(https://primitivedigital.uk/wp-content/uploads/stone/aztec-300x300.png) repeat fixed;`,
 
       light: css`background-color: ${colors.gray};
         background: linear-gradient(to bottom, rgba(${colors.rgb.black}, 0.01) 0%, rgba(${colors.rgb.black}, 0.5) 100%),
           linear-gradient(to right, rgba(${colors.rgb.black}, 0.2) 0%, rgba(${colors.rgb.black}, 0.2) 90%, rgba(${colors.rgb.black}, 0.5) 100%),
           linear-gradient(to left, rgba(${colors.rgb.black}, 0.2) 0%, rgba(${colors.rgb.black}, 0.2) 90%, rgba(${colors.rgb.black}, 0.5) 100%),
-          url(https://api.primitivedigital.uk/wp-content/uploads/stone/junglerock-300x261.png) repeat fixed;`
+          url(https://primitivedigital.uk/wp-content/uploads/stone/junglerock-300x261.png) repeat fixed;`
     }
   }
 }
@@ -310,6 +310,7 @@ const pageall = colors => css`
 
   } 
 
+  
   .q-style-1 {
 
     blockquote { 
