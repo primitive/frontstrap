@@ -189,7 +189,7 @@ const DiscoList = ({ children, classes, rainbow }) => {
 
   return (
     <PimpMyList
-      bg={`${themecolor.coal} url(https://api.primitivedigital.uk/wp-content/uploads/stone/grayrock-300x300.png)`}
+      bg={`${themecolor.coal} url(https://primitivedigital.uk/wp-content/uploads/stone/grayrock-300x300.png)`}
       color={themecolor.coal}
       discoLight={rainbow}
     >
