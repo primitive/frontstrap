@@ -78,12 +78,12 @@ const timelinesHandler = {
     ?filter[timelines]&filter[term]=internet
     &[orderby]=year&order=desc
 
-  OK > https://api.primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=desc
-  OK > https://api.primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=asc
+  OK > https://primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=desc
+  OK > https://primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=asc
 
   TO TEST >
-  https://api.primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=asc
-  https://api.primitivedigital.uk/wp-json/wp/v2/temporal_events?filter[timelines]&filter[term]=internet
+  https://primitivedigital.uk/wp-json/wp/v2/temporal_events?[orderby]=year&order=asc
+  https://primitivedigital.uk/wp-json/wp/v2/temporal_events?filter[timelines]&filter[term]=internet
 
 */
 
