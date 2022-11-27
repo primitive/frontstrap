@@ -64,8 +64,8 @@ const BlockQuoteSecondary = styled.blockquote`
 `;
 
 const QuotePrimary = ({ quote, author }) => {
-  console.log('QuotePrimary');
-  console.log({ quote, author })
+  // console.log('QuotePrimary');
+  // console.log({ quote, author });
 
   return (
     <BlockQuotePrimary>
@@ -76,8 +76,6 @@ const QuotePrimary = ({ quote, author }) => {
 };
 
 const QuoteSecondary = ({ quote, author }) => {
-  console.log('QuoteSecondary')
-  console.log({ quote, author })
 
   return (
     <BlockQuoteSecondary>
