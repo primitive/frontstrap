@@ -215,7 +215,7 @@ const themeconfig = {
             instagram: "https://www.instagram.com/primitivedigital/",
             facebook: "https://www.facebook.com/primitivedigital",
             twitter: "https://twitter.com/primitivestuff",
-            github: "https://github.com/primitiveshaun",
+            github: "https://github.com/primitive",
             behance: "https://www.behance.net/primitiveshaun/"
           }
         }
