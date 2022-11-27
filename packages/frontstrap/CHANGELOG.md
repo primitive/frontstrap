@@ -7,6 +7,8 @@
 Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
 
 
+0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
+
 0.0.6: fix: randomWord display
 
 1.1.0: restructured for development of theme-able system. WIP
@@ -15,12 +17,12 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 
 ## Dev Notes
 
-* dependency errors, depreciation errors
 * frontity.settings is dominant over package/index
 * review licencing
 
 
 *Noted Issues / already resolved:*
+* dependency errors, depreciation errors
 * node 
 * reployed frontity to wp with embedded mode
 * vercel depreciated
