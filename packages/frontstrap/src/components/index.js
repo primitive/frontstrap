@@ -9,7 +9,7 @@ import MetaTitle from "@primitive/pebbles/meta-title";
 import globalStyles from "./dust/global-styles";
 //import FontFaces from "./dust/_font-faces";
 
-
+import Header from "./header";
 const Home = loadable(() => import("./mountains/page-home"));
 const Post = loadable(() => import("./mountains/post"));
 const Page = loadable(() => import("./mountains/page"));
@@ -20,11 +20,9 @@ import Timelines from "./mountains/timelines";
 import Timeline from "./mountains/timeline";
 import SubTimeline from "./mountains/subtimeline";
 
-import Header from "./header";
 import SkipLink from "@primitive/pebbles/skip-link";
 import GlobalPromo from "@primitive/rocks/global-promo";
 import GlobalSocial from "@primitive/rocks/src/social/social-section";
-
 import KnobblyKnees from "@primitive/rocks/footer-cta";
 import FurryBoots from "@primitive/rocks/footer-kudos";
 
@@ -68,19 +66,17 @@ const Theme = ({ state }) => {
 
         <Head>
           
-          <meta name="description" content={state.frontity.description} />
           <html lang="en" />
-
+          <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="canonical" href={state.theme.canonical} />
+          <meta name="description" content={state.frontity.description} />
 
           <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Hepta+Slab|Pacifico|Playfair+Display:700|Slabo+27px&display=swap" />
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" />
-
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap-grid.min.css" integrity="sha512-Jn+RkWIYxM5Cn3mfAWyV7CgxFnDFxe3EBh93974boKdhcAUE9TSr7qJTJNlzt+J2wG6a3sLYnEyRF+1/o01u9Q==" crossorigin="anonymous" />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-alpha2/css/bootstrap-utilities.min.css" integrity="sha512-mkkoFJEfBE2cFvIICxddh2VS0uB//H6/hf7siESrN2H7NiyzoGwZ5Rk3Ta12mPxlNOVq5IjhQ97YBK11vldYug==" crossorigin="anonymous" />
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" />          
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           
           <link rel="preconnect" SameSite="None" Secure href="https://www.google-analytics.com" />
-          { /* <link rel="dns-prefetch" SameSite="None" Secure href="https://www.google-analytics.com" /> */ }
           <link rel="dns-prefetch" SameSite="None" Secure href="http://doubleclick.net" />
           
         </Head>
