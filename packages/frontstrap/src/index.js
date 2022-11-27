@@ -8,8 +8,7 @@ import form from "./processors/wpcf7";
 import quoteBook from "./processors/blockquote-book";
 import listDisco from "./processors/ul-discolist";
 
-//import pQuote from "./processors/q-primary";
-//import sQuote from "./processors/q-secondary";
+// import pQuote from "./processors/q-primary";
 
 import CustomPageHandlers from "./components/sand/handlers";
 import { themecolor } from "./components/dust/_colors";

@@ -48,8 +48,8 @@ const BlockQuotePrimary = styled.blockquote`
 `;
 
 const QuotePrimary = ({ quote, author }) => {
-  console.log('pQuote');
-  console.log({ quote, author })
+  // console.log('pQuote');
+  // console.log({ quote, author })
 
   return (
     <BlockQuotePrimary>
@@ -62,12 +62,12 @@ const QuotePrimary = ({ quote, author }) => {
 const quote = {
   name: 'q-primary',
   priority: 10,
+  // test: ({ component, props }) => component === "blockquote",
   test: ({ component, props }) => component === "blockquote" && props.className.includes("q-primary"),
   processor: ({ node }) => {
 
     const quote = node.children[0].children[0].content;
     const author = node.children[1].children[0].content;
-    //const quoteStyle = props.className.includes("q-primary") ? QuotePrimary : QuoteSecondary;
 
     return {
       component: QuotePrimary,

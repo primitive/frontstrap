@@ -91,7 +91,7 @@ const QuoteSecondary = ({ quote, author }) => {
 const quote = {
   name: 'quote',
   priority: 10,
-  test: ({ component, props }) => component === "blockquote" && (props.className.includes("q-primary") || props.className.includes("q-secondary")),
+  test: ({ component, props }) => component === "blockquote" && (props.className.includes("q-book")),
   processor: ({ node, props }) => {
 
     const quote = node.children[0].children[0].content;
