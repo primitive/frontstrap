@@ -21,14 +21,16 @@ const themeconfig = {
         header: {
           variant: "", // "" | "light" | "dark"
           logo: "https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png",
-          alt: "Primitive Digital - Web Design &amp; Development",
+          alt: "Primitive Digital - Design &amp; Development",
           random: randomWord("Fabulous,Fruity,Awesome,Marvelous")
         },
+
         main: {
           bg: "linear-gradient(180deg, rgba(66, 174, 228, 0.1), rgba(66, 174, 228, 0) )",
           bordertop: "3px solid rgba(12,17,43,0.9)",
           borderbottom: ""
         },
+        
         footer: {
           rocks: "",
           bg: "#D4AEA6",
