@@ -6,7 +6,7 @@ import { css } from "frontity";
 // currentColor - https://css-tricks.com/currentcolor/
 // vendor prefixing: emotion uses Stylis: https://emotion.sh/docs/@emotion/cache#prefix
 
-const cssReboot = (config, colors) => css`
+const bsOverrides = (config, colors) => css`
 
 *,
 *::before,
@@ -389,4 +389,4 @@ progress { vertical-align: baseline; }
 `;
 
 
-export default cssReboot;
+export default bsOverrides;

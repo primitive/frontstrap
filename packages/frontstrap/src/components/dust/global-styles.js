@@ -1,13 +1,12 @@
 import { css } from "frontity";
 //import { Grid } from "./_grid";
-import { themeconfig } from "./_config";
-import cssReboot from "./_reboot";
-import bsStyles from "./_bscss";
+// import { themeconfig } from "./_config";
+
+import bsOverrides from "./bs-overrides";
+
+// import bsStyles from "./_bscss";
 
 
-
-//sk-dev: missing css animation now - check safari / mobile
-/*
 const accessibilitySettings = css`
   @media (prefers-reduced-motion: reduce) {
     * {
@@ -16,7 +15,7 @@ const accessibilitySettings = css`
     }
   }
 `;
-*/
+
 
 const typeSetting = (config, colors) => css`
 
@@ -77,19 +76,18 @@ p {
 
 
 
-@media screen and (min-width: 576px) {
-  html { font-size: 14px; }
-}
-@media screen and (min-width: 768px) {
-  html { font-size: 15px; }
-}
-@media screen and (min-width: 992px) {
-  html { font-size: 16px; }
-}
-@media screen and (min-width: 1200px) {
-  html { font-size: 18px; }
-
-}
+  @media screen and (min-width: 576px) {
+    html { font-size: 14px; }
+  }
+  @media screen and (min-width: 768px) {
+    html { font-size: 15px; }
+  }
+  @media screen and (min-width: 992px) {
+    html { font-size: 16px; }
+  }
+  @media screen and (min-width: 1200px) {
+    html { font-size: 18px; }
+  }
 
 `;
 
@@ -125,10 +123,10 @@ const globalStyles = colors => css`
 
 const globalStyle = (config, colors) =>
   css([
-    cssReboot(config, colors),
+    bsOverrides(config, colors),
     typeSetting(config, colors),
-    bsStyles, //20kb
-    //accessibilitySettings,
+    // bsStyles, //20kb
+    accessibilitySettings,
     globalStyles(colors)
   ]);
 
