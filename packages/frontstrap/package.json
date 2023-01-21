@@ -27,8 +27,8 @@
     "@frontity/components": "^1.8.2",
     "@frontity/html2react": "^1.7.0",
     "frontity": "^1.17.2",
-    "bootstrap": "^5.2.2",
-    "react-bootstrap": "^2.5.0",
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.7.0",
     "facepaint": "^1.2.1"
   }
 }

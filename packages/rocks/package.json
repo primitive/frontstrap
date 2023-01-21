@@ -28,8 +28,8 @@
   "dependencies": {
     "frontity": "^1.17.2",
     "@frontity/html2react": "^1.7.0",
-    "bootstrap": "^5.2.2",
-    "react-bootstrap": "^2.5.0",
+    "bootstrap": "^5.2.3",
+    "react-bootstrap": "^2.7.0",
     "facepaint": "^1.2.1",
     "react-fontawesome": "^1.7.1",
     "react-instagram-embed": "^3.0.0"
