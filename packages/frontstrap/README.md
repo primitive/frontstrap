@@ -66,7 +66,7 @@ Installing and beginning development
 https://docs.frontity.org/getting-started/quick-start-guide
 
 
-1. `git clone https://github.com/primitiveshaun/primitiveone`
+1. `git clone https://github.com/primitive/frontstrap`
 2. `cd primitiveone`
 3. `npm install && npx frontity dev (from the project's root directory)`
 
