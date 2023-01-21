@@ -28,7 +28,7 @@
   "prettier": {},
   "dependencies": {
     "frontity": "^1.17.2",
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "facepaint": "^1.2.1"
   }
 }
