@@ -3,9 +3,9 @@ const settings = {
   state: {
     frontity: {
       url: "https://primitivedigital.uk",
-      title: "Primitive Digital's",
+      title: "Primitive Digital",
       description: "Frontstrap Theme",
-      tagline: "Want a Website?",
+      tagline: "Website's & Apps",
       phrase1: "We Make",
       phrase2: ""
     }
