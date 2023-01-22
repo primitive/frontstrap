@@ -1,6 +1,6 @@
 # Frontstrap Frontity Theme
 
-Rolling Mountains of the Primitive Realm | Views for the Frontity Theme's
+Primitive Rolling Mountains | Beautiful Views 
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
