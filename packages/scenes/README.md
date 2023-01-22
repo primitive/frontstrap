@@ -2,7 +2,7 @@
 # Primitive Scenes
 Primitive Digital's Animated/Interactive Blocks | Components for the Frontity Primitive Theme
 
-![](https://api.primitivedigital.uk/wp-content/uploads/img/punky_logo_smcoral.png)
+![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smcoral.png)
 
 Created with Node.js and React magic. 
 
