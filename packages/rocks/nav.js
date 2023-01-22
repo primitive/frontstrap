@@ -3,22 +3,33 @@ import Link from "@frontity/components/link";
 import Image from "@frontity/components/image";
 import { Container, Row, Nav, Navbar} from "react-bootstrap";
 
+/**
+ * Navigation Component
+ *
+ * Renders the navigation links
+ */
 const MainNav = ({ state }) => (
 
-  <NavWrap bg="">
+  <NavWrap>
     <Container>
-      <Row>
 
         <StyledNavbar
           collapseOnSelect
+          bg=""
           expand="lg"
           aria-label="Main"
           text={state.theme.colors.primary}
           hover={state.theme.colors.success}
         >
 
-          <Navbar.Brand className="p-0" href="/">
-            <Image src={state.theme.config.header.logo} alt={state.theme.config.header.alt} />
+<Container>
+
+          <Navbar.Brand href="/">
+            <Image
+              src={state.theme.config.header.logo}
+              className="d-inline-block align-top"
+              alt={state.theme.config.header.alt}
+            />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="site-nav" />
@@ -44,35 +55,43 @@ const MainNav = ({ state }) => (
             </Nav>
           </Navbar.Collapse>
 
+          </Container>
         </StyledNavbar>
 
-      </Row>
     </Container>
   </NavWrap>
 );
 
 export default connect(MainNav);
 
-const StyledNavbar = styled(Navbar)`
-  border-top-left-radius: .5rem;
-  border-top-right-radius: .5rem;
-  background-color: ${(props) => props.bg ? props.bg : 'rgba(12,17,43,0.9)'};
-  position: relative;
-  z-index: 3;
-
-  a.navbar-brand {
-    color:transparent;
-    border: none;
-  }
-`;
-
 const NavWrap = styled.div`
   .navbar-toggler {
     color: rgba(0,0,0,.5);
     border-color: rgba(0,0,0,.2);
     background-color: #87af4e;
+
+    border-radius: 0;
   }
 `;
+
+const StyledNavbar = styled(Navbar)`
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 0rem;
+  background-color: ${(props) => props.bg ? props.bg : 'rgba(12,17,43,0.9)'};
+  position: relative;
+  z-index: 3;
+
+  a.navbar-brand {
+    max-width: 200px;
+    max-height: 65px;
+    color:transparent;
+    border: none;
+  }
+  a.navbar-brand img {
+    height: 65px;
+  }
+`;
+
 
 const StyledLink = styled(Link)`
   font-size: 1rem;
