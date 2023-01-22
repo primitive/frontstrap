@@ -20,7 +20,7 @@ const themeconfig = {
 
         header: {
           variant: "", // "" | "light" | "dark"
-          logo: "https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png",
+          logo: "https://primitivedigital.uk/wp-content/uploads/2022/11/pd-logo-2023_white.png",
           alt: "Primitive Digital - Design &amp; Development",
           random: randomWord("Fabulous,Fruity,Awesome,Marvelous")
         },
