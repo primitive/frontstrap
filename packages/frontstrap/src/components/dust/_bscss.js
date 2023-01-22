@@ -1,5 +1,7 @@
 import { css } from "frontity";
 
+// sk-dev: VOID to DELETE
+
 // sk-dev: test bs5 css 22/jul 2020
 
 /*!
