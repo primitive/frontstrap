@@ -8,11 +8,6 @@ import { css } from "frontity";
 
 const bsOverrides = (config, colors) => css`
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 
 html { 
   margin: 0px;
