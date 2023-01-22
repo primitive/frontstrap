@@ -105,7 +105,7 @@ const Delorean = styled.div`
   width: 30vw;
   max-height: 120px;
   max-width: 240px;
-  background: url(https://api.primitivedigital.uk/wp-content/uploads/2020/05/pd-delorean.png);
+  background: url(https://primitivedigital.uk/wp-content/uploads/2020/05/pd-delorean.png);
   background-repeat: no-repeat;
   background-size: contain;
 `;
