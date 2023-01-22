@@ -10,7 +10,7 @@ const themeconfig = {
             bg: "white",
             font: {
               size: "1rem",
-              family: 'Verdana',
+              family: 'Helvetica, Helvetica Neue, Arial, Sans-serif',
               color: "",
               weight: "300",
               lineheight: ""
@@ -19,7 +19,7 @@ const themeconfig = {
         },
 
         header: {
-          variant: "", // "" | "light" | "dark"
+          variant: "", //supports: "" | "light" | "dark"
           logo: "https://primitivedigital.uk/wp-content/uploads/2022/11/pd-logo-2023_white.png",
           alt: "Primitive Digital - Design &amp; Development",
           random: randomWord("Fabulous,Fruity,Awesome,Marvelous")
@@ -44,8 +44,9 @@ const themeconfig = {
           text4: "Development",
           contact: {
             info: "Phone 0113 314 8880",
-            prompt: "to make beautiful digital stuff together"
+            prompt: "to make beautiful digital stuff"
           },
+
           kudos: {
             alt1: "Primitive Digital - Web Design &amp; Development",
             src1: "https://gist.githubusercontent.com/primitiveshaun/0ed73e662218497565fc4c59464f05db/raw/fa54ac683c60a7576f254daf82225d7c52291b16/pd_primitive.svg",
@@ -57,6 +58,7 @@ const themeconfig = {
             src4: "https://gist.githubusercontent.com/primitiveshaun/69d1ac57b037931ea645629fa2bce642/raw/7c36d73c5ce8161a56dfc13deaac5b0e813b4e8a/pd_frontity.svg",
             link: "https://frontity.org/"
           },
+
           credit: {
             legal: "sknow.it ltd.",
             link: "https://sknow.it",
@@ -80,6 +82,7 @@ const themeconfig = {
           showSilver: true,
           showBronze: true,
           showBanner: false,
+
           hero: {
             rocks: "scenes",
             scene: "jungle",
@@ -96,7 +99,7 @@ const themeconfig = {
             posttype: "works",
             mode: "random",
             limit: 3,
-            title: "Some Recent Projects",
+            title: "Past Projects",
             subtitle: "We Made This.",
             icon: ""
           },
@@ -110,7 +113,7 @@ const themeconfig = {
             list1: ["Web Sites, CMS, CRM and Blogs.", "Fully Editable Content.", "Online shops and Progressive Web Apps.", "API's and application integration", "Mobile friendly and responsive", "Google Analytics", "High tech, low cost, no hassle", "Excellence as standard & satisfaction guaranteed"],
             link1: "/web-design/",
             icon1: "",
-            title2: "We Love Startups",
+            title2: "Startups",
             imageFrame2: "fancy-frame",
             imagesrc2: "https://primitivedigital.uk/wp-content/uploads/promo/selfiemonkey_square.jpg",
             listFrame2: "frame",
