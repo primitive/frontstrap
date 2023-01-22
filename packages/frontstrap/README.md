@@ -1,11 +1,11 @@
 # Frontstrap Frontity Theme
 
-Primitive Digital's Rolling Mountains | a.k.a Views for the Frontity Primitive Theme
+Rolling Mountains of the Primitive Realm | Views for the Frontity Theme's
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
 # Frontstrap Frontity Theme
-A Headless WordPress (REST API) / Headless CMS forged with a smattering of Node.js and React magic. 
+A WordPress as a Headless CMS starter theme.
 
 Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.
 
@@ -15,11 +15,13 @@ Live Site 👉  [Primitive Digital](https://primitivedigital.uk)
 
 Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)
 
+
+GitHub 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
 Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)  
 Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)  
 Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)  
 
-GitHub repo 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
+
 
 
 
@@ -67,7 +69,7 @@ https://docs.frontity.org/getting-started/quick-start-guide
 
 
 1. `git clone https://github.com/primitive/frontstrap`
-2. `cd primitiveone`
+2. `cd frontstrap`
 3. `npm install && npx frontity dev (from the project's root directory)`
 
 ** Quick Ref: Commands **
@@ -99,7 +101,7 @@ Enjoy!
 -------
 
 If you find any problems with this theme, please report an issue at:  
-https://github.com/primitiveshaun/primitiveone/issues
+https://github.com/primitive/frontstrap/issues
 
 #### [Primitive One created by Primitive Digital](https://primitivedigital.uk)
 
