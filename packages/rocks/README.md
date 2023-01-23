@@ -44,11 +44,6 @@ If you find any problems with this theme, please report an issues via Github:
 https://github.com/primitive/frontstrap/issues
 
 
-#### [Frontstrap theme created by Primitive Digital](https://primitivedigital.uk)
-
-
-![](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
-
 #### Ω - *the end*
 
 ```     
