@@ -20,8 +20,10 @@ const accessibilitySettings = css`
 const typeSetting = (config, colors) => css`
 
 html {
+  /*
   font-size: 100%;
   font-size: calc(3vw);
+ */
 }
 
 body {
@@ -42,10 +44,23 @@ h1, h2, h3, h4, h5, h6 {
 h1, .slab { 
   font-family: 'Hepta Slab', serif;
   font-size: 3.3rem;
-  /*font-size: calc(1.375rem + 1.5vw);*/
+  /*
+  font-size: calc(1.375rem + 1.5vw);
+
+  font-family: goodlife-brush, sans-serif;
+  font-family: goodlife-sans, sans-serif;
+  font-family: goodlife-sans-condensed, sans-serif;
+  font-family: goodlife-script, sans-serif;
+  font-family: goodlife-extras, sans-serif;
+
+  */
+
+  font-family: goodlife-serif,sans-serif;
+  font-size: 700;
+
 }
 h2, .heading {
-  font-family: 'Amatic SC', sans-serif;
+  font-family: goodlife-sans-condensed, sans-serif;
   font-size: 3rem;
   font-size: calc(1.325rem + 0.9vw);
 }
@@ -91,6 +106,9 @@ p {
 
 `;
 
+// sk-dev: tbc root vars
+// https://getbootstrap.com/docs/5.0/customize/css-variables/#component-variables
+
 const globalStyles = colors => css`
 
   figcaption,
@@ -108,9 +126,22 @@ const globalStyles = colors => css`
     color: inherit;
   }
 
-  .navbar-brand a {
-    width: 200px;
+  /*
+  .q-wrap blockquote {
+    position: relative;
+    transform: translateX(0%);
+    animation: slide 10s infinite;
   }
+
+  @keyframes slide {
+    0% { transform: translateX(0%); }
+    25% { transform: translateX(10%); }
+    50% { transform: translateX(0%); }
+    75% { transform: translateX(10%); }
+    100% { transform: translateX(0%); }
+  }
+
+  */
 
   .last-updated {
     display: none;
