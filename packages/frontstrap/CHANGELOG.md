@@ -1,4 +1,4 @@
-# @primitive/frontstrap (frontstrap theme dev)
+# @frontstrap (frontstrap theme)
 
 ***The Log of Change***
 
@@ -7,31 +7,29 @@
 Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
 
 
+0.0.8: version tests and server update
 0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
-
 0.0.6: fix: randomWord display
-
 1.1.0: restructured for development of theme-able system. WIP
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
 
 
 ## Dev Notes
 
+* audit: 21 high severity vulnerabilities
 * frontity.settings is dominant over package/index
 * review licencing
 
 
-*Noted Issues / already resolved:*
-* dependency errors, depreciation errors
-* node 
-* reployed frontity to wp with embedded mode
-* vercel depreciated
-* arrays in settings have duplicated values
-* vercel(zeit) deployment failure .gitignore, .nowignore - build folder issue with github setup.
-* Some CSS-IN-JS gets messed up on prod build. this could have been an extra '}'?
+*Deployment:*
+
+* wordpress deployed to frontity embedded mode plugin
+
+
+
 
 ## Issues
-- [ ] Random content errors  
+- [ ] test issues with node 18
 
 ## TBC
 - [ ] FEAT: Fade in lazy loaded images?

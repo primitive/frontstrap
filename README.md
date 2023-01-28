@@ -1,6 +1,6 @@
 # frontstrap
 
-This project was bootstrapped with [Frontity](https://frontity.org/).
+[Frontity](https://frontity.org/).
 
 #### Table of Contents
 
@@ -11,11 +11,7 @@ This project was bootstrapped with [Frontity](https://frontity.org/).
 - [Deploy](#deploy)
 
 ### Primitive
-1.0.0 - package + theme creted with frontity cli
-1.0.1 - renaming
-1.0.2 - frontity config and packages
-1.0.3 - update frontity
-1.0.4 - update deps / rebase + migrate - functional commit
+Primitive Rolling Mountains | Beautiful Views
 
 ### Launch a development server
 
