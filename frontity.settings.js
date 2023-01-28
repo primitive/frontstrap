@@ -40,7 +40,7 @@ const settings = {
             showExcerpt: true
           },
           canonical: "https://primitivedigital.uk",
-          debug: true
+          debug: false
         }
       }
     },
