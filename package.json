@@ -12,13 +12,13 @@
     "wordpress"
   ],
   "engines": {
-    "node": "16.x",
-    "npm": "8.x"
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
   },
   "scripts": {
-    "dev": "frontity dev",
-    "build": "frontity build",
-    "serve": "frontity serve"
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider frontity dev",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider frontity build",
+    "serve": "NODE_OPTIONS=--openssl-legacy-provider frontity serve"
   },
   "homepage": "https://primitivedigital.uk",
   "author": "Shaun Knowles <hi@primitivedigital.uk> (https://shaunknowles.uk/)",
@@ -46,7 +46,7 @@
     "@aamodtgroup/frontity-contact-form-7": "^1.0.1"
   },
   "volta": {
-    "node": "16.19.0",
-    "npm": "8.19.3"
+    "node": "18.9.1",
+    "npm": "9.4.0"
   }
 }
