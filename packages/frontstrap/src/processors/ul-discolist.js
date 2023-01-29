@@ -185,7 +185,7 @@ const PimpMyList = styled.div`
 
 const DiscoList = ({ children, classes, rainbow }) => {
 
-  console.log('DiscoList', { children, classes, rainbow })
+  // console.log('DiscoList', { children, classes, rainbow })
 
   return (
     <PimpMyList
