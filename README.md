@@ -1,6 +1,6 @@
 # frontstrap
 
-[Frontity](https://frontity.org/).
+Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless-WordPress.
 
 #### Table of Contents
 
@@ -12,6 +12,22 @@
 
 ### Primitive
 Primitive Rolling Mountains | Beautiful Views
+
+WIP: 2023 sanity check and project post-covid revival
+Frontity currently supports Node 16.
+
+Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
+- [error:0308010C:digital envelope routines::unsupported"](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
+- [Openssl Enable Legacy Renegotiation](https://pipeawk.com/index.php/2022/05/19/openssl-enable-legacy-renegotiation/)
+- [node: --openssl-legacy-provider is not allowed in NODE_OPTIONS](https://bobbyhadz.com/blog/node-openssl-legacy-provider-is-not-allowed-in-node-options)
+
+Dev. env workaround
+
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+Issue will be fixed in v18.
 
 ### Launch a development server
 
