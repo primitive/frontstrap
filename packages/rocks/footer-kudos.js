@@ -49,15 +49,6 @@ const KnobblyKnees = ({ state }) => {
               alt={display.kudos.alt3}
               src={display.kudos.src3}
             />
-
-            <span className="slab">+</span>
-
-            <a href={display.kudos.link}>
-              <Image
-                alt={display.kudos.alt4}
-                src={display.kudos.src4}
-              />
-            </a>
           </Col>
 
         </KissesTo>
