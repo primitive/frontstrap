@@ -1,6 +1,6 @@
 {
   "name": "frontstrap",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
   "description": "Starter Theme for Bootstrap based Frontity / Headless-WordPress deployments.",
   "keywords": [
@@ -46,7 +46,7 @@
     "@aamodtgroup/frontity-contact-form-7": "^1.0.1"
   },
   "volta": {
-    "node": "18.9.1",
+    "node": "16.20.2",
     "npm": "9.4.0"
   }
 }
