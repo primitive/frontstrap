@@ -189,7 +189,7 @@ const DiscoList = ({ children, classes, rainbow }) => {
 
   return (
     <PimpMyList
-      bg={`${themecolor.coal} url(https://primitivedigital.uk/wp-content/uploads/stone/grayrock-300x300.png)`}
+      bg={`${themecolor.coal} linear-gradient(0deg, rgba(3,5,5,1) 0%, rgba(47,79,79,1) 100%);`}
       color={themecolor.coal}
       discoLight={rainbow}
     >
