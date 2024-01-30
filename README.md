@@ -2,6 +2,11 @@
 
 Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless-WordPress.
 
+## 0.0.9 (Jan 30, 2024)
+
+**N.B.:**
+Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
+
 #### Table of Contents
 
 - [Primitive](#primitive)
@@ -11,17 +16,16 @@ Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless-Wor
 - [Deploy](#deploy)
 
 ### Primitive
-Primitive's Rolling Mountains | Beautiful Views
+Primitive's Rolling Mountains (Beautiful Views)
 
 WIP: 2023 sanity check and project post-covid revival
 
-1. Frontity needs maintainers. Seems to have been abandoned by the core team now funding stopped, not sure is't gained enough OS community momentum to live on.
+
+**Frontity Framework is not under active development anymore. Frontity currently supports Node >= 16.**
 
 2. Research possible alternatives: https://nextjswp.com/
-
 3. Fix: Head tags issue?
 
-3. Upgrade: Frontity currently supports Node >= 16.
 
 Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
 - [error:0308010C:digital envelope routines::unsupported"](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)

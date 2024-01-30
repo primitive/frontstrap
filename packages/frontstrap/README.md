@@ -4,12 +4,16 @@ Primitive Rolling Mountains | Beautiful Views
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
+## 0.0.9 (Jan 30, 2024)
+
+**N.B.:**
+Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
+
+
 # Frontstrap Frontity Theme
 A WordPress as a Headless CMS starter theme.
 
-Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework.
-
-With little help from our friends: [Bootstrap](https://getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/). 
+Built on the awesome, itty bitty, [Frontity](https://frontity.org/) framework. With little help from our friends: [Bootstrap](https://getbootstrap.com/), [GSAP](https://greensock.com/gsap/) and [ScrollMagic](https://scrollmagic.io/). 
 
 Live Site 👉  [Primitive Digital](https://primitivedigital.uk)
 

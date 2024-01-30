@@ -1,50 +1,24 @@
-# @frontstrap (frontstrap theme)
+# @frontstrap (frontity theme)
 
 ***The Log of Change***
 
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
 
-Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
+## 0.0.9 (Jan 30, 2024)
+
+**N.B.:**
+Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
 
 
-0.0.8: version tests and server update
-0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
-0.0.6: fix: randomWord display
-1.1.0: restructured for development of theme-able system. WIP
-1.0.0: customised theme based on early release of frontity mars theme. published to npm.
+**Deployment:**
+- deployed to wordpress with frontity embedded mode plugin
 
-
-## Dev Notes
-
-* audit: 21 high severity vulnerabilities
-* frontity.settings is dominant over package/index
-* review licencing
-
-
-*Deployment:*
-
-* wordpress deployed to frontity embedded mode plugin
-
-
-
-
-## Issues
-- [ ] test issues with node 18
-
-## TBC
-- [ ] FEAT: Fade in lazy loaded images?
-- [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
-- [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)
-- [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
-
-
-
-## WIP
-
-- [ ] BS emotion warnings
-- [ ] WebFonts: Tested as per docs. Implementation works but some google fonts don't convert well
-- [ ] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
-- [ ] TBC. Some Fonts gets messed up on prod build?
+## TO REVIEW + MIGRATE USEFUL BITS
+- [x] test issues with node 18 (kinda works)
+- [x] frontity.settings is dominant over package/index
+- [x] BS emotion warnings
+- [x] WebFonts: Tested as per docs. Implementation works but some google fonts don't convert well
+- [x] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
 
 - [ ] FIX: menu collapse / routing
 - [ ] FIX: preloading
@@ -56,16 +30,16 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 - [ ] Split primitivescenes package
 - [ ] Split theme / dev staging
 
-- [ ] Publish to npm
+- [x] Publish to npm
 
-- [ ] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
-- [ ] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
+- [x] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
+- [x] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
 - [ ] [Theme: WP Theme Bridge](https://community.frontity.org/t/theme-bridge/1432/12)
 
-
-## TODO
-
-
+- [ ] FEAT: Fade in lazy loaded images?
+- [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
+- [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)
+- [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
 - [ ] Research conditional loading of UI cores + theme
 - [ ] Set base CSS to use none/twentytwenty/bootstrap (grid, classes, --modifiers-size/transparency/darken/lighten)
 - [ ] Research create a UI/cf7 theme builder vs cli
@@ -76,11 +50,22 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 - Q: imports / conditional / slots?  
 
 
-## History
+
+**Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
+
+## History (frontstrap on npm)
+
+0.0.9: housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
+0.0.8: version tests and server update
+0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
+0.0.6: fix: randomWord display
+1.1.0: restructured for development of theme-able system. WIP
+1.0.0: customised theme based on early release of frontity mars theme. published to npm.
+
+## Historic, erm..., History (primitiveone / primitive-theme on npm)
 
 **1.1.6 > Frontity updated (July 12, 2020):**
 - [x] Check serch console after domain migration /home/ is the main error url?
-
 
 **1.1.6 > Update (June 28, 2020):**
 - [x] Created bedrock wp twentytwenty child theme 
@@ -101,11 +86,9 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 - [x] Update gsap to v3
 - [x] Add dev mode only logging
 
-
 **1.1.2 > Update (May 19, 2020):**
 - [x] Update Frontity / packages
 - [x] Added Google Analytics package (May 10th): [@frontity/google-analytics](https://www.npmjs.com/package/@frontity/google-analytics)
-
 
 **1.1.1 > Update (April 29, 2020):**
 - [x] Develop base theming and config
@@ -130,7 +113,6 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 - [x] facebook: like, page
 - [x] Refine use of Bootstrap/CSS Frameworks and global/component CSS-IN-JS (emotion)
 
-
 #### - [x] Intergrate New Frontity Features;
 - [x] Custom Post Types and Taxonomies
 - [x] Added some custom post types / taxonomies content to wp
@@ -138,7 +120,6 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 - [x] Done via plugins ACF+CPT UI (I've not modified functions.php at all yet)
 - [x] Switch/router plus hi-jacked some code updates from the twentytwenty theme
 - [x] Added cf7 package and /contact page
-
 
 **1.0.11 > Update (January 15, 2020):**
 - Plan: CPT/Taxonomies, 
@@ -175,6 +156,7 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 
 **1st Working Draft Release (September 16, 2019):**
 - Deployed to Zeit Now with basic Google analytics snippet  
+
   
 #### Ω - *the end*
 
