@@ -7,22 +7,23 @@ const themeconfig = {
         grid: Grid,
         style: {
           body: {
-            bg: "white",
+            bg: "#fffefe",
             font: {
               size: "1rem",
-              family: 'Helvetica, Helvetica Neue, Arial, Sans-serif',
+              family: 'var(--pd-font-family-body)',
               color: "",
               weight: "300",
-              lineheight: ""
+              lineheight: "1.5"
             }
           },
         },
 
         header: {
-          variant: "", //supports: "" | "light" | "dark"
-          logo: "https://primitivedigital.uk/wp-content/uploads/2022/11/pd-logo-2023_white.png",
+          variant: "dark", //supports: "" | "light" | "dark"
+          logo: "https://primitivedigital.uk/wp-content/uploads/img/pd-logo-greendark-duo.png",
           alt: "Primitive Digital - Design &amp; Development",
-          random: randomWord("Fabulous,Fruity,Awesome,Marvelous")
+          link: "/contact/",
+          random: randomWord("Fabulous,Fruity,Fast,Awesome,Marvelous")
         },
 
         main: {
@@ -43,8 +44,9 @@ const themeconfig = {
           text3: "&",
           text4: "Development",
           contact: {
-            info: "Phone 0113 314 8880",
-            prompt: "to make beautiful digital stuff"
+            prompt: "Don't Delay, Call Today!",
+            info: "0113 314 8880",
+            incentive: "to make beautiful things together"
           },
 
           kudos: {
@@ -60,8 +62,8 @@ const themeconfig = {
           },
 
           credit: {
-            legal: "sknow.it ltd.",
-            link: "https://sknow.it",
+            legal: "Primitive Digital",
+            link: "https://primitivedigital.uk",
             label: "Website crafted by ",
             creator: "Primitive Digital",
             backlink: "https://primitivedigital.uk"
@@ -79,8 +81,9 @@ const themeconfig = {
           showHero: true,
           showIntro: true,
           showGold: true,
-          showSilver: true,
+          showSilver: false,
           showBronze: true,
+          showBrass: true,
           showBanner: false,
 
           hero: {
@@ -110,19 +113,18 @@ const themeconfig = {
             imageFrame1: "fancy-frame",
             imagesrc1: "https://primitivedigital.uk/wp-content/uploads/promo/wantawebsite_square.jpg",
             listFrame1: "frame",
-            list1: ["Web Sites, CMS, CRM and Blogs.", "Fully Editable Content.", "Online shops and Progressive Web Apps.", "API's and application integration", "Mobile friendly and responsive", "Google Analytics", "High tech, low cost, no hassle", "Excellence as standard & satisfaction guaranteed"],
+            list1: ["Web Sites, Online Shops & Apps", "CMS, KMS, LMS, API's & Integrations", "Fully Editable & Mobile Friendly", "Search Engine Optimised", "High tech, low cost, no hassle"],
             link1: "/web-design/",
             icon1: "",
-            title2: "Startups",
+            title2: "Startups & MVPs",
             imageFrame2: "fancy-frame",
             imagesrc2: "https://primitivedigital.uk/wp-content/uploads/promo/selfiemonkey_square.jpg",
             listFrame2: "frame",
-            list2: ["Get a custom built Website", "Professionally designed and branded", "Plus Logo design", "Plus business card design", "Easy, peasy chimpanzizi!"],
+            list2: ["Bespoke Websites & Apps", "Professionally designed and branded", "With Logo design", "Plus all marketing assets", "Easy, peasy chimpanzizi!"],
             link2: "/darwin-project/",
             icon2: ""
           }
         },
-
         tabs: {
           variant: "",
           bgcolor: "",
@@ -131,9 +133,9 @@ const themeconfig = {
             title1: "Web Design",
             text1: "Find your audience",
             title2: "App &amp; UI Design",
-            text2: "And connect with your users",
+            text2: "Connect with your users",
             title3: "Brand &amp; Logo Design",
-            text3: "In creative, beautiful and consistent ways",
+            text3: "In creative, beautiful & consistent ways",
             title4: "Print Design",
             text4: "Across all platforms"
           },
