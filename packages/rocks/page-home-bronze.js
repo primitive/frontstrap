@@ -40,7 +40,7 @@ const Bronze = ({ state }) => {
                 <ul>
                   {
                     display.list1.map((item, i) => (
-                      <li key={i}>{item}</li>
+                      <li key={i}><i className="fa fa-check-square-o" aria-hidden="true"></i>{item}</li>
                     ))
                   }
                 </ul>
@@ -51,8 +51,9 @@ const Bronze = ({ state }) => {
 
           <Row>
             <Col className="align-content-center pt-5 pb-0">
+              <p className="news text-center pt-3 pb-3">Excellence as standard</p>
               <CTA
-                text="Find out More"
+                text="Discover More"
                 link="/web-design/"
                 colors={[state.theme.colors.coal, state.theme.colors.white, state.theme.colors.brightlime]}
               />
@@ -62,7 +63,7 @@ const Bronze = ({ state }) => {
         </Container>
       </PromoOne>
 
-      <PromoTwo className="pt-4 pb-4">
+      <PromoTwo className="pt-4 pb-5">
         <Container>
 
           <Row>
@@ -90,7 +91,7 @@ const Bronze = ({ state }) => {
                 <ul>
                   {
                     display.list2.map((item, i) => (
-                      <li key={i}>{item}</li>
+                      <li key={i}><i className="fa fa-check-square-o" aria-hidden="true"></i>{item}</li>
                     ))
                   }
                 </ul>
@@ -123,9 +124,11 @@ export default connect(Bronze);
 
 const PromoSection = styled.section`
 
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  background-color: var(--bs-color-primary);
   border: none;
-  background-color: #7a9e47;
-  
+
   .fancy-frame {
     margin: 2rem auto;
     padding: 12px;
@@ -141,7 +144,27 @@ const PromoSection = styled.section`
 
     ul {
       margin: 0;
-      padding: 0;
+      padding: .66rem .33rem;
+      background: ivory;
+
+      li {
+        margin: 0;
+        padding: .1rem .3rem;
+        font-family: var(--pd-font-family-serif);
+        font-size: 1.5rem;
+        line-height: 1.5;
+        list-style: none;
+        color: #212529;
+        text-shadow: 1px 1px 0 rgba(171,207,117, 0.6);
+  
+        &:hover {
+          animation: ${jump} .6s 1;
+        }
+
+        i {
+          margin-right: .3rem;
+        }
+      }
     }
   }
 
@@ -159,14 +182,14 @@ const PromoSection = styled.section`
 
 const TitleOne = styled.h5`
   font-size: 4.5rem;
-  font-family: 'Amatic SC', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: var(--pd-font-family-display);
   color: ivory;
 `;
 
 const TitleTwo = styled.h5`
-  font-size: 3rem;
-  font-family: 'Playfair Display';
-  color: #7A9E47;
+  font-size: 4.5rem;
+  font-family: var(--pd-font-family-display);
+  color: ivory;
   letter-spacing: -1px;
 `;
 
@@ -192,14 +215,12 @@ const PromoOne = styled.div`
     background-size: 20px 20px;
     background-position: 0 0;
     box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-
-    /* end fancy-frame */
   }
 
   .frame {
   
     h5 { 
-      margin-bottom: 1.8rem;
+      margin-bottom: 0;
       padding: 5px;
       display: inline-block;
       position: relative;
@@ -207,10 +228,10 @@ const PromoOne = styled.div`
 
       &::after {
         content: " ";
-        height: .3rem;
+        height: .6rem;
         width: 100%;
         position: absolute;
-        bottom: -1rem;
+        bottom: 0;
         left: 0;
         
         background: linear-gradient(
@@ -229,20 +250,8 @@ const PromoOne = styled.div`
       }
     }
 
-    li {
-      margin: 0;
-      padding: .1rem .3rem;
-      font-family: 'Slabo 27px', Georgia, 'Times New Roman', Times, serif;
-      font-size: 1.5rem;
-      line-height: 1.5;
-      list-style: none;
-      color: #212529;
-      text-shadow: 1px 1px 0 rgba(171,207,117, 0.6);
-    }
 
-    /* end frame */
   }
-
 
   &:hover {
     .fancy-frame {
@@ -253,30 +262,26 @@ const PromoOne = styled.div`
       transition: 2s ease-out;
       animation: ${stripedbg} 1s linear infinite reverse;
     }
-
-    /* end animation triggers */
   }
 
 `;
 
 const PromoTwo = styled.div`
-  background-color: ivory;
+  background-color: #7a9e47;
   background: linear-gradient(to top,  #7a9e47 42%,#5e822c 100%); 
   border: none;
 
   .fancy-frame { 
-    background: linear-gradient(45deg, #abcf75, #4b6f1a);
+    background: linear-gradient(45deg, #aafa3c, #4b6f1a);
     background-size: 300% 300%;
     background-position: 0 0;
     box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
-
-    /* end fancy-frame */
   }
 
   .frame {
   
     h5 { 
-      margin-bottom: 1.8rem;
+      margin-bottom: 0;
       padding: 5px;
       display: inline-block;
       position: relative;
@@ -285,35 +290,19 @@ const PromoTwo = styled.div`
 
       &::after {
         content: " ";
-        height: .3rem;
+        height: .6rem;
         width: 100%;
         position: absolute;
-        top: 4.5rem;
+        bottom: 0;
         left: 0;
         
-        background: linear-gradient(45deg, #abcf75, #4b6f1a);
+        background: linear-gradient(45deg, #aafa3c, #4b6f1a);
 
         background-position: 0 0;
         box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
       }
     }
 
-    li {
-      margin: 0;
-      padding: .1rem .3rem;
-      font-family: 'Slabo 27px', Georgia, 'Times New Roman', Times, serif;
-      font-size: 1.8rem;
-      line-height: 1.6;
-      list-style: none;
-      color: #212529;
-      text-shadow: 1px 1px 0 rgba(171,207,117, 0.6);
-
-      &:hover {
-        animation: ${jump} .6s 1;
-      }
-    }
-
-    /* end frame */
   }
 
 
@@ -329,7 +318,6 @@ const PromoTwo = styled.div`
       background-size: 300% 300%;
     }
 
-    /* end animation triggers */
   }
 
 `;
