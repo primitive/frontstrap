@@ -57,7 +57,7 @@ const Theme = ({ state }) => {
       <App>
 
         <Global styles={globalStyles(state.theme.config, state.theme.colors)} /> 
-        {/* reboot and styled html elements */}
+        {/* html element + global styles */}
 
         { /* <FontFaces /> */}
 
@@ -72,11 +72,10 @@ const Theme = ({ state }) => {
           <link rel="canonical" href={state.theme.canonical} />
           <meta name="description" content={state.frontity.description} />
 
-          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Hepta+Slab|Pacifico|Playfair+Display:700|Slabo+27px&display=swap" />
-          <link rel="stylesheet" href="https://use.typekit.net/cmk3utt.css"></link>
+          <link rel="stylesheet" href={state.theme.fonts}></link>
 
           <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous" />          
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css" integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" integrity="sha512-b2QcS5SsA8tZodcDtGRELiGv5SaKSk1vDHDaQRda0htPYWZ6046lr3kJ5bAAQdpV2mmA/4v0wQF9MyU6/pDIAg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           
           <link rel="preconnect" SameSite="None" Secure href="https://www.google-analytics.com" />
           <link rel="dns-prefetch" SameSite="None" Secure href="http://doubleclick.net" />
