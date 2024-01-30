@@ -2,7 +2,7 @@
   "name": "frontstrap",
   "version": "0.0.9",
   "private": false,
-  "description": "Starter Theme for Bootstrap based Frontity / Headless-WordPress deployments.",
+  "description": "Primitive's Bootstrap + Frontity Headless-WordPress theme.",
   "keywords": [
     "@primitive",
     "@primitive/rocks",

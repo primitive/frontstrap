@@ -1,8 +1,8 @@
 {
   "name": "frontstrap",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": false,
-  "description": "Primitive's rolling Mountains (beautiful views) for Frontity",
+  "description": "Primitive's Rolling Mountains | Beautiful views",
   "keywords": [
     "@primitive",
     "@primitive/rocks",
