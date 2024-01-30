@@ -27,7 +27,7 @@ const settings = {
             ["Startups", "/darwin-project"],
             ["Adventures in Time", "/timelines"],
             ["Cave of ", "/cave"],
-            ["Primitive Theme for Frontity", "https://www.npmjs.com/package/frontstrap"],
+            ["Frontstrap Theme", "https://www.npmjs.com/package/frontstrap"],
             ["Privacy Policy", "privacy-policy"]
           ],
 
@@ -39,7 +39,10 @@ const settings = {
           // tbc
           "archive": {
             "showExcerpt": true
-          }
+          },
+          canonical: "https://primitivedigital.uk",
+          fonts: "https://use.typekit.net/jcg4rrq.css",
+          debug: true
         }
       }
     },
