@@ -17,21 +17,22 @@ const FormStyles = colors => css`
       padding: 2rem;
       border: 1px solid #e7e7e7;
 
-      font-family: "Slabo 27px";
+      font-family: 'Helvetica', 'Arial', sans-serif;
       
-      background: #26D0CE linear-gradient(to top, #1a2980, #26d0ce);
+      background: #26D0CE linear-gradient(to top, var(--bs-green), #26d0ce);
       box-shadow: 1px 4px 8px rgba(0,0,0, .3);
-      border-radius: .6rem;
+      border-radius: .33rem;
 
       label {
         display: block;
         margin: 0;
-        padding: 1rem 1rem .4rem;
-        background-color: ivory;
-        background-image: linear-gradient(0, rgba(255,255,255, .3) 0%, rgba(0, 0, 0, .1) 100%);
+        padding: .6rem 1rem .4rem;
+        background-color: rgba(var(--bs-dark-rgb), .3);
+        background-image: linear-gradient(0, rgba(var(--bs-dark-rgb), .3) 0%, rgba(var(--bs-dark-rgb), .1) 100%);
         border-top-left-radius: .3rem;
         border-top-right-radius: .3rem;
-        color: rgb(0,165,70);
+        color: var(--bs-white);
+        font-family: var(--pd-font-family-sans-cond);
         font-size: 1.3rem;
         font-weight: 800;
         letter-spacing: 1px;
@@ -52,27 +53,24 @@ const FormStyles = colors => css`
         background-image: linear-gradient(180deg, rgba(227, 255, 231, .6) 0%, rgba(217, 231, 255, .6) 100%);
         box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
       }
-      span.ftype {
+      select {
         margin-bottom: 1rem;
+        padding: 1rem;
         border-radius: 0;
+        border: none;
         border-bottom-left-radius: .3rem;
         border-bottom-right-radius: .3rem;
-
+        width: 100%;
         background-color: white;
         background-image: linear-gradient(180deg, rgba(227, 255, 231, .6) 0%, rgba(217, 231, 255, .6) 100%);
         box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1);
 
-        select {
-          border: 0;
-          width: 100%;
-          height: 4rem;
-          border: none;
-          background: transparent;
-        }
       }
 
       .btn {
-        width: 80%;
+        width: 100%;
+        background: rgb(var(--bs-dark-rgb));
+        border-color: rgb(var(--bs-dark-rgb));
       }
 
       br { display: none; }
@@ -115,8 +113,8 @@ const FormStyles = colors => css`
         left: -50vw;
         
         border: 1rem solid ${themecolor.primary};
-        background: #59C173;
-        background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173);
+        background: ivory;
+        background: linear-gradient(to right, #c3d7a6, #f3f7ed);
         opacity: .5;
   
         transform: rotate(-45deg);
