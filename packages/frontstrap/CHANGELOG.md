@@ -55,8 +55,7 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
 
 ## History (frontstrap on npm)
 
-0.0.9: housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
-0.0.8: version tests and server update
+0.0.8: version tests and server update, housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
 0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
 0.0.6: fix: randomWord display
 1.1.0: restructured for development of theme-able system. WIP
