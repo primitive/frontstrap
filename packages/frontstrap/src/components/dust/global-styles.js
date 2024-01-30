@@ -2,35 +2,17 @@ import { css } from "frontity";
 //import { Grid } from "./_grid";
 // import { themeconfig } from "./_config";
 
-import bsOverrides from "./bs-overrides";
-
-// import bsStyles from "./_bscss";
+import baseStyles from "./_base";
 
 
-const accessibilitySettings = css`
-  @media (prefers-reduced-motion: reduce) {
-    * {
-      animation-duration: 0s !important;
-      transition-duration: 0s !important;
-    }
-  }
-`;
-
-
-const typeSetting = (config, colors) => css`
-
-html {
-  /*
-  font-size: 100%;
-  font-size: calc(3vw);
- */
-}
+const typeStyles = (config, colors) => css`
 
 body {
   text-size-adjust: 100%;
-  font-family: ${config.style.body.font.family ? config.style.body.font.family : '"Segoe UI", "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'};
+  font-family: ${config.style.body.font.family ? config.style.body.font.family : '"Segoe UI", "Helvetica Neue", Arial, system-ui, -apple-system, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'};  
   font-size: ${config.style.body.font.size ? config.style.body.font.size : '1rem'};
   font-weight: ${config.style.body.font.weight ? config.style.body.font.weight : '300'};
+  font-style: normal;
   line-height: ${config.style.body.font.lineheight ? config.style.body.font.lineheight : '1.5'};
   color: ${config.style.body.font.color ? config.style.body.font.color : '#212529'};
 }
@@ -41,52 +23,50 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   line-height: 1.2;
 }
-h1, .slab { 
-  font-family: 'Hepta Slab', serif;
+
+h1, .h1 { 
+  font-family: var(--pd-font-family-display);
   font-size: 3.3rem;
-  /*
-  font-size: calc(1.375rem + 1.5vw);
-
-  font-family: goodlife-brush, sans-serif;
-  font-family: goodlife-sans, sans-serif;
-  font-family: goodlife-sans-condensed, sans-serif;
-  font-family: goodlife-script, sans-serif;
-  font-family: goodlife-extras, sans-serif;
-
-  */
-
-  font-family: goodlife-serif,sans-serif;
-  font-size: 700;
-
+  font-variation-settings: "STRS" -50, "wdth" 100;
 }
-h2, .heading {
-  font-family: goodlife-sans-condensed, sans-serif;
+.display { 
+  font-family: var(--pd-font-family-display);
+  font-variation-settings: "STRS" -50, "wdth" 100;
+}
+
+h2, .h2 {
+  font-family: var(--pd-font-family-sans-cond);
   font-size: 3rem;
-  font-size: calc(1.325rem + 0.9vw);
 }
-h3, .news {
-  font-family: 'Playfair Display', Georgia, serif;
+.heading {
+  font-family: var(--pd-font-family-sans-cond);
+}
+
+h3, .h3 {
+  font-family: var(--pd-font-family-brush);
   font-size: 2.8rem;
-  /*font-size: calc(1.3rem + 0.6vw);*/
 }
-h4, .display {
-  font-family: 'Hepta Slab', serif;
+.news {
+  font-family: var(--pd-font-family-news);
+}
+
+h4, .slab {
+  font-family: var(--pd-font-family-serif);
   font-size: 1.6rem;
-  /* font-size: calc(1.275rem + 0.3vw);*/
+
 }
 h5, .subslab {
-  font-family: 'Slabo 27px', Georgia, serif;
+  font-family: var(--pd-font-family-sans);
   font-size: 1.3rem;
 }
-h6, .scribe {
-  font-family: 'Pacifico', cursive;
+h6, .scribe, .brush {
+  font-family: var(--pd-font-family-brush);
   font-size: 1.2rem;
 }
 p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-size: 1rem;
-  line-height: 1.8;
 }
 
 
@@ -105,9 +85,6 @@ p {
   }
 
 `;
-
-// sk-dev: tbc root vars
-// https://getbootstrap.com/docs/5.0/customize/css-variables/#component-variables
 
 const globalStyles = colors => css`
 
@@ -149,14 +126,20 @@ const globalStyles = colors => css`
 
 `;
 
-
+const accessibilitySettings = css`
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0s !important;
+      transition-duration: 0s !important;
+    }
+  }
+`;
 
 
 const globalStyle = (config, colors) =>
   css([
-    bsOverrides(config, colors),
-    typeSetting(config, colors),
-    // bsStyles, //20kb
+    baseStyles(config, colors),
+    typeStyles(config, colors),
     accessibilitySettings,
     globalStyles(colors)
   ]);
