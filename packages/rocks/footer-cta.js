@@ -38,8 +38,9 @@ const FurryBoots = ({ state }) => {
           <Row>
             <Col>
               <h3 className={display.fontfamily}>
+                <small>{display.contact.prompt}</small>
                 <strong>{display.contact.info}</strong>
-                {display.contact.prompt}
+                {display.contact.incentive}
               </h3>
             </Col>
           </Row>
@@ -56,7 +57,8 @@ const FooterCTA = styled.section`
   background-color: ${(props) => props.bg ? props.bg : '#D4AEA6'};
 
   h2 {
-    padding: 2rem 0 1rem;;
+    padding: 2rem 0 1rem;
+    font-family: var(--pd-font-family-display);
     color: ${(props) => props.color ? props.color : '#765751'};
     text-align: center;
     line-height: 5rem;
@@ -64,7 +66,7 @@ const FooterCTA = styled.section`
 
     span {
       display: block;
-      font-family: 'Amatic SC', sans-serif;
+      font-family: var(--pd-font-family-serif);
       color: ${(props) => props.color ? props.color : '#765751'};
       font-size: 5rem;
     }
@@ -72,7 +74,7 @@ const FooterCTA = styled.section`
     strong {
       display: block;
       padding-bottom: 0;
-      font-family: 'Playfair Display', serif;
+      font-family: var(--pd-font-family-news);
       font-size: 4rem;
       line-height: 4rem;
     }
