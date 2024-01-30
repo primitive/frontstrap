@@ -6,9 +6,9 @@ import Intro from '@primitive/rocks/page-home-intro';
 import Gold from '@primitive/rocks/page-home-tabs';
 import Silver from '@primitive/rocks/cpt-poststrip/post-strip';
 import Bronze from "@primitive/rocks/page-home-bronze";
+import Brass from '@primitive/rocks/cpt-poststrip/post-strip';
 
 import Page from "./page";
-
 
 
 const PageHome = ({ state }) => {
@@ -17,7 +17,7 @@ const PageHome = ({ state }) => {
   const display = state.theme.config.homepage;
 
   if (state.theme.debug) {
-    //console.log("@page-home: display", display ); 
+    console.log("@page-home: display", display ); 
   }
 
   return (
@@ -36,13 +36,17 @@ const PageHome = ({ state }) => {
       )}
 
       {display.showSilver && (
-        <Silver props={display.silver} />
+        <p>silver spot - not used</p>
       )}
 
       <Page />
 
       {display.showBronze && (
         <Bronze />
+      )}
+
+      {display.showBrass && (
+        <Brass props={display.silver} />
       )}
 
     </HomePage>
@@ -52,5 +56,7 @@ const PageHome = ({ state }) => {
 export default connect(PageHome);
 
 const HomePage = styled.div`
-
+  main .container {
+    max-width: 820px;
+  }
 `;
