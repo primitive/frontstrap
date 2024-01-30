@@ -16,18 +16,18 @@ const Header = ({ state }) => {
         <Container>
           <Row className="justify-content-sm-end">
             <Col className="col-11 col-md-7">
-              <StyledLink link="/web-design/" className="pl-4">
+              <StyledLink link={state.theme.config.header.link} className="pl-4">
 
                 <Title
                   color=""
-                  className="news mb-0 pb-0"
+                  className="brush mb-0 pb-0"
                 >
                   {state.frontity.title}
                 </Title>
 
-                <Intro className="subslab mb-0">
+                <Intro className="slab mb-0">
                   {state.frontity.phrase1}
-                  <span className="slab"> {state.theme.config.header.random} </span>
+                  <span className="display"> {state.theme.config.header.random} </span>
                 </Intro>
 
                 <Description>
@@ -102,9 +102,12 @@ const ResponsiveDark = css(
 const HeadDark = css`
   background-color: black;
   color: ivory;
-
-  text-shadow: 1px 1px 2px #477C16;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.1);
   border-bottom: 3px solid rgba(12,17,43,1);
+
+  .display {
+    color: var(--bs-yellow);
+  }
 
   .mast {
     &::before {
