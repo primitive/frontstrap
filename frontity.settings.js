@@ -5,7 +5,7 @@ const settings = {
       url: "https://primitivedigital.uk",
       title: "Primitive Digital",
       description: "Frontstrap Theme",
-      tagline: "Website's & Apps",
+      tagline: "Websites & Apps",
       phrase1: "We Make",
       phrase2: ""
     }
@@ -21,15 +21,16 @@ const settings = {
             ["Development", "/web-development"],
             ["Data", "/data-insights"],
             ["Marketing", "/marketing"],
+            ["Contact", "/contact"],
             ["A Nice Log", "/blog"]
           ],
           menufooter: [
             ["Contact", "/contact"],
             ["Startup Offers", "/darwin-project"],
             ["Adventures in Time", "/timelines"],
-            ["The Cave of Wonders", "/cave"],
-            ["Frontstrap Theme for Frontity", "https://www.npmjs.com/package/frontstrap"],
-            ["Privacy Policy", "privacy-policy"]
+            ["Cave of Wonders", "/cave"],
+            ["Frontstrap Theme (retired)", "https://www.npmjs.com/package/frontstrap"],
+            ["Boring Legal Stuff", "privacy-policy"]
           ],
           featured: {
             showOnList: true,
@@ -40,7 +41,9 @@ const settings = {
             showExcerpt: true
           },
           canonical: "https://primitivedigital.uk",
-          debug: false
+          fonts: "https://use.typekit.net/jcg4rrq.css",
+          devfonts: "https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Hepta+Slab|Pacifico|Playfair+Display:700|Slabo+27px&display=swap",
+          debug: true
         }
       }
     },
@@ -48,7 +51,7 @@ const settings = {
       name: "@frontity/google-analytics",
       state: {
         googleAnalytics: {
-          trackingIds: ["UA-61815763-1"]
+          trackingIds: ["G-DTBHP6R7KL"]
         },
       },
     },
