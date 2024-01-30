@@ -10,7 +10,7 @@ const Intro = (props) => {
           <Col>
             <Title><span>Integrated </span>Digital Design, Development <span>&amp;</span> Marketing</Title>
             <SubTitle>
-              <span>- </span> Pretty, Sexy, Webby, Tecchie Stuff <span> -</span>
+              <span>- </span> Sexy, Webby, Tecchie Stuff <span> -</span>
             </SubTitle>
           </Col>
         </Row>
@@ -34,7 +34,7 @@ const Title = styled.h1`
     color: #87af4e;
   }
   span:nth-of-type(2) {
-    font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--pd-font-family-news);
     font-size: 3rem;
   }
 
@@ -53,7 +53,8 @@ const Title = styled.h1`
 
 const SubTitle = styled.p`
   padding: 3rem;
-  font-family: 'Amatic SC', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgba(15, 74, 71, .33);
+  font-family: var(--pd-font-family-sans-cond);
   font-size: 3rem;
   text-align: center;
 
