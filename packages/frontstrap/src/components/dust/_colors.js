@@ -1,7 +1,7 @@
 import { hexToRGB, hexToRGBA } from "../sand/color-utils";
 
-// Primitive Theme Variables
-// COLOURS/COLORS
+// Primitive Rocks colour variables
+// COLOURS / COLORS
 
 // Base Colour system
 const colors = {
@@ -11,7 +11,7 @@ const colors = {
   pink: "#d63384",
   red: "#cd2653",
   orange: "#F05E23",
-  yellow: "#ffc107",
+  yellow: "#FAD20B",
   green: "#87af4e",
   teal: "#20c997",
   cyan: "#17a2b8",
