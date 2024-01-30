@@ -8,7 +8,7 @@
   "published": {
     "frontstrap": "^0.0.8",
     "@primitive/pebbles": "^0.0.7",
-    "@primitive/rocks": "^0.0.7",
+    "@primitive/rocks": "^0.0.8",
     "@primitive/scenes": "^0.0.7"
   }
 }
