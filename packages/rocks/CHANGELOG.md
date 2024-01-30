@@ -11,6 +11,10 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 
 ## History
 
+**v0.0.8 > Theming, Refine Color system (Jan 30, 2024):**
+- [x] refine styles + typography
+- [x] reset version + prep for retirement
+
 **v1.0.9 > Theming, Refine Color system (Oct 23, 2020):**
 - [x] refine social section styles/themeing
 - [x] move header to theme
