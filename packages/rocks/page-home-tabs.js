@@ -5,7 +5,7 @@ import Heading from "@primitive/pebbles/heading";
 import { Tabs, Tab } from "react-bootstrap";
 
 import { underlinewoosh } from "@primitive/scenes/glamourmagic";
-//const DataMap = loadable(() => import("@primitive/scenes/datamap"));
+import DataMap from "@primitive/scenes/datamap";
 
 
 const TabBlock = ({ state }) => {
@@ -13,7 +13,7 @@ const TabBlock = ({ state }) => {
   return (
     <StyledSection
       className="mt-5 mb-5"
-      images={[state.theme.config.tabs.one.bgimg, state.theme.config.tabs.two.bgimg, state.theme.config.tabs.three.bgimg, state.theme.config.tabs.four.bgimg]}
+      images={[display.one.bgimg, display.two.bgimg, display.three.bgimg, display.four.bgimg]}
     >
 
       <Container fluid className="mx-0 px-0">
@@ -34,23 +34,23 @@ const TabBlock = ({ state }) => {
               <Col>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.one.title1} />
-                  <Blurb>{state.theme.config.tabs.one.text1}</Blurb>
+                  <Heading level="h3" text={display.one.title1} />
+                  <Blurb>{display.one.text1}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.one.title2} />
-                  <Blurb>{state.theme.config.tabs.one.text2}</Blurb>
+                  <Heading level="h3" text={display.one.title2} />
+                  <Blurb>{display.one.text2}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.one.title3} />
-                  <Blurb>{state.theme.config.tabs.one.text3}</Blurb>
+                  <Heading level="h3" text={display.one.title3} />
+                  <Blurb>{display.one.text3}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.one.title4} />
-                  <Blurb>{state.theme.config.tabs.one.text4}</Blurb>
+                  <Heading level="h3" text={display.one.title4} />
+                  <Blurb>{display.one.text4}</Blurb>
                 </TextWrap>
 
               </Col>
@@ -67,23 +67,23 @@ const TabBlock = ({ state }) => {
               <Col>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.two.title1} />
-                  <Blurb>{state.theme.config.tabs.two.text1}</Blurb>
+                  <Heading level="h3" text={display.two.title1} />
+                  <Blurb>{display.two.text1}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.two.title2} />
-                  <Blurb>{state.theme.config.tabs.two.text2}</Blurb>
+                  <Heading level="h3" text={display.two.title2} />
+                  <Blurb>{display.two.text2}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.two.title3} />
-                  <Blurb>{state.theme.config.tabs.two.text3}</Blurb>
+                  <Heading level="h3" text={display.two.title3} />
+                  <Blurb>{display.two.text3}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.two.title4} />
-                  <Blurb>{state.theme.config.tabs.two.text4}</Blurb>
+                  <Heading level="h3" text={display.two.title4} />
+                  <Blurb>{display.two.text4}</Blurb>
                 </TextWrap>
 
               </Col>
@@ -100,26 +100,26 @@ const TabBlock = ({ state }) => {
               <Col>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title1} />
-                  <Blurb>{state.theme.config.tabs.three.text1}</Blurb>
+                  <Heading level="h3" text={display.three.title1} />
+                  <Blurb>{display.three.text1}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title2} />
-                  <Blurb>{state.theme.config.tabs.three.text2}</Blurb>
+                  <Heading level="h3" text={display.three.title2} />
+                  <Blurb>{display.three.text2}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title3} />
-                  <Blurb>{state.theme.config.tabs.three.text3}</Blurb>
+                  <Heading level="h3" text={display.three.title3} />
+                  <Blurb>{display.three.text3}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title4} />
-                  <Blurb>{state.theme.config.tabs.three.text4}</Blurb>
+                  <Heading level="h3" text={display.three.title4} />
+                  <Blurb>{display.three.text4}</Blurb>
                 </TextWrap>
 
-                { /* <DataMap /> */}
+                <DataMap />
 
               </Col>
 
@@ -136,23 +136,23 @@ const TabBlock = ({ state }) => {
               <Col>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title1} />
-                  <Blurb>{state.theme.config.tabs.three.text1}</Blurb>
+                  <Heading level="h3" text={display.three.title1} />
+                  <Blurb>{display.three.text1}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title2} />
-                  <Blurb>{state.theme.config.tabs.three.text2}</Blurb>
+                  <Heading level="h3" text={display.three.title2} />
+                  <Blurb>{display.three.text2}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title3} />
-                  <Blurb>{state.theme.config.tabs.three.text3}</Blurb>
+                  <Heading level="h3" text={display.three.title3} />
+                  <Blurb>{display.three.text3}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={state.theme.config.tabs.three.title4} />
-                  <Blurb>{state.theme.config.tabs.three.text4}</Blurb>
+                  <Heading level="h3" text={display.three.title4} />
+                  <Blurb>{display.three.text4}</Blurb>
                 </TextWrap>
 
               </Col>
@@ -171,8 +171,6 @@ export default connect(TabBlock);
 
 const StyledSection = styled.section`
 
-  /* sk-dev: styled Tab doesn't work */
-
   .tab-content {
     border-top: 6px solid #87af4e;
     background-color: black;
@@ -190,10 +188,11 @@ const StyledSection = styled.section`
   }
 
   h3 {
-    margin-bottom: .3rem;
+    margin-bottom: 0;
+    padding-left: 5px;
     display: inline-block;
     overflow: hidden;
-    color: ivory;
+    color: var(--bs-white);
     font-size: 3rem;
     font-weight: normal;
   }
@@ -217,39 +216,56 @@ const StyledSection = styled.section`
 
   .tab-one { background-image: url(${props => props.images[0]}); }
   .tab-two { background-image: url(${props => props.images[1]}); }
-  .tab-three { background-image: url(${props => props.images[2]}); }
+  .tab-three { position: relative; }
   .tab-four { background-image: url(${props => props.images[3]}); }
 
 `;
 
 const StlyedTabNav = styled(Tabs)`
 
-  font-family: 'Hepta Slab', Georgia, 'Times New Roman', Times, serif;
+  font-family: var(--pd-font-family-news);
   letter-spacing: 1px;
   justify-content: center;
+  border-bottom: 0;
 
   .nav-item {
     font-size: 1.2rem;
     color: #87af4e;
+  }
+
+  .nav-link {
+    color: #799d46;
+    border: 0;
+    border-bottom: 3px solid #87af4e;
+    background-color: rgba (0,0,0,.33);
+    transition: 0.66s;
+    will-change: background-color;
 
     &:hover {
-      color: #111;
+      color: #435727;
       background-color: rgba(135,175,78,.1);
       border-bottom-color: rgb(135,175,78);
     }
   }
-
-  .nav-item.show.nav-link,
   .nav-link.active { 
-    border-bottom: 0;
-    color: #111;
+    border-bottom-color: #435727;
+    color: #435727;
     background-color: #87af4e;
   }
 
+
   @media screen and (max-width: 576px) {
 
+    margin-left: .3rem;
+    margin-right: .3rem;
+
+    .nav-link {
+      width: 100%;
+      border-radius: .25rem;
+    }
+
     .nav-item {
-      margin-bottom: .9rem;
+      margin-bottom: .3rem;
       width: 49%;
       border-radius: .25rem;
       font-size: 1rem;
@@ -264,9 +280,7 @@ const StlyedTabNav = styled(Tabs)`
     .nav-item:nth-of-type(odd) {
       margin-right: 2%;
     }
-
   }
-
 `;
 
 
@@ -278,8 +292,10 @@ const TextWrap = styled.div`
   text-shadow: 1px 1px 1px #000;
 `;
 
-
-
 const Blurb = styled.p`
-    color: ivory;
+    padding-left: 5px;
+    color: var(--bs-white);
+    font-family: var(--pd-font-family-sans-cond);
+    font-size: 1.2rem;
+    letter-spacing: 1px;
 `;
