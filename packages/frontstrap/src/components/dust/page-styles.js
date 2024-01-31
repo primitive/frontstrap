@@ -66,7 +66,7 @@ const listStyle1 = colors => css`
   li {
     margin: 0;
     padding: .2rem .5rem;
-    font-family: 'Slabo 27px', Georgia, serif;
+    font-family: var(--pd-font-family-sans-cond);
     font-size: 1.7rem;
     line-height: 1.6;
     list-style: none;
@@ -81,7 +81,7 @@ const pageHeader = colors => `
   max-width: 800px;
 
   color: rgba(${colors.rgb.black}, 0.9);
-  font-family: "Abril Fatface";
+  font-family: var(--pd-font-family-news);
   font-weight: bold;
   letter-spacing: 1px;
   text-shadow: 2px 8px 6px rgba(${colors.rgb.black}, 0.2), 0px -5px 35px rgba(${colors.rgb.black}, 0.3);
@@ -96,7 +96,7 @@ const pageHeader = colors => `
 
 const oronymTop = colors => `
   position: relative;
-  font-family: 'Playfair Display'; 
+  font-family: var(--pd-font-family-display); 
   color: ${colors.black};
 
   font-size:  5rem;
@@ -115,7 +115,7 @@ const oronymTop = colors => `
     display: block;
     font-size:  2rem;
     color: #fff;
-    font-family: 'Pacifico';
+    font-family: var(--pd-font-family-news);
     text-shadow: -2px 1px 2px ${hexToRGBcss(colors.disco.cyan, 0.4)},
                  2px -1px 2px ${hexToRGBcss(colors.disco.magenta, 0.4)};
   }
@@ -156,7 +156,7 @@ const oronymBottom = colors => `
     display: block;
     font-size:  2rem;
     color: #fff;
-    font-family: 'Pacifico';
+    font-family: var(--pd-font-family-news);
     text-shadow: -2px 1px 2px ${hexToRGBcss(colors.disco.cyan, 0.4)}, 2px -1px 2px ${hexToRGBcss(colors.disco.magenta, 0.4)};
   }
 
@@ -211,12 +211,12 @@ const pageall = colors => css`
   }
 
   .intro {
-    font-family: 'Hepta Slab', sans-serif;
+    font-family: var(--pd-font-family-news);
     padding: 3px 5%;
     font-size: 1.3rem;
   }
   .motto {
-    font-family: 'Hepta Slab', sans-serif;
+    font-family: var(--pd-font-family-sans);
     padding: 1.5rem 5% 3rem;
     font-size: 2.3rem;
     color: ${colors.primary};
@@ -314,7 +314,7 @@ const pageall = colors => css`
   .q-style-1 {
 
     blockquote { 
-
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid rgba(${colors.rgb.secondary}, 0.8);
 
       p {
@@ -344,6 +344,7 @@ const pageall = colors => css`
 
   .q-style-2 {
     blockquote { 
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid rgba(${colors.rgb.secondary}, 0.8);
 
       p {
@@ -375,6 +376,7 @@ const pageall = colors => css`
     ${flexCol, flex2Col} 
 
     blockquote {
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid ${hexToRGBcss(colors.disco.neongreen, 0.6)};
 
       p {
@@ -411,6 +413,7 @@ const pageall = colors => css`
     ${flexCol, flex2Col} 
 
     blockquote {
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid ${hexToRGBcss(colors.disco.purple, 0.8)};
 
       p {
@@ -447,6 +450,7 @@ const pageall = colors => css`
     ${flexCol, flex2Col} 
 
     blockquote {
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid ${hexToRGBcss(colors.disco.blue, 0.6)};
 
       p {
@@ -479,6 +483,7 @@ const pageall = colors => css`
     max-width: 450px;
 
     blockquote {
+      background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid rgba(${colors.rgb.info}, 0.8);
 
       p {
@@ -520,6 +525,7 @@ const pageall = colors => css`
     ${flexCol, flex2Col} 
 
       blockquote {
+        background-color: rgba(${colors.rgb.white}, 0.5);
         border-left: 4px solid ${hexToRGBcss(colors.disco.blue, 0.6)};
 
         p {
@@ -566,7 +572,7 @@ const pageall = colors => css`
       max-width: 450px;
   
       blockquote {
-
+        background-color: rgba(${colors.rgb.white}, 0.5);
         border-left: 4px solid rgba(${colors.rgb.warning}, 0.8);
   
         p {
