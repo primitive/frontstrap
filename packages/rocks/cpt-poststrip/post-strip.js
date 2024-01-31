@@ -117,6 +117,7 @@ const Header = styled.header`
 
 const Title = styled.h3`
   margin-bottom: 1.2rem;
+  font-family: var(--pd-font-family-news);
   font-weight: bold;
   text-align: center;
   color: rgba(12, 17, 43, 0.9);
@@ -132,7 +133,7 @@ const Title = styled.h3`
 `;
 
 const SectionSubTitle = styled.p`
-  font-family: 'Amatic SC', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: var(--pd-font-family-brush);
   color: rgba(12,17,43,0.8);
   font-size: 2rem;
   font-weight: bold;

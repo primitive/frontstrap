@@ -10,6 +10,8 @@ import DataMap from "@primitive/scenes/datamap";
 
 const TabBlock = ({ state }) => {
 
+  const display = state.theme.config.tabs;
+
   return (
     <StyledSection
       className="mt-5 mb-5"

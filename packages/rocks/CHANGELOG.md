@@ -5,11 +5,21 @@
 
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO.
 
-To whom it may concern. Some odd comments may be documented here.
 
-Commit messages are loosly following [Conventional Commits](https://conventionalcommits.org).
+**N.B.**
+Prepping for a new project.
+Frontity will be deprecated in favour of a new framework.
+These components will be re-workd to be compaitible and re-released as a new package.
+This project was left in a bit of a mess when COVID hit. Not recommneded for use in production.
+
+**Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
+Logs are somewhat of a rant. More for my benefit. I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
+
 
 ## History
+
+**v0.0.9 > Fix (Jan 30, 2024):**
+- [x] add back display const, refines styles, extract fonts
 
 **v0.0.8 > Theming, Refine Color system (Jan 30, 2024):**
 - [x] refine styles + typography

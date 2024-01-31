@@ -16,7 +16,7 @@ const PostList = ({ state }) => {
         <Row>
           <Col className="p-4">
             <PageHead className="mb-2 text-center">
-              Cavetalk
+              Overheard Around the Waterhole
             </PageHead>
           </Col>
         </Row>
@@ -53,17 +53,12 @@ export default connect(PostList);
 
 const StyledMain = styled.main`
   background-color: transparent;
-
-  h2 {
-    font-family: "Playfair Display";
-  }
 `;
 
 const PageHead = styled.h1`
   color: rgba(12, 17, 43, 0.7);
-  text-transform: uppercase;
-  letter-spacing: 1.2rem;
-  font-size: 1.5rem;
+  font-family: var(--pd-font-family-brush);
+  font-size: 1.6rem;
   line-height: 1.6;
   text-shadow: 1px 1px rgba(173, 216, 230, 0.5);
 `;
@@ -71,5 +66,6 @@ const PageHead = styled.h1`
 const Header = styled.h2`
   color: rgba(12, 17, 43, 0.9);
   font-weight: 300;
+  font-family: var(--pd-font-family-sans-cond);
   text-transform: capitalize;
 `;

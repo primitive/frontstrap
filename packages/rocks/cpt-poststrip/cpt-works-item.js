@@ -23,7 +23,7 @@ const Works = ({ item }) => {
 
         <Title>{acfFields.project_type}</Title>
 
-        <Card.Body className="pt-3 mb-4">
+        <Card.Body className="pt-3">
 
           <Project>{acfFields.project}</Project>
 
@@ -67,19 +67,18 @@ const Title = styled.h4`
   border-top: 2px solid #019573;
   font-size: 1rem;
   font-weight: bold;
-  font-family: courier;
+  font-family: var(--pd-font-family-serif);
   text-align: center;
   color: #015642;
 `;
 
 const Project = styled.h5`
-  min-height: 3rem;
-  font-family: 'Hepta Slab', Georgia, serif;
+  min-height: 2rem;
+  font-family: var(--pd-font-family-news);
 `;
 
 const Meta = styled.p`
-  font-size: .9rem;
+  font-size: .6rem;
   font-family: courier;
-  letter-spacing: 1px;
-  color: rgba(12, 17, 43, 0.6);
+  color: rgba(12, 17, 43, 0.75);
 `;

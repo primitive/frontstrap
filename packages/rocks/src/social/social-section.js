@@ -73,7 +73,7 @@ const SocialSection = styled.section`
 `;
 
 const SocialIcons = styled.div`
-  font-family: "Hepta Slab";
+  font-family: var(--pd-font-family-serif);
   text-shadow: 1px 1px rgba(173,216,230,.5);
   border: solid 3px rgba(0,44,44,.3);
   border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
