@@ -16,13 +16,13 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primitive/frontstrap.git"
+    "url": "git+https://github.com/primitive/frontstrap.git"
   },
   "bugs": {
     "url": "https://github.com/primitive/frontstrap/issues"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "prettier": {},
   "dependencies": {
