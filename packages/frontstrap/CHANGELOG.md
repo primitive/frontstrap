@@ -4,14 +4,16 @@
 
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
 
-## 0.0.9 (Jan 30, 2024)
+## 0.0.9 (Jan 31, 2024)
 
 **N.B.:**
 Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
 
 
-**Deployment:**
+**Legacy V1 Deployment:**
 - deployed to wordpress with frontity embedded mode plugin
+- frontity hosted on VPS
+- framework no longer maintained + is resource intensive/memory hungry. To be replaced with an alternate framework.
 
 ## TO REVIEW + MIGRATE USEFUL BITS
 - [x] test issues with node 18 (kinda works)
@@ -20,17 +22,18 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
 - [x] WebFonts: Tested as per docs. Implementation works but some google fonts don't convert well
 - [x] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
 
-- [ ] FIX: menu collapse / routing
-- [ ] FIX: preloading
+- [x] FIX: menu collapse / routing
+- [x] FIX: preloading
 - [ ] Refine: Optimise for Mobile: Don't serve some animations on mobile, handle click/hover
 - [ ] FIX or FEAT: author list view / profile
-- [ ] Create *shoelace* theme (grid, size, color, breakpoints) + fragments
 
-- [ ] Split primitiverocks package
-- [ ] Split primitivescenes package
-- [ ] Split theme / dev staging
+- [x] Split primitiverocks package
+- [x] Split primitivescenes package
+- [x] Split theme / dev staging
 
-- [x] Publish to npm
+- [ ] Add: [react-spring](https://www.react-spring.io/)
+- [ ] Add: [react-use-gesture](https://use-gesture.netlify.app/)
+- [ ] Add: [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 
 - [x] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
 - [x] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
@@ -42,19 +45,32 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
 - [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
 - [ ] Research conditional loading of UI cores + theme
 - [ ] Set base CSS to use none/twentytwenty/bootstrap (grid, classes, --modifiers-size/transparency/darken/lighten)
+- [ ] Create *shoelace* theme (grid, size, color, breakpoints) + fragments
 - [ ] Research create a UI/cf7 theme builder vs cli
 - [ ] Research add comments / cf7 / fe content submission
 - [ ] Add post social share
+- [ ] Q: useEffect vs self-invoking
+- [ ] Q: imports / conditional / slots?  
 
-- Q: useEffect vs self-invoking
-- Q: imports / conditional / slots?  
+- [ ] CI/CD
+- [x] Claim primitive org on NPM 🙅 not accepted
+- [x] Claim primitive org on Github ✅
+- [x] Publish to npm (@primitive/rocks) ✅
+- [x] Publish to npm (frontstrap) ✅
+- [x] Publish to npm (primitiverocks)
+- [x] Publish to npm (primitivescenes)
+
+- [x] Publish to npm (primitiveone-theme)
+- [x] Publish to npm (primitiveone)
 
 
+## History (frontstrap)
 
 **Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
+Logs are somewhat of a rant. More for my benefit. I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
 
-## History (frontstrap on npm)
 
+0.0.9: fix missing display const, update-browserslist
 0.0.8: version tests and server update, housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
 0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
 0.0.6: fix: randomWord display
@@ -94,12 +110,12 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
 - [x] Minimise Bootrap use / create shoelace implementation
 - [x] Apply custom styling/theme to CF7 components
 
-**1.1.0 > MAJOR Update (April 01, 2020):**
+**1.1.0 > Update (April 01, 2020):**
 - [x] Fixed full URI redirects
 - [x] Server clean up
 - [x] Deployed new CDN and Edge Cache system
 
-#### - [x] Update project structure;
+#### > Update project structure;
 - [x] New templating/config (views/blocks/elements)
 - [x] Reduced CSS classes and global styles
 - [x] Split post / page styles
@@ -112,7 +128,7 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
 - [x] facebook: like, page
 - [x] Refine use of Bootstrap/CSS Frameworks and global/component CSS-IN-JS (emotion)
 
-#### - [x] Intergrate New Frontity Features;
+#### > Intergrate New Frontity Features;
 - [x] Custom Post Types and Taxonomies
 - [x] Added some custom post types / taxonomies content to wp
 - [x] Added CPT views and content blocks
@@ -159,7 +175,8 @@ Prepping for a new project. Frontity will be deprecated in favour of a new frame
   
 #### Ω - *the end*
 
- > 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒       
+
+ ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
 <pre>                      
 ._ _  _. _| _  |_    ._ _  _ ._ | o _  _  
 | | |(_|(_|(/_ |_)\/ | | |(_)| ||<|(/__>  
