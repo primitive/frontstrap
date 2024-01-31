@@ -12,7 +12,7 @@ const Bronze = ({ state }) => {
 
   return (
     <PromoSection>
-      <PromoOne className="pt-4 pb-4">
+      <PromoOne className="pt-4">
         <Container>
 
           <Row>
@@ -50,8 +50,8 @@ const Bronze = ({ state }) => {
           </Row>
 
           <Row>
-            <Col className="align-content-center pt-5 pb-0">
-              <p className="news text-center pt-3 pb-3">Excellence as standard</p>
+            <Col className="align-content-center pt-4 pt-4">
+              <p className="h3 news text-center pt-3 pb-3">{display.close1}</p>
               <CTA
                 text="Discover More"
                 link="/web-design/"
@@ -63,7 +63,7 @@ const Bronze = ({ state }) => {
         </Container>
       </PromoOne>
 
-      <PromoTwo className="pt-4 pb-5">
+      <PromoTwo className="pt-4">
         <Container>
 
           <Row>
@@ -102,7 +102,8 @@ const Bronze = ({ state }) => {
           </Row>
 
           <Row>
-            <Col className="align-content-center pt-5 pb-3">
+            <Col className="align-content-center pt-4 pb-4">
+              <p className="h3 news text-center pt-3 pb-3">{display.close2}</p>
               <CTA
                 text="Find out More"
                 link={display.link2}
@@ -198,9 +199,14 @@ const StyledFrame = styled(Frame)`
 `;
 
 const PromoOne = styled.div`
+  padding-bottom: 6rem;
   background-color: #7a9e47;
   background: linear-gradient(to bottom,  #7a9e47 52%,#5e822c 100%); 
   border: none;
+
+  p {
+    color: darkslategray;
+  }
 
   .fancy-frame { 
     background: linear-gradient(
@@ -267,9 +273,14 @@ const PromoOne = styled.div`
 `;
 
 const PromoTwo = styled.div`
+  padding-bottom: 9rem;
   background-color: #7a9e47;
   background: linear-gradient(to top,  #7a9e47 42%,#5e822c 100%); 
   border: none;
+
+  p {
+    color: darkslategray;
+  }
 
   .fancy-frame { 
     background: linear-gradient(45deg, #aafa3c, #4b6f1a);
