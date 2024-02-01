@@ -18,7 +18,7 @@
   "license": "GNU GPL 2 or Later",
   "repository": {
     "type": "git",
-    "url": "https://github.com/primitive/frontstrap.git"
+    "url": "git+https://github.com/primitive/frontstrap.git"
   },
   "bugs": {
     "url": "https://github.com/primitive/frontstrap/issues"
