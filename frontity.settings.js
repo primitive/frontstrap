@@ -40,10 +40,10 @@ const settings = {
           archive: {
             showExcerpt: true
           },
+          debug: false,
           canonical: "https://primitivedigital.uk",
-          fonts: "https://use.typekit.net/jcg4rrq.css",
-          devfonts: "https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Hepta+Slab|Pacifico|Playfair+Display:700|Slabo+27px&display=swap",
-          debug: true
+          prodfonts: "https://use.typekit.net/jcg4rrq.css",
+          fonts: "https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Pacifico|Playfair+Display:700|Slabo+27px&display=swap"
         }
       }
     },
