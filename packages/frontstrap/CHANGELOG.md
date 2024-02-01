@@ -1,10 +1,9 @@
 # frontstrap
 
 ***The Log of Change***
-
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
 
-## 0.0.9 (Jan 31, 2024)
+## 0.0.9 (Feb 01, 2024)
 
 **N.B.**
 Prepping for a new project.
@@ -49,7 +48,7 @@ This project was left in a bit of a mess when COVID hit. Not recommneded for use
 - [ ] Q: useEffect vs self-invoking
 - [ ] Q: imports / conditional / slots?  
 
-- [ ] CI/CD
+
 - [x] Claim primitive org on NPM 🙅 not accepted
 - [x] Claim primitive org on Github ✅
 - [x] Publish to npm (@primitive/rocks) ✅
@@ -58,6 +57,7 @@ This project was left in a bit of a mess when COVID hit. Not recommneded for use
 - [x] Publish to npm (primitivescenes)
 - [x] Publish to npm (primitiveone-theme)
 - [x] Publish to npm (primitiveone)
+- [ ] Impliment CI/CD
 
 
 ## History (frontstrap)
