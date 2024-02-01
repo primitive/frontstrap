@@ -28,7 +28,7 @@ const Social = ({ state }) => {
               className="pt-5 pb-5"
               color={display.color}
               >
-              <h3 className="heading">let'z b friends 4eva</h3>
+              <h3>let'z B Friends 4eva</h3>
               <ul className="nav justify-content-center">
                 <li className="nav-item p-1"> <Icon name="instagram" /> <a href={instagram.url} target="_blank">Instagram </a></li>
                 <li className="nav-item p-1"> <Icon name="facebook" /> <a href={facebook.url} target="_blank">Facebook </a></li>

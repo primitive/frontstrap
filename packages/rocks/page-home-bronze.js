@@ -125,7 +125,7 @@ export default connect(Bronze);
 
 const PromoSection = styled.section`
 
-  margin-top: 3rem;
+  margin-top: 0;
   margin-bottom: 1.5rem;
   background-color: var(--bs-color-primary);
   border: none;
@@ -156,6 +156,7 @@ const PromoSection = styled.section`
         line-height: 1.5;
         list-style: none;
         color: #212529;
+        text-align: left;
         text-shadow: 1px 1px 0 rgba(171,207,117, 0.6);
   
         &:hover {

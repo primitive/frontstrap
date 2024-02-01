@@ -5,7 +5,7 @@ import { Container, Row, Col } from "@primitive/pebbles/grid";
 
 const Promo = ({ state }) => {
 
-  const display = state.theme.config.global.promo;
+  const display = state.theme.config.promo;
   if (!display) { return null }
 
   const colors = state.theme.colors;
@@ -25,12 +25,12 @@ const Promo = ({ state }) => {
           <Col className="text-center p-5">
             <StyledLink link={display.link}>
               <PreText
-                text={colors.ivory}
+                text=""
               >
                 {display.pretext}
               </PreText>
               <Text
-                text={colors.ivory}
+                text=""
               >
                 {display.text}
               </Text>
@@ -46,12 +46,15 @@ export default connect(Promo);
 
 
 const PromoSection = styled.section`
-  background-color: ${(props) => props.bg ? props.bg : 'bisque'};
-  border-top: 6px solid #e8e6cf;
+  margin-top: 3rem; 
+  background-color: ${(props) => props.bg ? props.bg : 'var(--bs-success-bg-subtle)'};
+  border-top: 6px solid var(--bs-success-border-subtle);
+  border-bottom: 6px solid var(--bs-success-border-subtle);
 `;
 
 const PreText = styled.h2`
-  color: ${(props) => props.text ? props.text : 'darkslategrey'};
+  color: ${(props) => props.text ? props.text : 'var(--bs-success)'};
+  font-family: var(--pd-font-family-display);
 `;
 
 const Text = styled.h3`
