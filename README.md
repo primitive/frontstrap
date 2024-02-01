@@ -1,32 +1,28 @@
 # frontstrap
 
-Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless-WordPress.
-
-## 0.0.9 (Jan 30, 2024)
+Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless WordPress.
 
 **N.B.:**
-Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
+Prepping for a new project.
+Frontity will be deprecated in favour of a new framework.
+This repo will be archived and the theme will be re-released as a new package.
 
 #### Table of Contents
 
 - [Primitive](#primitive)
-- [Launch a development server](#launch-a-development-server)
-- [Create your custom theme](#create-your-custom-theme)
+- [Development](#development)
+- [Customise the theme](#customise)
 - [Create a production-ready build](#create-a-production-ready-build)
 - [Deploy](#deploy)
 
 ### Primitive
+
 Primitive's Rolling Mountains (Beautiful Views)
 
-WIP: 2023 sanity check and project post-covid revival
+
 
 
 **Frontity Framework is not under active development anymore. Frontity currently supports Node >= 16.**
-
-2. Research possible alternatives: https://nextjswp.com/
-3. Fix: Head tags issue?
-
-
 Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
 - [error:0308010C:digital envelope routines::unsupported"](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
 - [Openssl Enable Legacy Renegotiation](https://pipeawk.com/index.php/2022/05/19/openssl-enable-legacy-renegotiation/)
@@ -41,7 +37,27 @@ export NODE_OPTIONS=--openssl-legacy-provider
 This issue will be fixed in node v18.
 
 
-### Launch a development server
+### Development
+
+
+```
+{
+  "dependencies": {
+    "local": {
+      "frontstrap": "./packages/frontstrap",
+      "@primitive/pebbles": "./packages/pebbles",
+      "@primitive/rocks": "./packages/rocks",
+      "@primitive/scenes": "./packages/scenes"
+    },
+    "published": {
+      "frontstrap": "^0.0.9",
+      "@primitive/pebbles": "^0.0.7",
+      "@primitive/rocks": "^0.0.10",
+      "@primitive/scenes": "^0.0.7"
+    }
+  }
+}
+```
 
 ```
 npx frontity dev
