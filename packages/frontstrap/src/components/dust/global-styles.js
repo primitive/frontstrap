@@ -28,11 +28,20 @@ const globalStyles = (config, colors) => css`
   --bs-highlight-bg: #fff3cd;
 
 
-
   // TYPOGRAPHY
   --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
-  --bs-body-font-family: var(--bs-font-sans-serif);
+
+  --pd-font-family-book: ${config.style.fontFamily.book ? config.style.fontFamily.book : '"Times New Roman",serif'};
+  --pd-font-family-brush: ${config.style.fontFamily.brush ? config.style.fontFamily.brush : '"Brush Script MT",cursive'};
+  --pd-font-family-display: ${config.style.fontFamily.display ? config.style.fontFamily.display : 'Arial, sans-serif'};
+  --pd-font-family-news: ${config.style.fontFamily.news ? config.style.fontFamily.news : 'Baskerville,Garamond,serif'};
+  --pd-font-family-sans: ${config.style.fontFamily.sans ? config.style.fontFamily.sans : 'var(--bs-font-sans-serif)'};
+  --pd-font-family-sans-cond: ${config.style.fontFamily.sansCond ? config.style.fontFamily.sansCond : 'var(--bs-font-sans-serif)'};
+  --pd-font-family-script: ${config.style.fontFamily.script ? config.style.fontFamily.script : '"Brush Script MT",cursive'};
+  --pd-font-family-serif: ${config.style.fontFamily.serif ? config.style.fontFamily.serif : 'Georgia,serif'};
+
+  --bs-body-font-family: var(--pd-font-family-book);
 
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 300;
@@ -40,28 +49,7 @@ const globalStyles = (config, colors) => css`
   --bs-body-color: #212529;
   --bs-body-bg: #fff;
 
-
-// free
-// --pd-font-family-news: "Abril Fatface",sans-serif;"abril-fatface", serif;
-//   font-family: 'Hepta Slab', serif;
-//   font-family: 'Playfair Display', Georgia, serif;
-//   font-family: 'Slabo 27px', Georgia, serif;
-//   font-family: 'Pacifico', cursive;
-
-  
-  // custom
-  --pd-font-family-sans: goodlife-sans, sans-serif;
-  --pd-font-family-sans-cond: goodlife-sans-condensed, sans-serif;
-  --pd-font-family-serif: goodlife-serif,serif;
-  --pd-font-family-book: "bookman-jf-pro",serif;
-  --pd-font-family-script: goodlife-script,sans-serif;
-  --pd-font-family-brush: goodlife-brush,sans-serif;
-  --pd-font-family-display: xunga-variable, sans-serif;
-  --pd-font-family-news: "abril-fatface", serif;
-  --pd-font-family-body: var(--pd-font-family-book);
-
 }
-
 
 
 body {
@@ -168,13 +156,11 @@ a + a {
   margin-left: 5px;
 }
 
-
-
 pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: var(--bs-font-monospace);
   padding: 0.25rem 0.4rem;
 }
 
@@ -340,21 +326,24 @@ h3, .h3 {
   font-family: var(--pd-font-family-brush);
   font-size: 2.8rem;
 }
+.brush {
+  font-family: var(--pd-font-family-brush);
+}
 .news {
   font-family: var(--pd-font-family-news);
 }
 
-h4, .slab {
+h4, .h4, .slab {
   font-family: var(--pd-font-family-serif);
   font-size: 1.6rem;
 
 }
-h5, .subslab {
+h5, .h5, .subslab {
   font-family: var(--pd-font-family-sans);
   font-size: 1.3rem;
 }
-h6, .scribe, .brush {
-  font-family: var(--pd-font-family-brush);
+h6, .h6, .scribe {
+  font-family: var(--pd-font-family-script);
   font-size: 1.2rem;
 }
 p {

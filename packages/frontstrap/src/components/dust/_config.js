@@ -10,12 +10,22 @@ const themeconfig = {
             bg: "#fffefe",
             font: {
               size: "1rem",
-              family: 'var(--pd-font-family-body)',
+              family: 'var(--bs-body-font-family)',
               color: "",
               weight: "300",
-              lineheight: "1.5"
+              lineheight: "1.5",
             }
           },
+          fontFamily: {
+            sans: "Helvetica,Helvetica Neue,Arial,sans-serif",
+            sansCond: "'Amatic SC',sans-serif",
+            serif: "'Slabo 27px',Georgia,serif",
+            display: "Abril Fatface",
+            news: "'Playfair Display',Georgia,serif",
+            book: "Baskerville,Georgia,serif",
+            brush: "'Pacifico',cursive",
+            script: "'Pacifico',cursive"
+          }
         },
 
         header: {
@@ -81,7 +91,7 @@ const themeconfig = {
           showHero: true,
           showIntro: true,
           showGold: true,
-          showSilver: false,
+          showSilver: true,
           showBronze: true,
           showBrass: true,
           showBanner: false,
@@ -114,6 +124,7 @@ const themeconfig = {
             imagesrc1: "https://primitivedigital.uk/wp-content/uploads/promo/wantawebsite_square.jpg",
             listFrame1: "frame",
             list1: ["Web Sites, Online Shops & Apps", "CMS, KMS, LMS, API's & Integrations", "Fully Editable & Mobile Friendly", "Search Engine Optimised", "High tech, low cost, no hassle"],
+            close1: "When it'll do, just won't do we're the ones for you. Excellence comes as standard.",
             link1: "/web-design/",
             icon1: "",
             title2: "Startups & MVPs",
@@ -121,6 +132,7 @@ const themeconfig = {
             imagesrc2: "https://primitivedigital.uk/wp-content/uploads/promo/selfiemonkey_square.jpg",
             listFrame2: "frame",
             list2: ["Bespoke Websites & Apps", "Professionally designed and branded", "With Logo design", "Plus all marketing assets", "Easy, peasy chimpanzizi!"],
+            close2: "We make websites & apps that work for you, your business and your customers.",
             link2: "/darwin-project/",
             icon2: ""
           }
@@ -178,9 +190,9 @@ const themeconfig = {
         promo: {
           rocks: "global-promo",
           type: "text",
-          pretext: "Business / Enterprise",
-          text: "Primitive provides people-friendly, packages only. ",
-          link: "https://sknow.it/"
+          pretext: "SuperGreen Eco Hosting",
+          text: "Be a better business. Leave no carbon footprints with our green WordPress hosting. Click here to order now.",
+          link: "https://primitivehosting.uk/store/wordpress-hosting"
         },
 
         showSocial: true,

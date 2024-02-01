@@ -4,7 +4,7 @@ import { connect, styled, loadable } from "frontity";
 import Hero from '@primitive/scenes/jungle';
 import Intro from '@primitive/rocks/page-home-intro';
 import Gold from '@primitive/rocks/page-home-tabs';
-import Silver from '@primitive/rocks/cpt-poststrip/post-strip';
+import Silver from '@primitive/rocks/global-promo';
 import Bronze from "@primitive/rocks/page-home-bronze";
 import Brass from '@primitive/rocks/cpt-poststrip/post-strip';
 
@@ -35,11 +35,11 @@ const PageHome = ({ state }) => {
         <Gold />
       )}
 
-      {display.showSilver && (
-        <p>silver spot - not used</p>
-      )}
+      <Page />  
 
-      <Page />
+      {display.showSilver && (
+        <Silver />
+      )}
 
       {display.showBronze && (
         <Bronze />

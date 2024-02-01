@@ -59,7 +59,7 @@ const listStyle1 = colors => css`
   ul {
     margin: 1rem 1.5rem 0 5rem;
     padding: 2rem 1rem;
-    background: rgba(${colors.rgb.white}, 0.5);
+    background: rgba(${colors.rgb.white}, 0.7);
     border: 2px solid ${colors.coal};
   }
 
@@ -343,6 +343,9 @@ const pageall = colors => css`
   }
 
   .q-style-2 {
+
+    background-color: rgba(${colors.rgb.white}, 0.5);
+
     blockquote { 
       background-color: rgba(${colors.rgb.white}, 0.5);
       border-left: 4px solid rgba(${colors.rgb.secondary}, 0.8);
@@ -720,6 +723,20 @@ const landingPages = colors => css`
       h2 { ${oronymTop(colors)} }
       h3 { ${oronymBottom(colors)} }
     } 
+
+    blockquote {
+      margin-top: 2rem;
+      margin-right: auto;
+      background-color: rgba(${colors.rgb.white}, 0.7);
+      border-radius: 1rem;
+      p {
+        color: ${colors.coal};
+      }
+    }
+    blockquote::after {
+      top: 1rem;
+      left: 5rem;
+    }
 
   }
 `;

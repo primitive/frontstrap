@@ -21,7 +21,7 @@ const postall = colors => css`
       }
 
       .intro {
-        font-family: 'Hepta Slab';
+        font-family: var(--pd-font-family-serif);
         text-align: center;
         padding: 3px 5%;
         font-size: 1.3rem;
@@ -29,7 +29,7 @@ const postall = colors => css`
 
       .hello {
         padding: 1rem 1.2rem;
-        font-family: 'Hepta Slab';
+        font-family: var(--pd-font-family-serif);
         font-size: 2rem;
         color: ${colors.coal};
 
@@ -50,7 +50,7 @@ const postall = colors => css`
       .blurb {
         padding: 1rem 1.2rem;
         font-size: 2rem;
-        font-family: 'Hepta Slab', Georgia;
+        font-family: var(--pd-font-family-serif);
         color: ${colors.primary};
     
         a {
@@ -122,7 +122,7 @@ const postall = colors => css`
       padding: 2rem 1rem 2rem 1rem;
       position: relative;
       left: -2rem;
-      font-family: 'Hepta Slab';
+      font-family: var(--pd-font-family-serif);
       font-size: 1.3rem;
       text-shadow: 1px 1px 0 rgba(${colors.rgb.gray}, 0.3);
   
