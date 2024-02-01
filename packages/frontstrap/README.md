@@ -1,13 +1,15 @@
 # Frontstrap Frontity Theme
 
-Primitive Rolling Mountains | Beautiful Views 
+Primitive Rolling Mountains (Beautiful Views)
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
-## 0.0.9 (Jan 30, 2024)
+## 0.0.9 (Feb 01, 2024)
 
 **N.B.:**
-Prepping for a new project. Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
+Prepping for a new project.
+Frontity will be deprecated in favour of a new framework.
+This repo will be archived and the theme will be re-released as a new package.
 
 
 # Frontstrap Frontity Theme
@@ -27,27 +29,25 @@ Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.co
 
 
 
-
-
-
-
-
-
-## IGNORE: Previous notes - needs updating (WIP)
+## IGNORE ME!: Previous notes - needs updating (WIP)
 
 See [changelog](CHANGELOG.md) for release notes.
 
 
-## Performance Testing (WIP)
+## Performance
 
-[GTMetrix Report: 29th April](https://gtmetrix.com/reports/primitivedigital.co.uk/tyY4ZsWo)  
-[Google PageSpeed Insigts: 98 Desktop](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)  
-[Google PageSpeed Insigts: 62 Mobile](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)  
+For perfomance testing insights (GTMetrix Reports, PageSpeed Insigts etc. see [stats](https://primitivedigital.uk/stats/)  
+
+98 Desktop / 62 Mobile
+
+**Run Live Tests**
+Desktop: [Google PageSpeed Test](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)  
+Mobile: [Google PageSpeed Test](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)  
 
 
 
 
-## [Package crafted by Primitive Digital](https://primitivedigital.uk)
+## [Crafted by Primitive Digital](https://primitivedigital.uk)
 
 ![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
@@ -110,11 +110,13 @@ https://github.com/primitive/frontstrap/issues
 #### [Primitive One created by Primitive Digital](https://primitivedigital.uk)
 
 
-![screenshot](../../img/haveyouseenit.jpg)
+## [Package crafted by Primitive Digital](https://primitivedigital.uk)
+
+![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
 
 #### Ω - *the end*
 
- > 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒 - 🐒       
+ ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
 <pre>                      
 ._ _  _. _| _  |_    ._ _  _ ._ | o _  _  
 | | |(_|(_|(/_ |_)\/ | | |(_)| ||<|(/__>  
