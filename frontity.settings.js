@@ -3,7 +3,7 @@ const settings = {
   state: {
     frontity: {
       url: "https://primitivedigital.uk",
-      title: "Primitive Digital",
+      title: "Primitive Demo",
       description: "Frontstrap Theme",
       tagline: "Websites & Apps",
       phrase1: "We Make",
@@ -17,20 +17,19 @@ const settings = {
         theme: {
           menu: [
             ["Home", "/"],
-            ["Design", "/web-design"],
-            ["Development", "/web-development"],
-            ["Data", "/data-insights"],
-            ["Marketing", "/marketing"],
-            ["Contact", "/contact"],
-            ["A Nice Log", "/blog"]
+            ["Page", "/web-design"],
+            ["Post", "/blog/a-decade-of-digital-development"],
+            ["Posts", "/blog"],
+            ["WIP CPTs", "/evolution-of-digital-stuff"],
+            ["WIP CTs", "/timelines"],
+            ["Stats", "/stats"],
           ],
           menufooter: [
-            ["Contact", "/contact"],
-            ["Startup Offers", "/darwin-project"],
-            ["Adventures in Time", "/timelines"],
-            ["Cave of Wonders", "/cave"],
+            ["Dev Notes", "/cave"],
+            ["Old Frontity Tests", "/frontity-tests"],
             ["Frontstrap Theme (retired)", "https://www.npmjs.com/package/frontstrap"],
-            ["Boring Legal Stuff", "privacy-policy"]
+            ["Contact", "/contact"],
+            ["Privacy Policy", "privacy-policy"]
           ],
           featured: {
             showOnList: true,
@@ -42,7 +41,6 @@ const settings = {
           },
           debug: false,
           canonical: "https://primitivedigital.uk",
-          prodfonts: "https://use.typekit.net/jcg4rrq.css",
           fonts: "https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC|Pacifico|Playfair+Display:700|Slabo+27px&display=swap"
         }
       }
@@ -51,7 +49,7 @@ const settings = {
       name: "@frontity/google-analytics",
       state: {
         googleAnalytics: {
-          trackingIds: ["G-DTBHP6R7KL"]
+          trackingIds: [""]
         },
       },
     },
