@@ -29,7 +29,7 @@ const themeconfig = {
         },
 
         header: {
-          variant: "dark", //supports: "" | "light" | "dark"
+          variant: "", //supports: "" | "light" | "dark"
           logo: "https://primitivedigital.uk/wp-content/uploads/img/pd-logo-greendark-duo.png",
           alt: "Primitive Digital - Design &amp; Development",
           link: "/contact/",
@@ -44,6 +44,9 @@ const themeconfig = {
         
         footer: {
           rocks: "",
+          bg1: "#D4AEA6",
+          bg2: "#D4AEA6",
+          bg3: "#D4AEA6",
           bg: "#D4AEA6",
           color: "#87635C",
           image: "https://primitivedigital.uk/wp-content/uploads/promo/topbanana1.png",
@@ -60,15 +63,13 @@ const themeconfig = {
           },
 
           kudos: {
-            alt1: "Primitive Digital - Web Design &amp; Development",
-            src1: "https://gist.githubusercontent.com/primitiveshaun/0ed73e662218497565fc4c59464f05db/raw/fa54ac683c60a7576f254daf82225d7c52291b16/pd_primitive.svg",
-            alt2: "Highly Recommends",
-            src2: "https://gist.githubusercontent.com/primitiveshaun/58b74f472e0f11d9fe202056322f3a83/raw/5055725c1b0f103c9338a99ef7bacfa1013e99af/pd_heartit.svg",
+            alt1: "Built with Love",
+            src1: "https://gist.githubusercontent.com/primitiveshaun/58b74f472e0f11d9fe202056322f3a83/raw/5055725c1b0f103c9338a99ef7bacfa1013e99af/pd_heartit.svg",
+            alt2: "Primitive Digital - Web Design &amp; Development",
+            src2: "https://gist.githubusercontent.com/primitiveshaun/0ed73e662218497565fc4c59464f05db/raw/fa54ac683c60a7576f254daf82225d7c52291b16/pd_primitive.svg",
             alt3: "Everything WordPress",
             src3: "https://gist.githubusercontent.com/primitiveshaun/e7370d6c413e04240158e032f8ac06ab/raw/88cbc672a1bcccc1b74007b4dd164bc01844baa7/pd_wordpress.svg",
-            alt4: "Plus Frontity the framework for super fast WordPress+React themes",
-            src4: "https://gist.githubusercontent.com/primitiveshaun/69d1ac57b037931ea645629fa2bce642/raw/7c36d73c5ce8161a56dfc13deaac5b0e813b4e8a/pd_frontity.svg",
-            link: "https://frontity.org/"
+            link: ""
           },
 
           credit: {
