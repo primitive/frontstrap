@@ -1,6 +1,6 @@
 # Primitive Rocks
 
-Primitive Rocks! (Block + Smart Component) Library
+Primitive Rocks! | Block + Smart Component Library
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 

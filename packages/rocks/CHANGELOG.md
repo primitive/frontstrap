@@ -18,7 +18,8 @@ Logs are somewhat of a rant. More for my benefit. I was experimenting with diffe
 
 ## Historic, erm..., History (primitiverocks / @primitive/rocks)
 
-
+- **v0.0.11 > Fix (Feb 02, 2024):**
+- update props namespace + config object, fix tab 4
 - **v0.0.10 > Fix (Feb 01, 2024):**
 - [x] minor style + font use fixes
 - **v0.0.9 > Fix (Jan 30, 2024):**

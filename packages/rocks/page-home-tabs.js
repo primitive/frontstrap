@@ -138,23 +138,23 @@ const TabBlock = ({ state }) => {
               <Col>
 
                 <TextWrap>
-                  <Heading level="h3" text={display.three.title1} />
-                  <Blurb>{display.three.text1}</Blurb>
+                  <Heading level="h3" text={display.four.title1} />
+                  <Blurb>{display.four.text1}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={display.three.title2} />
-                  <Blurb>{display.three.text2}</Blurb>
+                  <Heading level="h3" text={display.four.title2} />
+                  <Blurb>{display.four.text2}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={display.three.title3} />
-                  <Blurb>{display.three.text3}</Blurb>
+                  <Heading level="h3" text={display.four.title3} />
+                  <Blurb>{display.four.text3}</Blurb>
                 </TextWrap>
 
                 <TextWrap>
-                  <Heading level="h3" text={display.three.title4} />
-                  <Blurb>{display.three.text4}</Blurb>
+                  <Heading level="h3" text={display.four.title4} />
+                  <Blurb>{display.four.text4}</Blurb>
                 </TextWrap>
 
               </Col>
