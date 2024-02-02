@@ -16,16 +16,17 @@ const KnobblyKnees = ({ state }) => {
 
   return (
     <FooterKudos
-      bg={display.color}
+      bg={display.bg2}
+      color={display.color2}
       className="pt-5 pb-5 text-center"
       role="contentinfo"
     >
       <Container>
 
-        <Row>
+      <Row>
           <Col>
-            {/* <LabeledIcon icon={PrimitiveLogo} label="" /> */}
             <Image
+              className="loveit"
               alt={display.kudos.alt1}
               src={display.kudos.src1}
             />
@@ -34,8 +35,8 @@ const KnobblyKnees = ({ state }) => {
 
         <Row>
           <Col>
+            {/* <LabeledIcon icon={PrimitiveLogo} label="" /> */}
             <Image
-              className="loveit"
               alt={display.kudos.alt2}
               src={display.kudos.src2}
             />
@@ -62,6 +63,7 @@ export default connect(KnobblyKnees);
 
 const FooterKudos = styled.div`
   background-color: ${(props) => props.bg ? props.bg : 'bisque'};
+  color: ${(props) => props.color ? props.color : 'darkslategray'};
 
   svg, img {
     margin: 10px auto;

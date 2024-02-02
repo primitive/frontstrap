@@ -10,8 +10,8 @@ const FurryBoots = ({ state }) => {
   return (
 
       <FooterCTA
-        bg={display.bg}
-        color={display.color}
+        bg={display.bg1}
+        color={display.color1}
         role="complementary"
         className="pt-4 pb-4 text-center">
         <Container>
