@@ -55,6 +55,7 @@ This project was left in a bit of a mess when COVID hit. Not recommneded for use
 - [x] Publish to npm (frontstrap) ✅
 - [x] Publish to npm (primitiverocks)
 - [x] Publish to npm (primitivescenes)
+
 - [x] Publish to npm (primitiveone-theme)
 - [x] Publish to npm (primitiveone)
 - [ ] Impliment CI/CD
@@ -66,12 +67,12 @@ This project was left in a bit of a mess when COVID hit. Not recommneded for use
 Logs are somewhat of a rant. More for my benefit.
 I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
 
-
+0.0.10: update config obj, footer: update props namespace
 0.0.9: fix missing display const, update-browserslist, merge base/global style files, extract font styles, fix: handle no class blockquotes, style: refactor + reduce duplication, refine styles, extract type config, refractor, minor fixes
 0.0.8: version tests and server update, housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
 0.0.7: fix: blockquote processor, update assets urls, update cdn link bootrap 5.2.2 - full css, simplify styling
 0.0.6: fix: randomWord display
-1.1.0: restructured for development of theme-able system. WIP
+1.1.0: restructured for development of theme-able system.
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
 
 ## Historic, erm..., History (primitiveone / primitive-theme on npm)

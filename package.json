@@ -1,15 +1,15 @@
 {
   "name": "frontstrap",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "description": "Primitive Digital's Headless WordPress Frontstrap (Bootstrap + Frontity) theme.",
   "keywords": [
     "@primitive",
-    "@primitive/rocks",
+    "primitive.rocks",
     "bedrock",
-    "frontity",
     "headless",
-    "wordpress"
+    "wordpress",
+    "frontity"
   ],
   "engines": {
     "node": ">=16.0.0",

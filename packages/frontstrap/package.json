@@ -1,15 +1,15 @@
 {
   "name": "frontstrap",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "private": false,
   "description": "Primitive's Rolling Mountains | Beautiful views",
   "keywords": [
     "@primitive",
-    "@primitive/rocks",
+    "primitive.rocks",
     "bedrock",
-    "frontity",
     "headless",
     "wordpress",
+    "frontity",
     "bootstrap",
     "theme"
   ],

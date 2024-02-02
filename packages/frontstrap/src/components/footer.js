@@ -12,8 +12,8 @@ const Footer = ({ state }) => {
   return (
     <SiteFooter
       role="contentinfo"
-      bg={display.color}
-      color={display.bg}
+      bg={display.bg3}
+      color={display.color3}
       hover={colors.secondary}
     >
 
