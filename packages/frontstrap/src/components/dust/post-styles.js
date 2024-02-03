@@ -255,7 +255,7 @@ const wpclasses = colors => css`
         figcaption {
           
           padding: .5rem 1.5rem 1.5rem;
-          font-family: "Amatic SC";
+          font-family: var(--pd-font-family-sans-cond);
           font-size: 2rem;
           text-align: center;
           color: black;

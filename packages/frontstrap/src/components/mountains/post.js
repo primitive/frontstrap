@@ -137,7 +137,7 @@ const PostAuthor = styled.p`
   margin-bottom: .5rem;
   color: rgba(12, 17, 43, 0.9);
   font-size: 1.2rem;
-  font-family: "Amatic SC";
+  font-family: var(--pd-font-family-sans-cond);
   text-align: center;
 `;
 

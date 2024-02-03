@@ -113,7 +113,7 @@ blockquote {
     padding: 1rem 1rem 1rem 0;
     font-size : 1.5rem; 
     font-style : normal;
-    font-family: 'Amatic SC', sans-serif;
+    font-family: var(--pd-font-family-sans-cond);
   } 
 
   &::after {
