@@ -1,9 +1,8 @@
 # frontstrap
 
-Bootstrap starter theme for [Frontity](https://frontity.org/) based Headless WordPress.
+Bootstrap 5 based theme for [Frontity](https://frontity.org/) Headless WordPress.
 
 **N.B.:**
-Prepping for a new project.
 Frontity will be deprecated in favour of a new framework.
 This repo will be archived and the theme will be re-released as a new package.
 
@@ -50,8 +49,8 @@ This issue will be fixed in node v18.
       "@primitive/scenes": "./packages/scenes"
     },
     "published": {
-      "frontstrap": "^0.0.9",
-      "@primitive/pebbles": "^0.0.7",
+      "frontstrap": "^0.0.11",
+      "@primitive/pebbles": "^0.0.8",
       "@primitive/rocks": "^0.0.10",
       "@primitive/scenes": "^0.0.7"
     }

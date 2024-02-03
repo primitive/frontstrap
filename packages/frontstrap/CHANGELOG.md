@@ -3,11 +3,11 @@
 ***The Log of Change***
  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
 
-## 0.0.9 (Feb 01, 2024)
+## 0.0.11 (Feb 02, 2024)
 
 **N.B.**
-Prepping for a new project.
-Frontity will be deprecated in favour of a new framework. This repo will be archived and the theme will be re-released as a new package.
+Frontity will be deprecated in favour of a new framework.
+This repo will be archived and the theme will be re-released as a new package.
 This project was left in a bit of a mess when COVID hit. Not recommneded for use in production.
 
 
