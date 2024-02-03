@@ -10,6 +10,7 @@ Commit messages are loosly following [Conventional Commits](https://conventional
 
 ## Historic, erm..., History (primitivepebbles / @primitive/pebbles)
 
+- **Fix build error (Feb 03, 2024):**
 - **Fix Col (Oct 23, 2020):**
 - [x] fix responsiveness
 - **Theming, Processors, CPTs (Oct 5, 2020):**
