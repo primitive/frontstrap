@@ -1,5 +1,14 @@
+import { Container, Row, Col } from "react-bootstrap";
 import { css } from "frontity";
 import facepaint from 'facepaint'
+
+//import {mq, mq2col} from './Grid';
+// import {mq, mq2col} from '@primitive/pebbles/grid';
+
+// local overides
+// import Container from './Container';
+// import Row from './Row';
+// import Col from './Col';
 
 /* ®ead > */
 
@@ -62,4 +71,4 @@ const demoClassName = css(mq({
 }))
 */
 
-export {Grid, mq, mq2col};
+export { Container, Row, Col, mq, mq2col };
