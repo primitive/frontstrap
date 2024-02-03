@@ -1,11 +1,11 @@
 {
   "name": "@primitive/pebbles",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "description": "Primitive Base Components: It's the little things that make you happy.",
   "keywords": [
     "@primitive",
-    "@primitive/rocks",
+    "primitive.rocks",
     "bedrock",
     "frontity",
     "headless",

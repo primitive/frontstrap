@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
-import {mq, mq2col} from './Grid';
-// import {mq, mq2col} from '@primitive/pebbles/grid';
+//import {mq, mq2col} from './Grid';
+import {mq, mq2col} from '@primitive/pebbles/grid';
 
 // local overides
 // import Container from './Container';
