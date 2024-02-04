@@ -103,6 +103,14 @@ const FormStyles = colors => css`
 
       }
 
+      span[class*="-NotValidTip"]{
+        display: inline-block;
+        padding: .2rem;
+        color: var(--bs-danger);
+        background: var(--bs-danger-bg-subtle);
+        border-radius: var(--bs-border-radius-sm);
+      }
+
       &::before {
         content: '';
         padding: 6rem;
@@ -123,6 +131,20 @@ const FormStyles = colors => css`
 
     }
 
+    .error-message {
+      margin-top: .3rem;
+      color: var(--bs-danger);
+      background: var(--bs-danger-bg-subtle);
+      border-color: var(--bs-danger-border-subtle);
+      border-radius: var(--bs-border-radius);
+    }
+    .success-message {
+      margin-top: .2rem;
+      color: var(--bs-success);
+      background: var(--bs-success-bg-subtle);
+      border-color: var(--bs-success);
+      border-radius: var(--bs-border-radius);
+    }
 
 
 `;
