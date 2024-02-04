@@ -57,7 +57,7 @@ const settings = {
       name: "@frontity/wp-source",
       state: {
         source: {
-          api: "https://primitivedigital.uk/wp-json", // required: Your WP REST API EndPoint (no trailing slash)
+          api: "https://primitivedigital.uk/wp-json/", // required: Your WP REST API EndPoint (cf7 package requires trailing slash)
           homepage: "/home", // optional: set when using a page as the site homepage (wp hp settings ignored)
           postsPage: "/blog", // optional: set when using a page as the site homepage
 
