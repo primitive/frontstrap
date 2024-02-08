@@ -196,7 +196,7 @@ const themeconfig = {
           type: "text",
           pretext: "SuperGreen Eco Hosting",
           text: "Be a better business. Leave no carbon footprints with our green WordPress hosting. Click here to order now.",
-          link: "https://primitivehosting.uk/store/wordpress-hosting"
+          link: "https://primitivehosting.uk/store/wordpress-hosting?utm_source=primitivedigital&utm_medium=banner-hp-silver&utm_campaign=supergreen&utm_content=better-business"
         },
 
         showSocial: true,

@@ -1,27 +1,131 @@
-# frontstrap
+# Frontstrap Frontity Theme
+![Primitive Digital](https://github.com/primitive/frontstrap/blob/main/docs/pd-quantum-wordpress.png?raw=true)
 
-Bootstrap 5 based theme for [Frontity](https://frontity.org/) Headless WordPress.
+<hr>
+<div align="center">
+  <a href="https://github.com/primitive/frontstrap">
+    <img src="https://raw.githubusercontent.com/primitive/frontstrap/bd64357bfa6184586bdf313de10238598448ad6f/docs/primitive.svg" alt="Primitive" width="160" height="80">
+  </a>
+
+  <h2 align="center">Frontstrap Theme</h2>
+
+  <h3 align="center">Primitive's Rolling Mountains | ❦ ☞ Beautiful Views</h3>
+
+  <p align="center">
+    A starter theme for Headless-WordPress deployments with Frontity.
+    <br />
+    <a href="https://docs.frontity.org/installation-and-deploy"><strong>Frontity is not longer maintained and is being sunsetted as our framework. Not recommneded for use in production. »</strong></a>
+    <br>
+    <br>
+    <a href="https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme">View Demo</a>
+    ·
+    <a href="https://github.com/primitive/frontstrap/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/primitive/frontstrap/issues">Request Feature</a>
+  </p>
+  <p align="center">
+    Built on the awesome, itty bitty, <a href="https://frontity.org/">Frontity</a> framework. With little help from our friends: <a href="https://getbootstrap.com/">Bootstrap</a>, <a href="https://greensock.com/gsap/">GSAP</a> and <a href="https://scrollmagic.io/">ScrollMagic</a>. 
+    <br>
+    Made by <a href="https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme">Monkies</a>  ☙ ❦ 🐒 - 🐒 - 🐒 ❦ ❧<br>
+    & crafted with ❤️ 🍌 ❤️ <br>
+  </p>
+</div>
+<hr>
+
+
+## About The Project
+This was created as an early experiment using Frontity as a headless CMS for WordPress. It was a great learning experience but the project got mothballed during Covid. We decided to fix a few issues with the existing deployment but are moving to an alternative approach for headless deployments.
+
+**Primitive Digital's Live Site 👉  [Primitive Digital](https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme)**
+
+GitHub 👉  [@primitive/frontstrap](https://github.com/primitive/frontstrap)  
+
+Theme NPM package ~  👉  [frontstrap (v1.0.x)](https://www.npmjs.com/package/frontstrap)
+
+Rocks NPM package 🎉  ~  👉  [@primitive/rocks (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210833)  
+Pebbles NPM package 🎉  ~  👉  [@primitive/pebbles (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210829)  
+Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.com/primitive/frontstrap/packages/1210812)  
 
 
 
-#### Table of Contents
 
-- [Primitive](#primitive)
-- [Development](#development)
-- [Customise the theme](#customise)
-- [Create a production-ready build](#create-a-production-ready-build)
-- [Deploy](#deploy)
+### Prerequisites
+-------------------------------
 
-### Primitive
+**The following pre-requisites should be in place for the theme to work:**
+1. WordPress install of version 5.0 or later
+2. Optional but highly recommended: register a domain
+3. If deploying to Vercel install WordPress to a sub directory e.g. - wp.example.com
+4. Posts permalink set set to: Custom Structure e.g. - `/posts/%postname%/`
+5. Set homepage to a static page
+6. Some features may require the use of the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin
 
-Primitive's Rolling Mountains (Beautiful Views)
+
+### Installation & Development
+-------------------------------
+
+*** Follow the Frontity setup outlined in their [Docs](https://docs.frontity.org/getting-started/quick-start-guide) ***
+
+**To use this theme**
+You can install the theme and packages from the NPM/Github registry. You will need to extract the frontstrap package to edit 'src/components/dust/_config' and copy frontity.settings.js to the root of your project.
+
+The simpler option is to clone the demo repo:
+
+1. `git clone https://github.com/primitive/frontstrap`
+2. `cd frontstrap`
+3. `npm install && npx frontity dev (from the project's root directory)`
+
+```
+npx frontity dev
+```
+
+Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
+
+The site will automatically reload if you make changes inside the `packages` folder. You will see the build errors in the console.
 
 
-**N.B.:**
-Frontity will be deprecated in favour of a new framework.
-This repo will be archived and the theme will be re-released as a new package.
+### Deployment
+------------------------------------
 
-**Frontity Framework is not under active development anymore.**
+*** Follow the Frontity deployment outlined in their [Docs](https://docs.frontity.org/installation-and-deploy) ***
+
+```
+npx frontity build
+```
+
+Builds the app for production to the `build` folder.
+
+This will create a `/build` folder with a `server.js` (a [serverless function](https://vercel.com/docs/v2/serverless-functions/introduction)) file and a `/static` folder with all your javascript files and other assets.
+
+Your app is ready to be deployed.
+
+
+
+#### Ω - *the end*
+
+ ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
+<pre>                                                                               
+ _____       _        _                        _               
+|     |___ _| |___   | |_ _ _    _____ ___ ___| |_ ___ _ _ ___ 
+| | | | .'| . | -_|  | . | | |  |     | . |   | '_| -_| | |_ -|
+|_|_|_|__,|___|___|  |___|_  |  |_|_|_|___|_|_|_,_|___|_  |___|
+                         |___|                        |___|    
+</pre>
+> [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+
+---
+
+🃏 This code is opensource so play like you mean business 🤓
+
+#### [Crafted by Primitive Digital](https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme)
+
+![](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
+
+
+
+
+### A quiet little corner where a Developer can go sit, scowel a bit, grumble a bit and think about what you've done...
+
 
 **Frontity currently supports Node >= 16.**
 Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
@@ -34,12 +138,6 @@ Possible workaround
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
-
-This issue will be fixed in node v18.
-
-
-### Development
-
 
 ```
 {
@@ -59,88 +157,6 @@ This issue will be fixed in node v18.
   }
 }
 ```
-
-```
-npx frontity dev
-```
-
-Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
-
-The site will automatically reload if you make changes inside the `packages` folder. You will see the build errors in the console.
-
-> Have a look at our [Quick Start Guide](https://docs.frontity.org/getting-started/quick-start-guide)
-
-### Create your custom theme
-
-```
-npx frontity create-package your-custom-theme
-```
-
-Use the command `npx frontity create-package` to create a new package that can be set in your `frontity.settings.js` as your theme
-
-> Have a look at our blog post [How to Create a React WordPress Theme in 30 Minutes](https://frontity.org/blog/how-to-create-a-react-theme-in-30-minutes/)
-
-### Create a production-ready build
-
-```
-npx frontity build
-```
-
-Builds the app for production to the `build` folder.
-
-This will create a `/build` folder with a `server.js` (a [serverless function](https://vercel.com/docs/v2/serverless-functions/introduction)) file and a `/static` folder with all your javascript files and other assets.
-
-Your app is ready to be deployed.
-
-> Get more info about [Frontity's architecture](https://docs.frontity.org/architecture)
-
-### Deploy
-
-With the files generated in the _build_ you can deploy your project
-
-#### As a node app
-
-Use `npx frontity serve` to run it like a normal Node app.
-
-This command generates (and runs) a small web server that uses the generated `server.js` and `/static` to serve your content
-
-#### As a serverless service
-
-Upload your `static` folder to a CDN and your `server.js` file to a serverless service, like Now or Netlify.
-
-> Get more info about [how to deploy](https://docs.frontity.org/deployment) a Frontity project
-
-
-### » Frontity Quicklinks
-[Keep Frontity Updated](https://gitbook-docs.frontity.org/guides/keep-frontity-updated)
-
-
-
-
-
-
----
-
-### » Frontity Channels 🌎
-
-We have different channels at your disposal where you can find information about the project, discuss about it and get involved:
-
-- 📖 **[Docs](https://docs.frontity.org)**: this is the place to learn how to build amazing sites with Frontity.
-- 👨‍👩‍👧‍👦 **[Community](https://community.frontity.org/)**: use our forum to [ask any questions](https://community.frontity.org/c/dev-talk-questions), feedback and meet great people. This is your place too to share [what are you building with Frontity](https://community.frontity.org/c/showcases)!
-- 🐞 **[GitHub](https://github.com/frontity/frontity)**: we use GitHub for bugs and pull requests. Questions are answered in the [community forum](https://community.frontity.org/)!
-- 🗣 **Social media**: a more informal place to interact with Frontity users, reach out to us on [Twitter](https://twitter.com/frontity).
-- 💌 **Newsletter**: do you want to receive the latest framework updates and news? Subscribe [here](https://frontity.org/)
-
-### » Get involved 🤗
-
-Got questions or feedback about Frontity? We'd love to hear from you. Use our [community forum](https://community.frontity.org) yo ! ❤️
-
-Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
-
-
-
-### A quiet little corner where a Developer can go sit, scowel a bit, grumble a bit and think about what you've done...
-
 
 **Frontstrap V0.x Deployment:**
 - deployed to wordpress with frontity embedded mode plugin
