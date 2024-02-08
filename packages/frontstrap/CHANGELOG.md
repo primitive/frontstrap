@@ -1,73 +1,14 @@
 # frontstrap
 
 ***The Log of Change***
- 🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO
-
-## 0.0.11 (Feb 02, 2024)
-
-**N.B.**
-Frontity will be deprecated in favour of a new framework.
-This repo will be archived and the theme will be re-released as a new package.
-This project was left in a bit of a mess when COVID hit. Not recommneded for use in production.
-
-
-**Legacy V1 Deployment:**
-- deployed to wordpress with frontity embedded mode plugin
-- frontity hosted on VPS
-- framework no longer maintained + is resource intensive/memory hungry. To be replaced with an alternate framework.
-
-## TO REVIEW + MIGRATE USEFUL BITS
-- [x] test issues with node 18 (kinda works)
-- [x] frontity.settings is dominant over package/index
-- [x] BS emotion warnings
-- [x] WebFonts: Tested as per docs. Implementation works but some google fonts don't convert well
-- [x] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
-- [x] FIX: menu collapse / routing
-- [x] FIX: preloading
-- [ ] Refine: Optimise for Mobile: Don't serve some animations on mobile, handle click/hover
-- [ ] FIX or FEAT: author list view / profile
-- [x] Split primitiverocks package
-- [x] Split primitivescenes package
-- [x] Split theme / dev staging
-- [ ] Add: [react-spring](https://www.react-spring.io/)
-- [ ] Add: [react-use-gesture](https://use-gesture.netlify.app/)
-- [ ] Add: [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
-- [x] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
-- [x] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
-- [ ] [Theme: WP Theme Bridge](https://community.frontity.org/t/theme-bridge/1432/12)
-- [ ] FEAT: Fade in lazy loaded images?
-- [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
-- [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)
-- [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
-- [ ] Research conditional loading of UI cores + theme
-- [ ] Set base CSS to use none/twentytwenty/bootstrap (grid, classes, --modifiers-size/transparency/darken/lighten)
-- [ ] Create *shoelace* theme (grid, size, color, breakpoints) + fragments
-- [ ] Research create a UI/cf7 theme builder vs cli
-- [ ] Research add comments / cf7 / fe content submission
-- [ ] Add post social share
-- [ ] Q: useEffect vs self-invoking
-- [ ] Q: imports / conditional / slots?  
-
-
-- [x] Claim primitive org on NPM 🙅 not accepted
-- [x] Claim primitive org on Github ✅
-- [x] Publish to npm (@primitive/rocks) ✅
-- [x] Publish to npm (frontstrap) ✅
-- [x] Publish to npm (primitiverocks)
-- [x] Publish to npm (primitivescenes)
-
-- [x] Publish to npm (primitiveone-theme)
-- [x] Publish to npm (primitiveone)
-- [ ] Impliment CI/CD
-
-
-## History (frontstrap)
+ 🪵
 
 **Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
-Logs are somewhat of a rant. More for my benefit.
-I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
 
-0.0.11: replace fonts with css vars
+## History (frontstrap)
+### 0.0.11 (Feb 04, 2024)
+
+0.0.11: replace fonts with css vars, fix cf7: add slash to api path in frontity.settings.json, style: map bs css vars to cf7 messages
 0.0.10: update config obj, footer: update props namespace
 0.0.9: fix missing display const, update-browserslist, merge base/global style files, extract font styles, fix: handle no class blockquotes, style: refactor + reduce duplication, refine styles, extract type config, refractor, minor fixes
 0.0.8: version tests and server update, housekeeping: remove old style experiments, simplify style vars, extract header link + refine styles, update bootstrap, refine processors, rework typography, fix tabs styles
@@ -76,8 +17,8 @@ I was experimenting with different approaches and trying to get my head around t
 1.1.0: restructured for development of theme-able system.
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
 
-## Historic, erm..., History (primitiveone / primitive-theme on npm)
 
+## Historic, erm..., History (primitiveone / primitive-theme on npm)
 - **1.1.6 > Frontity updated (July 12, 2020):**
 - [x] Check serch console after domain migration /home/ is the main error url?
 - **1.1.6 > Update (June 28, 2020):**
