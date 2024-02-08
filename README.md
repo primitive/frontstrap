@@ -151,7 +151,7 @@ export NODE_OPTIONS=--openssl-legacy-provider
     "published": {
       "frontstrap": "^0.0.11",
       "@primitive/pebbles": "^0.0.8",
-      "@primitive/rocks": "^0.0.10",
+      "@primitive/rocks": "^0.0.12",
       "@primitive/scenes": "^0.0.7"
     }
   }
