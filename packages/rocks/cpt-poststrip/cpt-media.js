@@ -48,20 +48,32 @@ const ACFImage = ({ state, id, className }) => {
       source_url: acfsizes.large
     }
 
-    const oFull = {
-      file: acfimage.filename + acfsizes['twentytwenty-fullscreen-width'] + 'x' + acfsizes['twentytwenty-fullscreen-height'],
-      width: acfsizes['twentytwenty-fullscreen-width'],
-      height: acfsizes['twentytwenty-fullscreen-height'],
-      mime_type: acfimage.mime_type,
-      source_url: acfsizes['twentytwenty-fullscreen']
-    }
+    if (acfsizes['bedrock-custom']) {
 
-    return {
-      thumbnail: oThumbnail,
-      medium: oMedium,
-      medium_large: oMediumLarge,
-      large: oLarge,
-      full: oFull
+      // custom size: needs plugin or adding to functions.php
+      const oCustom = {
+        file: acfimage.filename + acfsizes['bedrock-custom-width'] + 'x' + acfsizes['bedrock-custom-height'],
+        width: acfsizes['bedrock-custom-width'],
+        height: acfsizes['bedrock-custom-height'],
+        mime_type: acfimage.mime_type,
+        source_url: acfsizes['bedrock-custom']
+      }
+
+      return {
+        thumbnail: oThumbnail,
+        medium: oMedium,
+        medium_large: oMediumLarge,
+        large: oLarge,
+        custom: oCustom
+      }
+    }
+    else {
+      return {
+        thumbnail: oThumbnail,
+        medium: oMedium,
+        medium_large: oMediumLarge,
+        large: oLarge
+      }
     }
 
   }
