@@ -27,7 +27,7 @@ const settings = {
           menufooter: [
             ["Dev Notes", "/cave"],
             ["Old Frontity Tests", "/frontity-tests"],
-            ["Frontstrap Theme (retired)", "https://www.npmjs.com/package/frontstrap"],
+            ["Frontstrap Theme (sunsetting)", "https://www.npmjs.com/package/frontstrap"],
             ["Contact", "/contact"],
             ["Privacy Policy", "privacy-policy"]
           ],
