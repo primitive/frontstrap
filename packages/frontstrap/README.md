@@ -2,16 +2,11 @@
 
 Primitive Rolling Mountains (Beautiful Views)
 
-![](https://primitivedigital.uk/wp-content/uploads/img/punky_logo_smgreen.png)
 
-## 0.0.9 (Feb 01, 2024)
+## 0.0.11 (Feb 08, 2024)
 
 **N.B.:**
-Frontity will be deprecated in favour of a new framework.
-This repo will be archived and the theme will be re-released as a new package.
-This project was left in a bit of a mess when COVID hit.
-Not recommneded for use in production.
-
+Frontity is being sunsetted in favour of a new framework. Not recommneded for use in production.
 
 
 # Frontstrap Frontity Theme
@@ -31,27 +26,14 @@ Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.co
 
 
 
-## IGNORE ME!: Previous notes - needs updating (WIP)
 
-See [changelog](CHANGELOG.md) for release notes.
-
-
-## Performance
-
-For perfomance testing insights (GTMetrix Reports, PageSpeed Insigts etc. see [stats](https://primitivedigital.uk/stats/)  
-
-98 Desktop / 62 Mobile
-
-**Run Live Tests**
-Desktop: [Google PageSpeed Test](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=desktop&hl=en_GB)  
-Mobile: [Google PageSpeed Test](https://developers.google.com/speed/pagespeed/insights/?url=primitivedigital.co.uk&tab=mobile&hl=en_GB)  
 
 
 
 
 ## [Crafted by Primitive Digital](https://primitivedigital.uk)
 
-![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
+![screenshot](/pd-quantum-wordpress.png)
 
 
 Setup
@@ -92,15 +74,9 @@ Deployment
 
 https://docs.frontity.org/installation-and-deploy
 
-npx now  
-npx now --prod  
 
 
-------------------------------------
 
-The code is opensource so play like you mean business.
-
-Enjoy!
 
 
 #### Need Support
@@ -109,19 +85,21 @@ Enjoy!
 If you find any problems with this theme, please report an issue at:  
 https://github.com/primitive/frontstrap/issues
 
-#### [Primitive One created by Primitive Digital](https://primitivedigital.uk)
+
 
 
 ## [Package crafted by Primitive Digital](https://primitivedigital.uk)
 
-![https://primitivedigital.uk](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
+![https://primitivedigital.uk](https://github.com/primitive/frontstrap/blob/main/docs/pd-ethereal-wordpress.png?raw=true)
 
 #### Ω - *the end*
 
  ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
-<pre>                      
-._ _  _. _| _  |_    ._ _  _ ._ | o _  _  
-| | |(_|(_|(/_ |_)\/ | | |(_)| ||<|(/__>  
-                  /                      
+<pre>                                                                               
+ _____       _        _                        _               
+|     |___ _| |___   | |_ _ _    _____ ___ ___| |_ ___ _ _ ___ 
+| | | | .'| . | -_|  | . | | |  |     | . |   | '_| -_| | |_ -|
+|_|_|_|__,|___|___|  |___|_  |  |_|_|_|___|_|_|_,_|___|_  |___|
+                         |___|                        |___|    
 </pre>
 > [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
