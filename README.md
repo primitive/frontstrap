@@ -2,9 +2,7 @@
 
 Bootstrap 5 based theme for [Frontity](https://frontity.org/) Headless WordPress.
 
-**N.B.:**
-Frontity will be deprecated in favour of a new framework.
-This repo will be archived and the theme will be re-released as a new package.
+
 
 #### Table of Contents
 
@@ -19,15 +17,19 @@ This repo will be archived and the theme will be re-released as a new package.
 Primitive's Rolling Mountains (Beautiful Views)
 
 
+**N.B.:**
+Frontity will be deprecated in favour of a new framework.
+This repo will be archived and the theme will be re-released as a new package.
 
+**Frontity Framework is not under active development anymore.**
 
-**Frontity Framework is not under active development anymore. Frontity currently supports Node >= 16.**
+**Frontity currently supports Node >= 16.**
 Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
 - [error:0308010C:digital envelope routines::unsupported"](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
 - [Openssl Enable Legacy Renegotiation](https://pipeawk.com/index.php/2022/05/19/openssl-enable-legacy-renegotiation/)
 - [node: --openssl-legacy-provider is not allowed in NODE_OPTIONS](https://bobbyhadz.com/blog/node-openssl-legacy-provider-is-not-allowed-in-node-options)
 
-Dev. env workaround
+Possible workaround
 
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
@@ -113,6 +115,10 @@ Upload your `static` folder to a CDN and your `server.js` file to a serverless s
 [Keep Frontity Updated](https://gitbook-docs.frontity.org/guides/keep-frontity-updated)
 
 
+
+
+
+
 ---
 
 ### » Frontity Channels 🌎
@@ -130,3 +136,60 @@ We have different channels at your disposal where you can find information about
 Got questions or feedback about Frontity? We'd love to hear from you. Use our [community forum](https://community.frontity.org) yo ! ❤️
 
 Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
+
+
+
+### A quiet little corner where a Developer can go sit, scowel a bit, grumble a bit and think about what you've done...
+
+
+**Frontstrap V0.x Deployment:**
+- deployed to wordpress with frontity embedded mode plugin
+- frontity hosted on VPS
+- framework no longer maintained + is resource intensive/memory hungry. To be replaced with an alternate framework.
+
+## TO REVIEW + MIGRATE USEFUL BITS
+- [x] test issues with node 18 (kinda works)
+- [x] frontity.settings is dominant over package/index
+- [x] BS emotion warnings
+- [x] WebFonts: Tested as per docs. Implementation works but some google fonts don't convert well
+- [x] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
+- [x] FIX: menu collapse / routing
+- [x] FIX: preloading
+- [ ] Refine: Optimise for Mobile: Don't serve some animations on mobile, handle click/hover
+- [ ] FIX or FEAT: author list view / profile
+- [x] Split primitiverocks package
+- [x] Split primitivescenes package
+- [x] Split theme / dev staging
+- [ ] Add: [react-spring](https://www.react-spring.io/)
+- [ ] Add: [react-use-gesture](https://use-gesture.netlify.app/)
+- [ ] Add: [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [x] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
+- [x] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
+- [ ] [Theme: WP Theme Bridge](https://community.frontity.org/t/theme-bridge/1432/12)
+- [ ] FEAT: Fade in lazy loaded images?
+- [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
+- [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)
+- [ ] sort/filters poststrip component: post and custom cpt/taxonomy content (recent, random, related)
+- [ ] Research conditional loading of UI cores + theme
+- [ ] Set base CSS to use none/twentytwenty/bootstrap (grid, classes, --modifiers-size/transparency/darken/lighten)
+- [ ] Create *shoelace* theme (grid, size, color, breakpoints) + fragments
+- [ ] Research create a UI/cf7 theme builder vs cli
+- [ ] Research add comments / cf7 / fe content submission
+- [ ] Add post social share
+- [ ] Q: useEffect vs self-invoking
+- [ ] Q: imports / conditional / slots?  
+
+
+- [x] Claim primitive org on NPM 🙅 not accepted
+- [x] Claim primitive org on Github ✅
+- [x] Publish to npm (@primitive/rocks) ✅
+- [x] Publish to npm (frontstrap) ✅
+- [x] Publish to npm (primitiverocks)
+- [x] Publish to npm (primitivescenes)
+
+- [x] Publish to npm (primitiveone-theme)
+- [x] Publish to npm (primitiveone)
+- [ ] Impliment CI/CD
+
+
+Logs are somewhat of a rant. Packages created I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
