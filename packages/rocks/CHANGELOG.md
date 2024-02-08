@@ -18,8 +18,10 @@ Logs are somewhat of a rant. More for my benefit. I was experimenting with diffe
 
 ## Historic, erm..., History (primitiverocks / @primitive/rocks)
 
+- **v0.0.12 > Fix (Feb 08, 2024):**
+- [x] add check for custom image size
 - **v0.0.11 > Fix (Feb 02, 2024):**
-- update props namespace + config object, fix tab 4
+- [x] update props namespace + config object, fix tab 4
 - **v0.0.10 > Fix (Feb 01, 2024):**
 - [x] minor style + font use fixes
 - **v0.0.9 > Fix (Jan 30, 2024):**
@@ -61,17 +63,3 @@ Logs are somewhat of a rant. More for my benefit. I was experimenting with diffe
 - [x] correct dependencies
 - **v1.0.0 > Created (Aug 23, 2020):**
 - [x] Extracted packages from primitive-theme
-
-  
-#### Ω - *the end*
-
- ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
-<pre>                                                                               
- _____       _        _                        _               
-|     |___ _| |___   | |_ _ _    _____ ___ ___| |_ ___ _ _ ___ 
-| | | | .'| . | -_|  | . | | |  |     | . |   | '_| -_| | |_ -|
-|_|_|_|__,|___|___|  |___|_  |  |_|_|_|___|_|_|_,_|___|_  |___|
-                         |___|                        |___|    
-</pre>
-> [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-
