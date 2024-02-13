@@ -6,9 +6,7 @@
 
 **Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
 
-
 ## Historic, erm..., History (primitiverocks / @primitive/rocks)
-- **v2.0.0 > Release (Feb XX, 2024):**
 
 - **v0.0.13 > Fix (Feb 13, 2024):**
 - [x] fix: mobile issues / infinite reload
