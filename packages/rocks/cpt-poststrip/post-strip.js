@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useMemo } from 'react';
 import { connect, styled } from "frontity";
 import { Container, Row, Col } from "@primitive/pebbles/grid";
 
@@ -6,18 +6,22 @@ import DiscoPreload from "@primitive/scenes/preload-disco"
 
 import Post from "./cpt-works-item";
 
+// Function to shuffle array
 const shuffle = (arr, n) => {
-  // Shuffle array
-  const shuffled = arr.sort(() => 0.5 - Math.random());
+  // Guard clause to check if arr is falsy or not an array
+  if (!arr || !Array.isArray(arr)) {
+    return [];
+  }
+
+  // Shuffle the array using Fisher-Yates algorithm
+  const shuffled = [...arr].sort(() => 0.5 - Math.random());
 
   // Get sub-array of first n elements after shuffled
-  let selected = shuffled.slice(0, n);
-  
-  return selected;
+  return shuffled.slice(0, n);
 }
 
 
-// In a React component that uses "connect":
+// component uses "connect":
 const PostStrip = ({ state, actions, props }) => {
 
   // use props or set defaults (hmmm, do I want to use prop-types)
@@ -38,34 +42,31 @@ const PostStrip = ({ state, actions, props }) => {
     //actions.source.fetch("/"+posttype+"/");
 
     if (state.theme.debug) {
-      //console.log("@post-strip: data", data);
+      console.log("@post-strip: data", data);
     }
 
-  }, []);
+  }, [data]);
 
-  if (!data.isReady) return <Loading><DiscoPreload message="loading works..." /></Loading>;
-
-  const displaySwitch = (param) => {
-    switch (param) {
+// switch between recent, random, related posts
+// diplaySwitch is a memoized value
+  const displaySwitch = useMemo(() => {
+    switch (display) {
       case 'recent':
-        // code block for recent
         return data.items.slice(0, max);
       case 'random':
-        // code block for random
         return shuffle(data.items, max);
       case 'related':
-        // code block for related
         return shuffle(data.items, max);
       default:
-        // return recent as default
         return data.items.slice(0, max);
     }
-  }
+  }, [display, data.items, max]);
+
+  if (!data.isReady) return <Loading><DiscoPreload message="loading works..." /></Loading>;
 
   return (
     <StripPosts>
       <Content>
-
         <Header className="row">
           <Col>
             <Title>{title}</Title>
@@ -75,12 +76,8 @@ const PostStrip = ({ state, actions, props }) => {
 
         <Row>
 
-          {/* sk-dev: test client side filtering vs filtered requests
-            1. Modify array data
-            2. Iterate over all remaining items in the array mapping data items { type, id }'s to state.source[type][id] to create valid post items */
-          }
 
-          {displaySwitch(display).map(({ type, id }) => {
+          {displaySwitch.map(({ type, id }) => {
             const item = state.source[type][id];
 
             // 3. Render one post/cpt item component for each item.

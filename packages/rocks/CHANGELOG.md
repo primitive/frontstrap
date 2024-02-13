@@ -2,22 +2,16 @@
 # primitive-rocks
 
 ***The Log of Change***
-
- 🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO,  🔥️ HOT 🥔 POTATO.
-
-
-**N.B.**
-Prepping for a new project.
-Frontity will be deprecated in favour of a new framework.
-These components will be re-workd to be compaitible and re-released as a new package.
-This project was left in a bit of a mess when COVID hit. Not recommneded for use in production.
+ 🪵 🤬  🪵 👨‍💻 🪵 🍻
 
 **Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
-Logs are somewhat of a rant. More for my benefit. I was experimenting with different approaches and trying to get my head around the framework plus testing some capabilities of modern CSS specs vs CSS-IN-JS.
 
 
 ## Historic, erm..., History (primitiverocks / @primitive/rocks)
+- **v2.0.0 > Release (Feb XX, 2024):**
 
+- **v0.0.13 > Fix (Feb 13, 2024):**
+- [x] fix: mobile issues / infinite reload
 - **v0.0.12 > Fix (Feb 08, 2024):**
 - [x] add check for custom image size
 - **v0.0.11 > Fix (Feb 02, 2024):**
