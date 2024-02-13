@@ -14,7 +14,7 @@
   <p align="center">
     A starter theme for Headless-WordPress deployments with Frontity.
     <br />
-    <a href="https://docs.frontity.org/installation-and-deploy"><strong>Frontity is not longer maintained and is being sunsetted as our framework. Not recommneded for use in production. »</strong></a>
+    <a href="https://frontity.org/"><strong>Frontity is no longer maintained and is being sunsetted as our framework. »</strong></a>
     <br>
     <br>
     <a href="https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme">View Demo</a>
@@ -58,7 +58,7 @@ Scenes NPM package 🎉  ~  👉  [@primitive/scenes (v1.0.x)](https://github.co
 3. If deploying to Vercel install WordPress to a sub directory e.g. - wp.example.com
 4. Posts permalink set set to: Custom Structure e.g. - `/posts/%postname%/`
 5. Set homepage to a static page
-6. Some features may require the use of the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin
+6. Custom Post Types feature require the use of the [Advanced Custom Fields](https://www.advancedcustomfields.com/) plugin
 
 
 ### Installation & Development
@@ -105,11 +105,16 @@ Your app is ready to be deployed.
 
  ☙ 🐒 ❦ 🐒 ❦ 🐒 ❧
 <pre>                                                                               
- _____       _        _                        _               
-|     |___ _| |___   | |_ _ _    _____ ___ ___| |_ ___ _ _ ___ 
-| | | | .'| . | -_|  | . | | |  |     | . |   | '_| -_| | |_ -|
-|_|_|_|__,|___|___|  |___|_  |  |_|_|_|___|_|_|_,_|___|_  |___|
-                         |___|                        |___|    
+                               
+ _____       _        _        
+|     |___ _| |___   | |_ _ _  
+| | | | .'| . | -_|  | . | | | 
+|_|_|_|__,|___|___|  |___|_  | 
+ _____         _         |___| 
+|     |___ ___| |_ ___ _ _ ___ 
+| | | | . |   | '_| -_| | |_ -|
+|_|_|_|___|_|_|_,_|___|_  |___|
+                      |___|    
 </pre>
 > [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 
@@ -120,3 +125,10 @@ Your app is ready to be deployed.
 #### [Crafted by Primitive Digital](https://primitivedigital.uk/?utm_source=npm-frontstrap&utm_medium=readme)
 
 ![](https://primitivedigital.uk/wp-content/uploads/img/haveyouseenit.jpg)
+
+```       
+               #   ___          _   _          ___           |"|              .                   
+     )))       #  <_*_>        '\\-//`        /\#/\         _|_|_         ,-_-|       `  _ ,  '   
+    (o o)      #  (o o)         (o o)        /(o o)\        (o o)        ([o o])     -  (o)o)  -  
+ooO--(_)--Ooo--8---(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo--ooO'(_)--Ooo-
+```
