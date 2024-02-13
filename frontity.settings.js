@@ -3,7 +3,7 @@ const settings = {
   state: {
     frontity: {
       url: "https://primitivedigital.uk",
-      title: "Primitive Demo",
+      title: "Primitive Frontstrap Demo",
       description: "Frontstrap Theme",
       tagline: "Websites & Apps",
       phrase1: "We Make",
@@ -20,15 +20,17 @@ const settings = {
             ["Page", "/web-design"],
             ["Post", "/blog/a-decade-of-digital-development"],
             ["Posts", "/blog"],
-            ["WIP CPTs", "/evolution-of-digital-stuff"],
-            ["WIP CTs", "/timelines"],
-            ["Stats", "/stats"],
+            ["Contact", "/contact"],
+
           ],
           menufooter: [
-            ["Dev Notes", "/cave"],
-            ["Old Frontity Tests", "/frontity-tests"],
             ["Frontstrap Theme (sunsetting)", "https://www.npmjs.com/package/frontstrap"],
-            ["Contact", "/contact"],
+            ["WIP CPTs", "/evolution-of-digital-stuff"],
+            ["WIP CTs", "/timelines"],
+            ["Adventures in Time", "/timelines"],
+            ["Dev Notes", "/cave"],
+            ["Stats/config", "/stats"],
+            ["Content Test", "/frontity-tests"],
             ["Privacy Policy", "privacy-policy"]
           ],
           featured: {
