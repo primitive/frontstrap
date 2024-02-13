@@ -1,11 +1,11 @@
 {
   "name": "@primitive/scenes",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "private": false,
   "description": "The Primitive Movement: Interactive Component Blocks",
   "keywords": [
     "@primitive",
-    "@primitive/rocks",
+    "primitive.rocks",
     "bedrock",
     "frontity",
     "headless",

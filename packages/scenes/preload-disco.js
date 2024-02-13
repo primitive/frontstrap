@@ -39,38 +39,37 @@ const StyledDiscoLoader = styled.div`
 
   ul li:nth-of-type(1){
     animation-delay:-1.4s;
-    background:#ffff00;
-    box-shadow:0 0 30px #ffff00;
+    background: var(--bs-color-primary);
+    box-shadow:0 0 30px var(--bs-color-primary);
+    opacity:0.8;
   }
   ul li:nth-of-type(2){
     animation-delay:-1.2s;
-    background:#76ff03;
-    box-shadow:0 0 30px #76ff03;
-    
+    background: var(--bs-color-primary);;
+    box-shadow:0 0 30px var(--bs-color-primary);
+    opacity:0.9;
   }
   ul li:nth-of-type(3){
     animation-delay:-1s;
-    background:#f06292;
-    box-shadow:0 0 30px #f06292;
-    
+    background: var(--bs-color-primary);
+    box-shadow:0 0 30px var(--bs-color-primary);
   }
   ul li:nth-of-type(4){
     animation-delay:-0.8s;
-    background:#4fc3f7;
-    box-shadow:0 0 30px #4fc3f7;
-    
+    background: var(--bs-color-primary);
+    box-shadow:0 0 30px var(--bs-color-primary);
   }
   ul li:nth-of-type(5){
     animation-delay:-0.6s;
-    background:#ba68c8;
-    box-shadow:0 0 30px #ba68c8;
-    
+    background: var(--bs-color-primary);
+    box-shadow:0 0 30px var(--bs-color-primary);
+    opacity:0.9; 
   }
   ul li:nth-of-type(6){
     animation-delay:-0.4s;
-    background:#f57c00;
-    box-shadow:0 0 30px #f57c00;
-    
+    background: var(--bs-color-primary);
+    box-shadow:0 0 30px var(--bs-color-primary);
+    opacity:0.8;
   }
 
 `;
