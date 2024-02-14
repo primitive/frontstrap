@@ -46,7 +46,6 @@
     "@primitive/scenes": "./packages/scenes"
   },
   "volta": {
-    "node": "16.20.2",
-    "npm": "9.4.0"
+    "node": "18.19.0"
   }
 }

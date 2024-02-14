@@ -1,13 +1,17 @@
 # frontstrap
 
 ***The Log of Change***
- 🪵
+ 🪵 🤬  🪵 👨‍💻 🪵 🍻
 
 **Commit messages loosly follow [Conventional Commits](https://conventionalcommits.org).**
 
 ## History (frontstrap)
-### 0.0.11 (Feb 04, 2024)
 
+### 0.0.12 (Feb XX, 2024)
+- [x] maint: update to node 18
+- [x] fix: mobile loading issue (rocks)
+
+### 0.0.11 (Feb 04, 2024)
 0.0.11: replace fonts with css vars, fix cf7: add slash to api path in frontity.settings.json, style: map bs css vars to cf7 messages
 0.0.10: update config obj, footer: update props namespace
 0.0.9: fix missing display const, update-browserslist, merge base/global style files, extract font styles, fix: handle no class blockquotes, style: refactor + reduce duplication, refine styles, extract type config, refractor, minor fixes
@@ -16,7 +20,6 @@
 0.0.6: fix: randomWord display
 1.1.0: restructured for development of theme-able system.
 1.0.0: customised theme based on early release of frontity mars theme. published to npm.
-
 
 ## Historic, erm..., History (primitiveone / primitive-theme on npm)
 - **1.1.6 > Frontity updated (July 12, 2020):**

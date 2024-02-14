@@ -126,14 +126,14 @@ Your app is ready to be deployed.
 
 ### A quiet little corner where a Developer can go sit, scowel a bit, grumble a bit and think about what you've done...
 
-
-**Frontity currently supports Node >= 16.**
+**Frontity supports Node >= 16. now at EOL**
 Node 17+ uses [OpenSSL 3](https://nodejs.org/ca/blog/vulnerability/openssl-november-2022/). 
 - [error:0308010C:digital envelope routines::unsupported"](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
 - [Openssl Enable Legacy Renegotiation](https://pipeawk.com/index.php/2022/05/19/openssl-enable-legacy-renegotiation/)
 - [node: --openssl-legacy-provider is not allowed in NODE_OPTIONS](https://bobbyhadz.com/blog/node-openssl-legacy-provider-is-not-allowed-in-node-options)
 
-Possible workaround
+Seems fixed in Node 18
+
 
 ```
 export NODE_OPTIONS=--openssl-legacy-provider
@@ -149,10 +149,10 @@ export NODE_OPTIONS=--openssl-legacy-provider
       "@primitive/scenes": "./packages/scenes"
     },
     "published": {
-      "frontstrap": "^0.0.11",
+      "frontstrap": "^0.0.12",
       "@primitive/pebbles": "^0.0.8",
-      "@primitive/rocks": "^0.0.12",
-      "@primitive/scenes": "^0.0.7"
+      "@primitive/rocks": "^0.0.13",
+      "@primitive/scenes": "^0.0.8"
     }
   }
 }
@@ -171,17 +171,18 @@ export NODE_OPTIONS=--openssl-legacy-provider
 - [x] TBC. Some Google Fonts gets messed up converting to .woff/.woff2
 - [x] FIX: menu collapse / routing
 - [x] FIX: preloading
-- [ ] Refine: Optimise for Mobile: Don't serve some animations on mobile, handle click/hover
-- [ ] FIX or FEAT: author list view / profile
+
 - [x] Split primitiverocks package
 - [x] Split primitivescenes package
 - [x] Split theme / dev staging
-- [ ] Add: [react-spring](https://www.react-spring.io/)
-- [ ] Add: [react-use-gesture](https://use-gesture.netlify.app/)
-- [ ] Add: [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
 - [x] [SEO: Add Site maps](https://community.frontity.org/t/xml-sitemaps-landing-in-wordpress-core/1153)
 - [x] [SEO: Frontity Blog](https://frontity.org/blog/seo-for-headless-wordpress-themes/)
 - [ ] [Theme: WP Theme Bridge](https://community.frontity.org/t/theme-bridge/1432/12)
+- [ ] Add: [react-spring](https://www.react-spring.io/)
+- [ ] Add: [react-use-gesture](https://use-gesture.netlify.app/)
+- [ ] Add: [react-three-fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)
+- [ ] Refine: Optimise for Mobile: Don't serve some animations on mobile, handle click/hover
+- [ ] FIX or FEAT: author list view / profile
 - [ ] FEAT: Fade in lazy loaded images?
 - [ ] sort/filters: modify the wp theme funtions.php or use a plugin?
 - [ ] sort/filters subtimeline component: custom cpt/taxonomy content (I can't seem to sort if using WP REST Filter plugin)

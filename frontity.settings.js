@@ -24,7 +24,7 @@ const settings = {
 
           ],
           menufooter: [
-            ["Frontstrap Theme (sunsetting)", "https://www.npmjs.com/package/frontstrap"],
+            ["Frontstrap Theme", "https://www.npmjs.com/package/frontstrap"],
             ["WIP CPTs", "/evolution-of-digital-stuff"],
             ["WIP CTs", "/timelines"],
             ["Adventures in Time", "/timelines"],
